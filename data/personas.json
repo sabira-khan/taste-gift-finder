@@ -1,0 +1,7 @@
+[
+  { "id": "anime-lofi", "label": "Anime + lo-fi", "seeds": [{ "query": "Spirited Away", "type": "urn:entity:movie" }, { "query": "Attack on Titan", "type": "urn:entity:tv_show" }, { "query": "lo-fi", "kind": "tag", "tag": "urn:tag:genre:music:lo_fi_hip_hop" }] },
+  { "id": "fairuz-coffee", "label": "Fairuz + Arabic coffee culture", "seeds": [{ "query": "Fairuz", "type": "urn:entity:artist" }, { "query": "Arabic coffee", "kind": "tag", "tag": "urn:tag:menu_highlight:qloo:arabic_coffee" }, { "query": "Ziad Rahbani", "type": "urn:entity:artist" }] },
+  { "id": "football-gaming", "label": "Football + gaming", "seeds": [{ "query": "FIFA", "type": "urn:entity:videogame" }, { "query": "Real Madrid", "type": "urn:entity:brand" }, { "query": "Cristiano Ronaldo", "type": "urn:entity:person" }] },
+  { "id": "classic-films-jazz", "label": "Classic films + jazz", "seeds": [{ "query": "Casablanca", "type": "urn:entity:movie" }, { "query": "Miles Davis", "type": "urn:entity:artist" }, { "query": "Roman Holiday", "type": "urn:entity:movie" }] },
+  { "id": "kdrama-skincare", "label": "K-drama + skincare", "seeds": [{ "query": "Crash Landing on You", "type": "urn:entity:tv_show" }, { "query": "Laneige", "type": "urn:entity:brand" }, { "query": "Sulwhasoo", "type": "urn:entity:brand" }] }
+]

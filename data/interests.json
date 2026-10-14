@@ -1,0 +1,570 @@
+{
+  "version": "2",
+  "seedTagTypeExclude": [
+    "aesthetic_property",
+    "emotional_tone",
+    "competitor_brand",
+    "distribution_channel",
+    "business_model",
+    "brand_type",
+    "brand_subtype",
+    "platform",
+    "player_mode",
+    "skill_level",
+    "character",
+    "plot",
+    "archetype",
+    "theme",
+    "influenced_by",
+    "hotel_rating",
+    "credit_card",
+    "cost_description",
+    "price_level"
+  ],
+  "weakSeedTagTypes": [
+    "keyword:media",
+    "keyword:qloo",
+    "wikipedia_category"
+  ],
+  "domains": {
+    "urn:entity:movie": [
+      "film-tv"
+    ],
+    "urn:entity:tv_show": [
+      "film-tv"
+    ],
+    "urn:entity:director": [
+      "film-tv"
+    ],
+    "urn:entity:actor": [
+      "film-tv"
+    ],
+    "urn:entity:artist": [
+      "music"
+    ],
+    "urn:entity:album": [
+      "music"
+    ],
+    "urn:entity:videogame": [
+      "gaming"
+    ],
+    "urn:entity:book": [
+      "books-reading"
+    ],
+    "urn:entity:author": [
+      "books-reading"
+    ]
+  },
+  "interests": [
+    {
+      "id": "music",
+      "label": "Music",
+      "match": [
+        "\\bmusic",
+        "musician",
+        "record label",
+        "hip.?hop",
+        "\\bjazz",
+        "\\blo.?fi\\b",
+        "\\blofi\\b",
+        "\\bbeats\\b",
+        "\\bvinyl",
+        "audiophile",
+        "\\bhi.?fi\\b",
+        "headphones",
+        "home theater",
+        "\\bconcerts?\\b",
+        "\\bsongs?\\b",
+        "\\brap\\b",
+        "r&b",
+        "\\bsinging\\b",
+        "orchestral",
+        "\\bbebop",
+        "\\bchanson",
+        "\\bmelodic\\b",
+        "high fidelity audio"
+      ]
+    },
+    {
+      "id": "jazz",
+      "label": "Jazz",
+      "parent": "music",
+      "match": [
+        "\\bjazz",
+        "\\bbebop",
+        "hard bop",
+        "\\bswing\\b",
+        "big band",
+        "\\bbossa"
+      ],
+      "matchId": [
+        "genre:music:jazz"
+      ]
+    },
+    {
+      "id": "arabic-music",
+      "label": "Arabic music",
+      "parent": "music",
+      "match": [
+        "arabic (music|pop)",
+        "classical arabic",
+        "\\btarab\\b",
+        "chanson.?arabesque",
+        "orchestral arabic",
+        "lebanese (music|folk)",
+        "khaleeji",
+        "middle eastern (folk|music)",
+        "\\boud\\b"
+      ],
+      "matchId": [
+        "genre:music:(arabic|lebanese|middle_eastern|khaleeji|egyptian)"
+      ]
+    },
+    {
+      "id": "lofi",
+      "label": "Lo-fi & chill beats",
+      "parent": "music",
+      "match": [
+        "\\blo.?fi\\b",
+        "\\blofi",
+        "chill.?hop",
+        "chillwave",
+        "\\bbeats\\b"
+      ]
+    },
+    {
+      "id": "classical-music",
+      "label": "Classical music",
+      "parent": "music",
+      "match": [
+        "classical music",
+        "\\borchestra(?!l arabic)",
+        "symphon",
+        "\\bopera\\b",
+        "baroque"
+      ],
+      "matchId": [
+        "genre:music:classical"
+      ]
+    },
+    {
+      "id": "vinyl-hifi",
+      "label": "Vinyl & hi-fi",
+      "parent": "music",
+      "match": [
+        "\\bvinyl",
+        "record label",
+        "record (collect|stores?|shops?)",
+        "music collecting",
+        "audiophile",
+        "\\bhi.?fi\\b",
+        "high fidelity",
+        "headphones",
+        "home theater",
+        "turntable",
+        "record player"
+      ]
+    },
+    {
+      "id": "film-tv",
+      "label": "Film & TV",
+      "match": [
+        "\\bcinema",
+        "cinephile",
+        "\\bfilms?\\b",
+        "\\bmovies?\\b",
+        "hollywood",
+        "\\btv\\b",
+        "television",
+        "drama.?loving",
+        "\\bk.?drama",
+        "art house",
+        "cinematic",
+        "screenwriting",
+        "home theater"
+      ],
+      "exclude": [
+        "filming"
+      ]
+    },
+    {
+      "id": "anime-film",
+      "label": "Anime",
+      "parent": "film-tv",
+      "match": [
+        "\\banime\\b",
+        "\\banimation\\b",
+        "ghibli",
+        "\\bshonen\\b",
+        "\\bshojo\\b",
+        "\\bseinen\\b",
+        "otaku"
+      ]
+    },
+    {
+      "id": "classic-cinema",
+      "label": "Classic cinema",
+      "parent": "film-tv",
+      "match": [
+        "classic (cinema|hollywood|films?|movies?)",
+        "film noir",
+        "\\bnoir\\b",
+        "national film registry",
+        "golden age",
+        "black.?and.?white",
+        "cinephile",
+        "art house",
+        "silent film"
+      ]
+    },
+    {
+      "id": "k-drama",
+      "label": "K-drama",
+      "parent": "film-tv",
+      "match": [
+        "\\bk.?drama",
+        "korean drama"
+      ]
+    },
+    {
+      "id": "art",
+      "label": "Art & illustration",
+      "match": [
+        "\\bart\\b",
+        "\\bartistic",
+        "\\bvisual arts?\\b"
+      ],
+      "exclude": [
+        "martial art",
+        "barista art",
+        "state of the art",
+        "latte art"
+      ]
+    },
+    {
+      "id": "manga-comics",
+      "label": "Manga & comics",
+      "parent": "art",
+      "match": [
+        "\\bmanga\\b",
+        "\\bcomics?\\b",
+        "comic book",
+        "\\bshonen\\b",
+        "\\bshojo\\b",
+        "\\bseinen\\b",
+        "graphic novel",
+        "otaku"
+      ]
+    },
+    {
+      "id": "illustration",
+      "label": "Illustration",
+      "parent": "art",
+      "match": [
+        "illustrat",
+        "\\bdrawing",
+        "painterly",
+        "\\bzines?\\b",
+        "lo-?fi art",
+        "street art",
+        "graphic design",
+        "printmaking"
+      ]
+    },
+    {
+      "id": "fine-art",
+      "label": "Fine art",
+      "parent": "art",
+      "match": [
+        "fine art",
+        "art collecting",
+        "\\bmuseums?\\b",
+        "\\bpainting",
+        "art galler",
+        "contemporary art",
+        "artistic patronage",
+        "patronage of the arts"
+      ]
+    },
+    {
+      "id": "sport-fitness",
+      "label": "Sport & fitness",
+      "match": [
+        "\\bsports?\\b",
+        "athlet",
+        "fitness",
+        "\\bgym\\b",
+        "\\bworkout",
+        "\\brunning\\b",
+        "active lifestyle",
+        "sports equipment",
+        "athletic gear",
+        "training"
+      ],
+      "exclude": [
+        "e-?sports"
+      ]
+    },
+    {
+      "id": "football",
+      "label": "Football",
+      "parent": "sport-fitness",
+      "match": [
+        "soccer",
+        "\\bfootball",
+        "\\bfifa\\b",
+        "world cup",
+        "footballer",
+        "la liga",
+        "premier league",
+        "champions league"
+      ]
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "match": [
+        "coffee",
+        "espresso",
+        "barista",
+        "\\bcaf[eé]s?\\b",
+        "coffeehouse",
+        "\\broast(ing|ery)\\b"
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "Tea",
+      "match": [
+        "\\btea\\b",
+        "\\bteas\\b",
+        "matcha",
+        "\\bchai\\b",
+        "teahouse"
+      ]
+    },
+    {
+      "id": "korean-culture",
+      "label": "Korean culture",
+      "match": [
+        "\\bkorea",
+        "\\bk-?(drama|beauty|pop)\\b",
+        "hallyu",
+        "\\bseoul\\b"
+      ],
+      "exclude": [
+        "north korea"
+      ]
+    },
+    {
+      "id": "japanese-culture",
+      "label": "Japanese culture",
+      "match": [
+        "\\bjapan",
+        "\\btokyo\\b",
+        "\\bkyoto\\b",
+        "\\bzen\\b",
+        "wabi.?sabi"
+      ]
+    },
+    {
+      "id": "beauty-skincare",
+      "label": "Beauty & skincare",
+      "match": [
+        "skincare",
+        "skin care",
+        "\\bbeauty\\b",
+        "cosmetic",
+        "makeup",
+        "\\bglow",
+        "dewy",
+        "\\bserums?\\b",
+        "suncare",
+        "complexion",
+        "\\bskin\\b"
+      ]
+    },
+    {
+      "id": "fragrance",
+      "label": "Fragrance",
+      "match": [
+        "fragrance",
+        "perfum",
+        "\\boud\\b",
+        "bakhoor",
+        "incense",
+        "\\bscents?\\b",
+        "\\battar\\b"
+      ]
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "match": [
+        "\\bgamers?\\b",
+        "\\bgaming\\b",
+        "video ?games?",
+        "\\besports?\\b",
+        "e-sports",
+        "\\bconsoles?\\b",
+        "multiplayer",
+        "video game developer",
+        "\\bgames\\b"
+      ]
+    },
+    {
+      "id": "tabletop-puzzles",
+      "label": "Board games & puzzles",
+      "match": [
+        "\\bchess\\b",
+        "puzzle",
+        "board ?games?",
+        "tabletop",
+        "dungeons",
+        "\\bdice\\b",
+        "role.?playing"
+      ]
+    },
+    {
+      "id": "books-reading",
+      "label": "Books & reading",
+      "match": [
+        "literature",
+        "\\bbooks?\\b",
+        "\\breading\\b",
+        "\\bnovels?\\b",
+        "\\bpoetry\\b",
+        "\\bpoetic\\b",
+        "bookish",
+        "literary",
+        "\\blibrary\\b",
+        "\\bauthors?\\b",
+        "\\bclassics\\b",
+        "intellectual pursuits"
+      ]
+    },
+    {
+      "id": "writing-stationery",
+      "label": "Writing & stationery",
+      "match": [
+        "journal(ing)?\\b",
+        "stationery",
+        "\\bwriting\\b",
+        "calligraph",
+        "\\bpens?\\b",
+        "\\bdiary\\b",
+        "notebook",
+        "handwrit",
+        "typography"
+      ],
+      "exclude": [
+        "journalism",
+        "journalist"
+      ]
+    },
+    {
+      "id": "home-hosting",
+      "label": "Home & hosting",
+      "match": [
+        "hosting",
+        "\\bentertaining\\b",
+        "dinner part",
+        "home decor",
+        "interior",
+        "family gatherings",
+        "home entertaining",
+        "\\bcozy\\b",
+        "homemaking",
+        "tablescap"
+      ]
+    },
+    {
+      "id": "cooking-food",
+      "label": "Cooking & food",
+      "match": [
+        "culinary",
+        "cooking",
+        "\\bchefs?\\b",
+        "gourmet",
+        "\\bfoodies?\\b",
+        "\\bdesserts?\\b",
+        "baking",
+        "\\bcuisine",
+        "confection",
+        "\\bsweets\\b"
+      ]
+    },
+    {
+      "id": "arab-heritage",
+      "label": "Arabic & Gulf heritage",
+      "match": [
+        "\\barab",
+        "middle east",
+        "lebanon",
+        "lebanese",
+        "levant",
+        "\\begypt",
+        "\\bgulf\\b",
+        "khaleeji",
+        "emirati",
+        "\\bdubai\\b",
+        "\\bsaudi",
+        "\\bqatar",
+        "\\bkuwait",
+        "\\boman\\b",
+        "bedouin",
+        "\\boud\\b",
+        "maghreb",
+        "\\bmorocc",
+        "bakhoor",
+        "\\bdates\\b"
+      ]
+    },
+    {
+      "id": "wellness-selfcare",
+      "label": "Wellness & self-care",
+      "match": [
+        "wellness",
+        "mindful",
+        "meditat",
+        "self-?care",
+        "relaxation",
+        "\\bsleep",
+        "\\bspa\\b",
+        "holistic",
+        "\\byoga\\b"
+      ]
+    },
+    {
+      "id": "travel-outdoors",
+      "label": "Travel & outdoors",
+      "match": [
+        "\\btravel",
+        "\\boutdoors?\\b",
+        "hiking",
+        "camping",
+        "getaway",
+        "road trip",
+        "wanderlust",
+        "european cities",
+        "sightseeing",
+        "explorers?\\b"
+      ]
+    },
+    {
+      "id": "fashion-style",
+      "label": "Fashion & style",
+      "match": [
+        "fashion",
+        "streetwear",
+        "\\bjewel",
+        "\\bcouture\\b",
+        "sneaker",
+        "\\bchic\\b",
+        "\\bstyle icon",
+        "accessories",
+        "\\bfine jewelry"
+      ]
+    }
+  ]
+}

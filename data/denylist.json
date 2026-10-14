@@ -1,0 +1,113 @@
+{
+  "excludeTagIds": [
+    "urn:tag:genre:brand:wine_and_spirits",
+    "urn:tag:genre:brand:wine_and_spirits:beer",
+    "urn:tag:genre:brand:wine_and_spirits:wine",
+    "urn:tag:genre:brand:wine_and_spirits:spirits",
+    "urn:tag:industry:qloo:alcoholic_beverages",
+    "urn:tag:genre:brand:telecom",
+    "urn:tag:industry:qloo:telecommunications",
+    "urn:tag:industry:qloo:energy_utilities",
+    "urn:tag:genre:brand:financial_services",
+    "urn:tag:genre:brand:financial_services:credit_card",
+    "urn:tag:industry:qloo:financial_services",
+    "urn:tag:industry:qloo:finance",
+    "urn:tag:industry:qloo:banking",
+    "urn:tag:industry:qloo:investment_services",
+    "urn:tag:genre:brand:fashion:lingerie_and_sleepwear",
+    "urn:tag:product_category:qloo:lingerie"
+  ],
+  "categories": {
+    "alcohol": [
+      "alcohol",
+      "\\bbeers?\\b",
+      "brewer(y|ies)",
+      "brewing compan",
+      "beer brewing",
+      "\\bwines?\\b",
+      "winer(y|ies)",
+      "wine[ _&]+spirits",
+      "\\bspirits (brand|producer|maker|compan)",
+      "whiske?y",
+      "vodka",
+      "\\bgin\\b",
+      "\\brum\\b",
+      "tequila",
+      "liquor",
+      "champagne",
+      "\\bsake\\b",
+      "distiller"
+    ],
+    "tobacco": [
+      "tobacco",
+      "\\bcigars?\\b",
+      "cigarettes?",
+      "\\bvap(e|es|ing)\\b",
+      "e-cig",
+      "hookah",
+      "shisha",
+      "nicotine",
+      "cannabis",
+      "marijuana",
+      "\\bcbd\\b"
+    ],
+    "gambling": [
+      "\\bgambling\\b",
+      "casino",
+      "\\bbetting\\b",
+      "sportsbook",
+      "lotter(y|ies)",
+      "\\bpoker\\b",
+      "bookmaker"
+    ],
+    "telecom-utility": [
+      "telecom",
+      "mobile (operator|network|carrier)",
+      "wireless carrier",
+      "\\b(public|electric|water|gas) utilit",
+      "energy[ _&]+utilities",
+      "^utilities$",
+      "electricity (provider|supplier)",
+      "oil[ _&]+gas",
+      "petroleum"
+    ],
+    "finance-insurance": [
+      "financial services",
+      "^finance$",
+      "\\bbank(s|ing)?\\b",
+      "credit[ _]card",
+      "insurance (company|provider|services)",
+      "^insurance$",
+      "investment (bank|firm|management|services)",
+      "^investment services$",
+      "brokerage",
+      "crypto"
+    ],
+    "weapons": [
+      "weapon",
+      "firearm",
+      "\\bguns?\\b",
+      "ammunition",
+      "\\bammo\\b",
+      "defen[cs]e (contractor|industry)"
+    ],
+    "adult": [
+      "adult (entertainment|content|toys?)",
+      "erotic",
+      "\\bsex\\b",
+      "sexual wellness",
+      "lingerie",
+      "\\bporn",
+      "condoms?"
+    ],
+    "pork": [
+      "\\bpork\\b",
+      "bacon",
+      "\\bham\\b",
+      "pepperoni",
+      "salami",
+      "prosciutto",
+      "\\blard\\b"
+    ]
+  }
+}

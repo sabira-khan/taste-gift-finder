@@ -1,0 +1,1168 @@
+{
+  "generatedAt": "2026-10-13T13:27:12.668Z",
+  "summary": {
+    "personas": 3,
+    "weights": {
+      "interest": 0.55,
+      "property": 0.25,
+      "styleRef": 0.1,
+      "price": 0.1
+    },
+    "interestFloor": 0.35,
+    "relevanceMin": 0.45,
+    "totalFails": 0,
+    "totalBroadOnly": 0,
+    "meanInterestMatch": 0.76,
+    "meanSeedCoverage": 0.67,
+    "meanCategoryDiversity": 0.67,
+    "crossPersonaOverlap": 0.08,
+    "distinctProductsAcrossPersonas": 13,
+    "catalogSize": 70
+  },
+  "results": [
+    {
+      "id": "hiking-podcasts",
+      "label": "Hiking + podcasts (held out)",
+      "seeds": [
+        {
+          "name": "Radiolab",
+          "type": "urn:entity:podcast",
+          "kind": "entity"
+        },
+        {
+          "name": "Patagonia",
+          "type": "urn:entity:brand",
+          "kind": "entity"
+        },
+        {
+          "name": "Hiking",
+          "type": "urn:tag:activities:place",
+          "kind": "tag"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Travel & outdoors",
+          "weight": 1,
+          "evidence": [
+            "Patagonia: Outdoor Conservation, Outdoor Enthusiasts, Outdoor",
+            "Hiking: Hiking",
+            "Hiking, Outdoor Hiking, Outdoor Hikes",
+            "Outdoor Sports, Outdoors, Outdoor"
+          ]
+        },
+        {
+          "label": "Sport & fitness",
+          "weight": 0.946,
+          "evidence": [
+            "Fitness, Sport, Health & Fitness",
+            "Outdoor Sports, Winter Sports, Active Lifestyle",
+            "Sports Enthusiasts, Sports Loving",
+            "Patagonia: Athletic"
+          ]
+        },
+        {
+          "label": "Fashion & style",
+          "weight": 0.884,
+          "evidence": [
+            "Patagonia: Fashion, Sustainable Fashion, Slow Fashion"
+          ]
+        },
+        {
+          "label": "Japanese culture",
+          "weight": 0.35,
+          "evidence": [
+            "Patagonia: Japan"
+          ]
+        },
+        {
+          "label": "Board games & puzzles",
+          "weight": 0.132,
+          "evidence": [
+            "Role-playing"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Global Travel",
+        "Travel",
+        "Sophisticated",
+        "Refined",
+        "Photography",
+        "Minimalist",
+        "Inspiring",
+        "City Living"
+      ],
+      "priceComfort": {
+        "p25": 47,
+        "median": 112,
+        "p75": 387,
+        "tier": 0.65,
+        "samples": 145
+      },
+      "warnings": [],
+      "strongMatches": 5,
+      "picks": [
+        {
+          "handle": "canvas-weekender-bag",
+          "title": "Waxed Canvas Weekender",
+          "category": "bags-leather",
+          "price": 135,
+          "score": {
+            "interest": 1,
+            "property": 0.607,
+            "styleRef": 0.892,
+            "price": 0.636,
+            "total": 0.855
+          },
+          "contrast": 1.033,
+          "interests": [
+            {
+              "label": "Travel & outdoors",
+              "level": "specific",
+              "weight": 1,
+              "strength": 1
+            },
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.884,
+              "strength": 0.4
+            }
+          ],
+          "matched": [
+            "Travel",
+            "Adventurous",
+            "Timeless"
+          ],
+          "seedShare": {
+            "Radiolab": 0.07,
+            "Patagonia": 0.572,
+            "Hiking": 0.358
+          },
+          "styleRefHits": [
+            {
+              "name": "Herschel Supply Co",
+              "affinity": 0.892
+            },
+            {
+              "name": "Fjällräven",
+              "affinity": 0.892
+            }
+          ],
+          "explanation": "Patagonia and Hiking put travel & outdoors at the heart of their taste (Qloo links that taste to “Hiking” and “Outdoor Hiking”). This waxed canvas weekender is made for that, with the adventurous and timeless feel their taste leans toward."
+        },
+        {
+          "handle": "minimal-leather-cardholder",
+          "title": "Minimal Leather Cardholder",
+          "category": "bags-leather",
+          "price": 48,
+          "score": {
+            "interest": 0.619,
+            "property": 0.867,
+            "styleRef": 0.818,
+            "price": 0.742,
+            "total": 0.713
+          },
+          "contrast": 1.469,
+          "interests": [
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.884,
+              "strength": 0.7
+            }
+          ],
+          "matched": [
+            "Sophisticated",
+            "Refined",
+            "Minimalist"
+          ],
+          "seedShare": {
+            "Radiolab": 0.126,
+            "Patagonia": 0.746,
+            "Hiking": 0.128
+          },
+          "styleRefHits": [
+            {
+              "name": "Bellroy",
+              "affinity": 0.818
+            },
+            {
+              "name": "Montblanc",
+              "affinity": 0.434
+            }
+          ],
+          "explanation": "Patagonia puts fashion & style at the heart of their taste (Qloo tags Patagonia with “Fashion” and “Sustainable Fashion”). This minimal leather cardholder is made for that, with the sophisticated and refined feel their taste leans toward."
+        },
+        {
+          "handle": "cashmere-blend-scarf",
+          "title": "Cashmere Blend Scarf",
+          "category": "apparel",
+          "price": 70,
+          "score": {
+            "interest": 0.707,
+            "property": 0.329,
+            "styleRef": 0.789,
+            "price": 0.99,
+            "total": 0.649
+          },
+          "contrast": 0.76,
+          "interests": [
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.884,
+              "strength": 0.8
+            }
+          ],
+          "matched": [
+            "Neutral Color Palette"
+          ],
+          "seedShare": {
+            "Radiolab": 0.056,
+            "Patagonia": 0.887,
+            "Hiking": 0.057
+          },
+          "styleRefHits": [
+            {
+              "name": "COS",
+              "affinity": 0.789
+            },
+            {
+              "name": "Uniqlo",
+              "affinity": 0.638
+            }
+          ],
+          "explanation": "Patagonia puts fashion & style at the heart of their taste (Qloo tags Patagonia with “Fashion” and “Sustainable Fashion”). This cashmere blend scarf is made for that."
+        },
+        {
+          "handle": "gold-medallion-pendant",
+          "title": "Gold Vermeil Medallion Pendant",
+          "category": "jewelry-accessories",
+          "price": 90,
+          "score": {
+            "interest": 0.884,
+            "property": 0,
+            "styleRef": 0,
+            "price": 0.963,
+            "total": 0.582
+          },
+          "contrast": 0,
+          "interests": [
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.884,
+              "strength": 1
+            }
+          ],
+          "matched": [],
+          "seedShare": {
+            "Radiolab": 0,
+            "Patagonia": 1,
+            "Hiking": 0
+          },
+          "styleRefHits": [
+            {
+              "name": "Mejuri",
+              "affinity": 0.529
+            }
+          ],
+          "explanation": "Patagonia puts fashion & style at the heart of their taste (Qloo tags Patagonia with “Fashion” and “Sustainable Fashion”). This gold vermeil medallion pendant is made for that."
+        },
+        {
+          "handle": "embroidered-crewneck",
+          "title": "Embroidered Organic Crewneck",
+          "category": "apparel",
+          "price": 58,
+          "score": {
+            "interest": 0.707,
+            "property": 0,
+            "styleRef": 0,
+            "price": 0.901,
+            "total": 0.479
+          },
+          "contrast": 0,
+          "interests": [
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.884,
+              "strength": 0.8
+            }
+          ],
+          "matched": [],
+          "seedShare": {
+            "Radiolab": 0,
+            "Patagonia": 1,
+            "Hiking": 0
+          },
+          "styleRefHits": [
+            {
+              "name": "Converse",
+              "affinity": 0.67
+            },
+            {
+              "name": "Carhartt",
+              "affinity": 0.4
+            }
+          ],
+          "explanation": "Patagonia puts fashion & style at the heart of their taste (Qloo tags Patagonia with “Fashion” and “Sustainable Fashion”). This embroidered organic crewneck is made for that."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Waxed Canvas Weekender",
+          "interests": [
+            "Travel & outdoors",
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Minimal Leather Cardholder",
+          "interests": [
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Cashmere Blend Scarf",
+          "interests": [
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Gold Vermeil Medallion Pendant",
+          "interests": [
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Embroidered Organic Crewneck",
+          "interests": [
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.6,
+        "intraListDiversity": 0.2,
+        "seedCoverage": 0.67,
+        "meanInterest": 0.78,
+        "meanScore": 0.66
+      },
+      "qloo": {
+        "calls": 25,
+        "cached": 25
+      }
+    },
+    {
+      "id": "bollywood-cooking",
+      "label": "Bollywood + cooking (held out)",
+      "seeds": [
+        {
+          "name": "Kabhi Khushi Kabhie Gham...",
+          "type": "urn:entity:movie",
+          "kind": "entity"
+        },
+        {
+          "name": "A.R. Rahman",
+          "type": "urn:entity:artist",
+          "kind": "entity"
+        },
+        {
+          "name": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+          "type": "urn:entity:book",
+          "kind": "entity"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Music",
+          "weight": 0.999,
+          "evidence": [
+            "A.R. Rahman is a artist",
+            "Kabhi Khushi Kabhie Gham...: Orchestrated musicality, Musical, Romantic musical",
+            "A.R. Rahman: Melodic, Melodic Pop, World Music",
+            "Music Fans"
+          ]
+        },
+        {
+          "label": "Film & TV",
+          "weight": 0.992,
+          "evidence": [
+            "Kabhi Khushi Kabhie Gham... is a movie",
+            "A.R. Rahman: Film Score Orchestration, Film Score",
+            "Film Enthusiasts, Cinema-Loving",
+            "Kabhi Khushi Kabhie Gham...: Drama loving"
+          ]
+        },
+        {
+          "label": "Books & reading",
+          "weight": 0.927,
+          "evidence": [
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking is a book",
+            "Indian Literature, Literary Fiction, Novels"
+          ]
+        },
+        {
+          "label": "Cooking & food",
+          "weight": 0.857,
+          "evidence": [
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking: Cooking, Culinary, Culinary Techniques"
+          ]
+        },
+        {
+          "label": "Illustration",
+          "weight": 0.78,
+          "evidence": [
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking: illustrative, Illustrations, Illustrative"
+          ]
+        },
+        {
+          "label": "Art & illustration",
+          "weight": 0.78,
+          "evidence": [
+            "via Illustration"
+          ]
+        },
+        {
+          "label": "Classical music",
+          "weight": 0.577,
+          "evidence": [
+            "Kabhi Khushi Kabhie Gham...: Orchestrated musicality",
+            "A.R. Rahman: Film Score Orchestration"
+          ]
+        },
+        {
+          "label": "Sport & fitness",
+          "weight": 0.532,
+          "evidence": [
+            "Sports Loving",
+            "Kabhi Khushi Kabhie Gham...: Sports car, Cricket the sport",
+            "Sports Organization",
+            "Sports"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Confident",
+        "Artistic Patronage",
+        "Luxury Travel",
+        "Global Travel",
+        "Pop Culture",
+        "Bold",
+        "Maximalist Design",
+        "Fine Art"
+      ],
+      "priceComfort": {
+        "p25": 13,
+        "median": 122,
+        "p75": 1000,
+        "tier": 0.7,
+        "samples": 140
+      },
+      "warnings": [],
+      "strongMatches": 14,
+      "picks": [
+        {
+          "handle": "dusk-street-anime-print",
+          "title": "Dusk Street Art Print",
+          "category": "prints-art",
+          "price": 42,
+          "score": {
+            "interest": 0.85,
+            "property": 0.669,
+            "styleRef": 0.625,
+            "price": 0.514,
+            "total": 0.749
+          },
+          "contrast": 1.128,
+          "interests": [
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.78,
+              "strength": 1
+            },
+            {
+              "label": "Film & TV (broad)",
+              "level": "broad",
+              "weight": 0.992,
+              "strength": 0.8
+            }
+          ],
+          "matched": [
+            "Pop Culture",
+            "Art Collecting"
+          ],
+          "seedShare": {
+            "Kabhi Khushi Kabhie Gham...": 0.224,
+            "A.R. Rahman": 0.175,
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking": 0.601
+          },
+          "styleRefHits": [
+            {
+              "name": "Urban Outfitters",
+              "affinity": 0.625
+            }
+          ],
+          "explanation": "Salt, Fat, Acid, Heat puts illustration at the heart of their taste (Qloo tags Salt, Fat, Acid, Heat with “illustrative” and “Illustrations”). This dusk street art print is made for that."
+        },
+        {
+          "handle": "risograph-zine-sticker-pack",
+          "title": "Risograph Zine and Sticker Pack",
+          "category": "prints-art",
+          "price": 24,
+          "score": {
+            "interest": 0.833,
+            "property": 0.505,
+            "styleRef": 0.784,
+            "price": 0.113,
+            "total": 0.674
+          },
+          "contrast": 0.872,
+          "interests": [
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.78,
+              "strength": 1
+            },
+            {
+              "label": "Art & illustration (broad)",
+              "level": "broad",
+              "weight": 0.78,
+              "strength": 0.6
+            }
+          ],
+          "matched": [
+            "Pop Culture",
+            "Edgy"
+          ],
+          "seedShare": {
+            "Kabhi Khushi Kabhie Gham...": 0.072,
+            "A.R. Rahman": 0.078,
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking": 0.849
+          },
+          "styleRefHits": [
+            {
+              "name": "Converse",
+              "affinity": 0.784
+            },
+            {
+              "name": "Urban Outfitters",
+              "affinity": 0.625
+            }
+          ],
+          "explanation": "Salt, Fat, Acid, Heat puts illustration at the heart of their taste (Qloo tags Salt, Fat, Acid, Heat with “illustrative” and “Illustrations”). This risograph zine and sticker pack is made for that, with the edgy feel their taste leans toward."
+        },
+        {
+          "handle": "enamel-cast-iron-pot",
+          "title": "Enamel Cast Iron Pot",
+          "category": "kitchen",
+          "price": 119,
+          "score": {
+            "interest": 0.882,
+            "property": 0.299,
+            "styleRef": 0.07,
+            "price": 0.844,
+            "total": 0.651
+          },
+          "contrast": 0.577,
+          "interests": [
+            {
+              "label": "Cooking & food",
+              "level": "specific",
+              "weight": 0.857,
+              "strength": 1
+            },
+            {
+              "label": "Home & hosting",
+              "level": "specific",
+              "weight": 0.35,
+              "strength": 0.5
+            }
+          ],
+          "matched": [
+            "Timeless"
+          ],
+          "seedShare": {
+            "Kabhi Khushi Kabhie Gham...": 0.192,
+            "A.R. Rahman": 0.049,
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking": 0.759
+          },
+          "styleRefHits": [
+            {
+              "name": "Le Creuset",
+              "affinity": 0.07
+            }
+          ],
+          "explanation": "Salt, Fat, Acid, Heat puts cooking & food at the heart of their taste (Qloo tags Salt, Fat, Acid, Heat with “Cooking” and “Culinary”). This enamel cast iron pot is made for that, with the timeless feel their taste leans toward."
+        },
+        {
+          "handle": "botanical-print-set",
+          "title": "Vintage Botanical Print Set",
+          "category": "prints-art",
+          "price": 40,
+          "score": {
+            "interest": 0.824,
+            "property": 0.523,
+            "styleRef": 0.357,
+            "price": 0.466,
+            "total": 0.666
+          },
+          "contrast": 0.868,
+          "interests": [
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.78,
+              "strength": 1
+            },
+            {
+              "label": "Art & illustration (broad)",
+              "level": "broad",
+              "weight": 0.78,
+              "strength": 0.5
+            }
+          ],
+          "matched": [
+            "Fine Art",
+            "Art Collecting"
+          ],
+          "seedShare": {
+            "Kabhi Khushi Kabhie Gham...": 0.074,
+            "A.R. Rahman": 0.083,
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking": 0.843
+          },
+          "styleRefHits": [
+            {
+              "name": "Anthropologie",
+              "affinity": 0.357
+            },
+            {
+              "name": "Rifle Paper Co.",
+              "affinity": 0.024
+            }
+          ],
+          "explanation": "Salt, Fat, Acid, Heat puts illustration at the heart of their taste (Qloo tags Salt, Fat, Acid, Heat with “illustrative” and “Illustrations”). This vintage botanical print set is made for that."
+        },
+        {
+          "handle": "watercolor-travel-set",
+          "title": "Watercolor Travel Set",
+          "category": "stationery",
+          "price": 52,
+          "score": {
+            "interest": 0.78,
+            "property": 0.454,
+            "styleRef": 0.244,
+            "price": 0.727,
+            "total": 0.64
+          },
+          "contrast": 0.848,
+          "interests": [
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.78,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Fine Art"
+          ],
+          "seedShare": {
+            "Kabhi Khushi Kabhie Gham...": 0.069,
+            "A.R. Rahman": 0.078,
+            "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking": 0.853
+          },
+          "styleRefHits": [
+            {
+              "name": "Faber-Castell",
+              "affinity": 0.244
+            }
+          ],
+          "explanation": "Salt, Fat, Acid, Heat puts illustration at the heart of their taste (Qloo tags Salt, Fat, Acid, Heat with “illustrative” and “Illustrations”). This watercolor travel set is made for that."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Dusk Street Art Print",
+          "interests": [
+            "Illustration",
+            "Film & TV"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Risograph Zine and Sticker Pack",
+          "interests": [
+            "Illustration",
+            "Art & illustration"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Enamel Cast Iron Pot",
+          "interests": [
+            "Cooking & food",
+            "Home & hosting"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Vintage Botanical Print Set",
+          "interests": [
+            "Illustration",
+            "Art & illustration"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Watercolor Travel Set",
+          "interests": [
+            "Illustration"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.6,
+        "intraListDiversity": 0.83,
+        "seedCoverage": 1,
+        "meanInterest": 0.83,
+        "meanScore": 0.68
+      },
+      "qloo": {
+        "calls": 19,
+        "cached": 19
+      }
+    },
+    {
+      "id": "minimalism-architecture",
+      "label": "Minimalism + architecture (held out)",
+      "seeds": [
+        {
+          "name": "Tadao Ando",
+          "type": "urn:entity:person",
+          "kind": "entity"
+        },
+        {
+          "name": "Dieter Rams",
+          "type": "urn:entity:person",
+          "kind": "entity"
+        },
+        {
+          "name": "Kinfolk",
+          "type": "urn:entity:brand",
+          "kind": "entity"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Art & illustration",
+          "weight": 0.929,
+          "evidence": [
+            "Kinfolk: Contemporary Art Scene, Artistic Expression",
+            "Artistic, Art House Enthusiasts",
+            "Artistic, Art",
+            "Art"
+          ]
+        },
+        {
+          "label": "Fashion & style",
+          "weight": 0.854,
+          "evidence": [
+            "Fashion, Haute Couture, Home Accessories",
+            "Fashion Forward",
+            "Kinfolk: Fashion",
+            "minimalist fashion, avant-garde fashion"
+          ]
+        },
+        {
+          "label": "Cooking & food",
+          "weight": 0.85,
+          "evidence": [
+            "Kinfolk: Culinary Curators, Culinary Arts, Gourmet Cooking",
+            "Cooking, Culinary, Foodie",
+            "Culinary Enthusiasts"
+          ]
+        },
+        {
+          "label": "Home & hosting",
+          "weight": 0.725,
+          "evidence": [
+            "Kinfolk: Interior Designers, Interior Design, Home Hosting"
+          ]
+        },
+        {
+          "label": "Travel & outdoors",
+          "weight": 0.572,
+          "evidence": [
+            "Kinfolk: Mindful Travel",
+            "Travel Lovers",
+            "Travel",
+            "Travel"
+          ]
+        },
+        {
+          "label": "Japanese culture",
+          "weight": 0.48,
+          "evidence": [
+            "Kinfolk: Japan",
+            "Tadao Ando: Japanese Male Boxers, Kyoto Laureates In Arts And Philosophy, 21st-century Japanese Architects"
+          ]
+        },
+        {
+          "label": "Wellness & self-care",
+          "weight": 0.35,
+          "evidence": [
+            "Kinfolk: Mindful Travel"
+          ]
+        },
+        {
+          "label": "Fine art",
+          "weight": 0.35,
+          "evidence": [
+            "Kinfolk: Contemporary Art Scene"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Sophisticated",
+        "Contemporary Art",
+        "Interior Design",
+        "Global Travel",
+        "Curated Living",
+        "Slow Living",
+        "Refined",
+        "Neutral Color Palette"
+      ],
+      "priceComfort": {
+        "p25": 89,
+        "median": 190,
+        "p75": 490,
+        "tier": 0.8,
+        "samples": 143
+      },
+      "warnings": [
+        "seed Tadao Ando barely shaped brand results (0%)",
+        "seed Dieter Rams barely shaped brand results (0%)"
+      ],
+      "strongMatches": 13,
+      "picks": [
+        {
+          "handle": "linen-throw-blanket",
+          "title": "Washed Linen Throw",
+          "category": "home-decor",
+          "price": 78,
+          "score": {
+            "interest": 0.514,
+            "property": 1,
+            "styleRef": 0.771,
+            "price": 0.907,
+            "total": 0.701
+          },
+          "contrast": 5.387,
+          "interests": [
+            {
+              "label": "Home & hosting",
+              "level": "specific",
+              "weight": 0.725,
+              "strength": 0.6
+            },
+            {
+              "label": "Wellness & self-care",
+              "level": "specific",
+              "weight": 0.35,
+              "strength": 0.4
+            }
+          ],
+          "matched": [
+            "Interior Design",
+            "Slow Living",
+            "Neutral Color Palette",
+            "Slow Living",
+            "Relaxed"
+          ],
+          "seedShare": {
+            "Tadao Ando": 0,
+            "Dieter Rams": 0,
+            "Kinfolk": 1
+          },
+          "styleRefHits": [
+            {
+              "name": "West Elm",
+              "affinity": 0.771
+            },
+            {
+              "name": "Brooklinen",
+              "affinity": 0.537
+            }
+          ],
+          "explanation": "Kinfolk puts home & hosting at the heart of their taste (Qloo tags Kinfolk with “Interior Designers” and “Interior Design”). This washed linen throw is made for that, with the relaxed feel their taste leans toward."
+        },
+        {
+          "handle": "cashmere-blend-scarf",
+          "title": "Cashmere Blend Scarf",
+          "category": "apparel",
+          "price": 70,
+          "score": {
+            "interest": 0.683,
+            "property": 0.476,
+            "styleRef": 0.965,
+            "price": 0.824,
+            "total": 0.674
+          },
+          "contrast": 2.762,
+          "interests": [
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.854,
+              "strength": 0.8
+            }
+          ],
+          "matched": [
+            "Neutral Color Palette",
+            "Urban Living",
+            "Understated"
+          ],
+          "seedShare": {
+            "Tadao Ando": 0,
+            "Dieter Rams": 0,
+            "Kinfolk": 1
+          },
+          "styleRefHits": [
+            {
+              "name": "COS",
+              "affinity": 0.965
+            },
+            {
+              "name": "Uniqlo",
+              "affinity": 0.61
+            }
+          ],
+          "explanation": "Kinfolk puts fashion & style at the heart of their taste (Qloo links that taste to “Fashion” and “Haute Couture”). This cashmere blend scarf is made for that, with the understated feel their taste leans toward."
+        },
+        {
+          "handle": "round-wood-serving-board",
+          "title": "Round Hardwood Serving Board",
+          "category": "kitchen",
+          "price": 42,
+          "score": {
+            "interest": 0.889,
+            "property": 0.041,
+            "styleRef": 0.622,
+            "price": 0.338,
+            "total": 0.595
+          },
+          "contrast": 0.208,
+          "interests": [
+            {
+              "label": "Home & hosting",
+              "level": "specific",
+              "weight": 0.725,
+              "strength": 1
+            },
+            {
+              "label": "Cooking & food",
+              "level": "specific",
+              "weight": 0.85,
+              "strength": 0.7
+            }
+          ],
+          "matched": [
+            "Warm"
+          ],
+          "seedShare": {
+            "Tadao Ando": 0,
+            "Dieter Rams": 0,
+            "Kinfolk": 1
+          },
+          "styleRefHits": [
+            {
+              "name": "Crate & Barrel",
+              "affinity": 0.622
+            },
+            {
+              "name": "Williams-Sonoma",
+              "affinity": 0.568
+            }
+          ],
+          "explanation": "Kinfolk puts home & hosting at the heart of their taste (Qloo tags Kinfolk with “Interior Designers” and “Interior Design”). This round hardwood serving board is made for that, with the warm feel their taste leans toward."
+        },
+        {
+          "handle": "canvas-weekender-bag",
+          "title": "Waxed Canvas Weekender",
+          "category": "bags-leather",
+          "price": 135,
+          "score": {
+            "interest": 0.718,
+            "property": 0.057,
+            "styleRef": 0.804,
+            "price": 0.894,
+            "total": 0.579
+          },
+          "contrast": 0.244,
+          "interests": [
+            {
+              "label": "Travel & outdoors",
+              "level": "specific",
+              "weight": 0.572,
+              "strength": 1
+            },
+            {
+              "label": "Fashion & style",
+              "level": "specific",
+              "weight": 0.854,
+              "strength": 0.4
+            }
+          ],
+          "matched": [
+            "Travel"
+          ],
+          "seedShare": {
+            "Tadao Ando": 0,
+            "Dieter Rams": 0,
+            "Kinfolk": 1
+          },
+          "styleRefHits": [
+            {
+              "name": "Herschel Supply Co",
+              "affinity": 0.804
+            },
+            {
+              "name": "Fjällräven",
+              "affinity": 0.592
+            }
+          ],
+          "explanation": "Kinfolk puts travel & outdoors at the heart of their taste (Qloo links that taste to “Travel Lovers”). This waxed canvas weekender is made for that."
+        },
+        {
+          "handle": "dried-flower-ceramic-vase",
+          "title": "Dried Flower Bundle with Bud Vase",
+          "category": "home-decor",
+          "price": 44,
+          "score": {
+            "interest": 0.58,
+            "property": 0.52,
+            "styleRef": 0.894,
+            "price": 0.378,
+            "total": 0.576
+          },
+          "contrast": 2.678,
+          "interests": [
+            {
+              "label": "Home & hosting",
+              "level": "specific",
+              "weight": 0.725,
+              "strength": 0.8
+            }
+          ],
+          "matched": [
+            "Interior Design",
+            "Curated Living"
+          ],
+          "seedShare": {
+            "Tadao Ando": 0,
+            "Dieter Rams": 0,
+            "Kinfolk": 1
+          },
+          "styleRefHits": [
+            {
+              "name": "Anthropologie",
+              "affinity": 0.894
+            },
+            {
+              "name": "West Elm",
+              "affinity": 0.771
+            }
+          ],
+          "explanation": "Kinfolk puts home & hosting at the heart of their taste (Qloo tags Kinfolk with “Interior Designers” and “Interior Design”). This dried flower bundle with bud vase is made for that."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Washed Linen Throw",
+          "interests": [
+            "Home & hosting",
+            "Wellness & self-care"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Cashmere Blend Scarf",
+          "interests": [
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Round Hardwood Serving Board",
+          "interests": [
+            "Home & hosting",
+            "Cooking & food"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Waxed Canvas Weekender",
+          "interests": [
+            "Travel & outdoors",
+            "Fashion & style"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Dried Flower Bundle with Bud Vase",
+          "interests": [
+            "Home & hosting"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.8,
+        "intraListDiversity": 0.82,
+        "seedCoverage": 0.33,
+        "meanInterest": 0.68,
+        "meanScore": 0.63
+      },
+      "qloo": {
+        "calls": 19,
+        "cached": 19
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "id": "hiking-podcasts", "label": "Hiking + podcasts (held out)", "seeds": [{ "query": "Radiolab", "type": "urn:entity:podcast" }, { "query": "Patagonia", "type": "urn:entity:brand" }, { "query": "hiking", "kind": "tag" }] },
+  { "id": "bollywood-cooking", "label": "Bollywood + cooking (held out)", "seeds": [{ "query": "Kabhi Khushi Kabhie Gham", "type": "urn:entity:movie" }, { "query": "A. R. Rahman", "type": "urn:entity:artist" }, { "query": "Salt, Fat, Acid, Heat", "type": "urn:entity:book" }] },
+  { "id": "minimalism-architecture", "label": "Minimalism + architecture (held out)", "seeds": [{ "query": "Tadao Ando", "type": "urn:entity:person" }, { "query": "Dieter Rams", "type": "urn:entity:person" }, { "query": "Kinfolk", "type": "urn:entity:brand" }] }
+]

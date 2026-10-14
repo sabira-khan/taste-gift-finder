@@ -1,0 +1,2031 @@
+{
+  "generatedAt": "2026-10-13T13:27:12.144Z",
+  "summary": {
+    "personas": 5,
+    "weights": {
+      "interest": 0.55,
+      "property": 0.25,
+      "styleRef": 0.1,
+      "price": 0.1
+    },
+    "interestFloor": 0.35,
+    "relevanceMin": 0.45,
+    "totalFails": 0,
+    "totalBroadOnly": 0,
+    "meanInterestMatch": 0.89,
+    "meanSeedCoverage": 1,
+    "meanCategoryDiversity": 0.64,
+    "crossPersonaOverlap": 0.01,
+    "distinctProductsAcrossPersonas": 24,
+    "catalogSize": 70
+  },
+  "results": [
+    {
+      "id": "anime-lofi",
+      "label": "Anime + lo-fi",
+      "seeds": [
+        {
+          "name": "Spirited Away",
+          "type": "urn:entity:movie",
+          "kind": "entity"
+        },
+        {
+          "name": "Attack on Titan",
+          "type": "urn:entity:tv_show",
+          "kind": "entity"
+        },
+        {
+          "name": "lo-fi",
+          "type": "urn:tag:genre:music",
+          "kind": "tag"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Music",
+          "weight": 1,
+          "evidence": [
+            "lo-fi: lo-fi",
+            "Lo-Fi Music, Lo Fi Hip Hop, Hip Hop Music",
+            "Rap, Indie Music, Jazz",
+            "Hip Hop Enthusiasts, Hip Hop Friendly, Lo-Fi"
+          ]
+        },
+        {
+          "label": "Film & TV",
+          "weight": 0.999,
+          "evidence": [
+            "Spirited Away is a movie",
+            "Attack on Titan is a tv show",
+            "Attack on Titan: Cinematic",
+            "Spirited Away: Perfect kids film, Stand alone movie without sequel"
+          ]
+        },
+        {
+          "label": "Lo-fi & chill beats",
+          "weight": 0.994,
+          "evidence": [
+            "lo-fi: lo-fi",
+            "Lo-Fi Music, Lo Fi Hip Hop, Lofi Music",
+            "Lo-Fi, Lo-Fi Oriented"
+          ]
+        },
+        {
+          "label": "Art & illustration",
+          "weight": 0.911,
+          "evidence": [
+            "Spirited Away: Artistic",
+            "Lo-Fi Art",
+            "Art"
+          ]
+        },
+        {
+          "label": "Anime",
+          "weight": 0.876,
+          "evidence": [
+            "Shojo, Animation, Seinen",
+            "Spirited Away: Animation, Anime",
+            "Attack on Titan: Anime animation, Shonen anime animation",
+            "Animation Enthusiasts"
+          ]
+        },
+        {
+          "label": "Manga & comics",
+          "weight": 0.799,
+          "evidence": [
+            "Shojo, Manga, Comics",
+            "Comic Fans",
+            "Attack on Titan: Shonen anime animation"
+          ]
+        },
+        {
+          "label": "Illustration",
+          "weight": 0.554,
+          "evidence": [
+            "Spirited Away: Painterly",
+            "Lo-Fi Art"
+          ]
+        },
+        {
+          "label": "Fashion & style",
+          "weight": 0.425,
+          "evidence": [
+            "CHIC, fashionable, fashion forward",
+            "Hip Hop Fashion",
+            "Fashion, Accessories"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Bold",
+        "Bold Typography",
+        "Rebellious",
+        "Skateboarding",
+        "Pop Culture",
+        "Skateboarding",
+        "Graphic Design",
+        "Street Art"
+      ],
+      "priceComfort": {
+        "p25": 26,
+        "median": 79,
+        "p75": 386,
+        "tier": 0.55,
+        "samples": 142
+      },
+      "warnings": [],
+      "strongMatches": 6,
+      "picks": [
+        {
+          "handle": "risograph-zine-sticker-pack",
+          "title": "Risograph Zine and Sticker Pack",
+          "category": "prints-art",
+          "price": 24,
+          "score": {
+            "interest": 0.768,
+            "property": 1,
+            "styleRef": 0.478,
+            "price": 0.274,
+            "total": 0.748
+          },
+          "contrast": 5.879,
+          "interests": [
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.554,
+              "strength": 1
+            },
+            {
+              "label": "Manga & comics",
+              "level": "specific",
+              "weight": 0.799,
+              "strength": 0.6
+            }
+          ],
+          "matched": [
+            "Bold Typography",
+            "Rebellious",
+            "Pop Culture",
+            "Graphic Design",
+            "Street Art"
+          ],
+          "seedShare": {
+            "Spirited Away": 0.459,
+            "Attack on Titan": 0.41,
+            "lo-fi": 0.13
+          },
+          "styleRefHits": [
+            {
+              "name": "Converse",
+              "affinity": 0.478
+            },
+            {
+              "name": "Urban Outfitters",
+              "affinity": 0.406
+            }
+          ],
+          "explanation": "Spirited Away puts illustration at the heart of their taste (Qloo links that taste to “Lo-Fi Art”). This risograph zine and sticker pack is made for that, with the rebellious feel their taste leans toward."
+        },
+        {
+          "handle": "dusk-street-anime-print",
+          "title": "Dusk Street Art Print",
+          "category": "prints-art",
+          "price": 42,
+          "score": {
+            "interest": 0.888,
+            "property": 0.273,
+            "styleRef": 0.406,
+            "price": 0.796,
+            "total": 0.677
+          },
+          "contrast": 1.569,
+          "interests": [
+            {
+              "label": "Anime",
+              "level": "specific",
+              "weight": 0.876,
+              "strength": 0.8
+            },
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.554,
+              "strength": 1
+            },
+            {
+              "label": "Japanese culture",
+              "level": "specific",
+              "weight": 0.2,
+              "strength": 0.8
+            }
+          ],
+          "matched": [
+            "Pop Culture",
+            "Vibrant Colors",
+            "Art Collecting",
+            "Digital Art"
+          ],
+          "seedShare": {
+            "Spirited Away": 0.791,
+            "Attack on Titan": 0.168,
+            "lo-fi": 0.041
+          },
+          "styleRefHits": [
+            {
+              "name": "Urban Outfitters",
+              "affinity": 0.406
+            }
+          ],
+          "explanation": "Spirited Away and Attack on Titan put anime at the heart of their taste (Qloo links that taste to “Shojo” and “Animation”). This dusk street art print is made for that."
+        },
+        {
+          "handle": "manga-drawing-kit",
+          "title": "Manga Drawing Kit",
+          "category": "stationery",
+          "price": 34,
+          "score": {
+            "interest": 0.877,
+            "property": 0.254,
+            "styleRef": 0.429,
+            "price": 0.59,
+            "total": 0.648
+          },
+          "contrast": 1.62,
+          "interests": [
+            {
+              "label": "Manga & comics",
+              "level": "specific",
+              "weight": 0.799,
+              "strength": 1
+            },
+            {
+              "label": "Illustration",
+              "level": "specific",
+              "weight": 0.554,
+              "strength": 0.7
+            }
+          ],
+          "matched": [
+            "Pop Culture",
+            "Digital Art"
+          ],
+          "seedShare": {
+            "Spirited Away": 0.328,
+            "Attack on Titan": 0.633,
+            "lo-fi": 0.039
+          },
+          "styleRefHits": [
+            {
+              "name": "Moleskine",
+              "affinity": 0.429
+            },
+            {
+              "name": "Faber-Castell",
+              "affinity": 0.154
+            }
+          ],
+          "explanation": "Attack on Titan puts manga & comics at the heart of their taste (Qloo links that taste to “Shojo” and “Manga”). This manga drawing kit is made for that."
+        },
+        {
+          "handle": "wooden-kalimba",
+          "title": "Wooden Kalimba Thumb Piano",
+          "category": "instruments",
+          "price": 36,
+          "score": {
+            "interest": 0.758,
+            "property": 0.199,
+            "styleRef": 0.444,
+            "price": 0.647,
+            "total": 0.576
+          },
+          "contrast": 1.409,
+          "interests": [
+            {
+              "label": "Lo-fi & chill beats",
+              "level": "specific",
+              "weight": 0.994,
+              "strength": 0.6
+            },
+            {
+              "label": "Music (broad)",
+              "level": "broad",
+              "weight": 1,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Playful"
+          ],
+          "seedShare": {
+            "Spirited Away": 0.036,
+            "Attack on Titan": 0.034,
+            "lo-fi": 0.93
+          },
+          "styleRefHits": [
+            {
+              "name": "Fender",
+              "affinity": 0.444
+            }
+          ],
+          "explanation": "lo-fi puts lo-fi & chill beats at the heart of their taste (Qloo links that taste to “Lo-Fi Music” and “Lo Fi Hip Hop”). This wooden kalimba thumb piano is made for that, with the playful feel their taste leans toward."
+        },
+        {
+          "handle": "over-ear-headphones",
+          "title": "Wireless Over-Ear Headphones",
+          "category": "audio",
+          "price": 129,
+          "score": {
+            "interest": 0.662,
+            "property": 0.169,
+            "styleRef": 0.44,
+            "price": 0.49,
+            "total": 0.5
+          },
+          "contrast": 1.148,
+          "interests": [
+            {
+              "label": "Lo-fi & chill beats",
+              "level": "specific",
+              "weight": 0.994,
+              "strength": 0.5
+            },
+            {
+              "label": "Vinyl & hi-fi",
+              "level": "specific",
+              "weight": 0.411,
+              "strength": 0.8
+            }
+          ],
+          "matched": [
+            "Immersive"
+          ],
+          "seedShare": {
+            "Spirited Away": 0.155,
+            "Attack on Titan": 0.152,
+            "lo-fi": 0.693
+          },
+          "styleRefHits": [
+            {
+              "name": "Sonos",
+              "affinity": 0.44
+            },
+            {
+              "name": "Audio-Technica",
+              "affinity": 0.131
+            }
+          ],
+          "explanation": "lo-fi puts lo-fi & chill beats at the heart of their taste (Qloo links that taste to “Lo-Fi Music” and “Lo Fi Hip Hop”). This wireless over-ear headphones is made for that, with the immersive feel their taste leans toward."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Risograph Zine and Sticker Pack",
+          "interests": [
+            "Illustration",
+            "Manga & comics"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Dusk Street Art Print",
+          "interests": [
+            "Anime",
+            "Illustration",
+            "Japanese culture"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Manga Drawing Kit",
+          "interests": [
+            "Manga & comics",
+            "Illustration"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Wooden Kalimba Thumb Piano",
+          "interests": [
+            "Lo-fi & chill beats",
+            "Music"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Wireless Over-Ear Headphones",
+          "interests": [
+            "Lo-fi & chill beats",
+            "Vinyl & hi-fi"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.8,
+        "intraListDiversity": 0.83,
+        "seedCoverage": 1,
+        "meanInterest": 0.79,
+        "meanScore": 0.63
+      },
+      "qloo": {
+        "calls": 19,
+        "cached": 19
+      }
+    },
+    {
+      "id": "fairuz-coffee",
+      "label": "Fairuz + Arabic coffee culture",
+      "seeds": [
+        {
+          "name": "Fairuz",
+          "type": "urn:entity:artist",
+          "kind": "entity"
+        },
+        {
+          "name": "Arabic coffee",
+          "type": "urn:tag:menu_highlight:qloo",
+          "kind": "tag"
+        },
+        {
+          "name": "Ziad Rahbani",
+          "type": "urn:entity:artist",
+          "kind": "entity"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Music",
+          "weight": 1,
+          "evidence": [
+            "Fairuz is a artist",
+            "Fairuz: Melodic, Chanson-Arabesque, Orchestral Arabic",
+            "Ziad Rahbani is a artist"
+          ]
+        },
+        {
+          "label": "Arabic & Gulf heritage",
+          "weight": 1,
+          "evidence": [
+            "Fairuz: Arabic, Lebanese, Classical Arabic",
+            "Arabic coffee: Arabic coffee",
+            "Arabic Coffee, Arabic Coffee Preparation, Middle Eastern Coffee",
+            "Egyptian, Middle Eastern, Egyptian Cinema"
+          ]
+        },
+        {
+          "label": "Coffee",
+          "weight": 0.99,
+          "evidence": [
+            "Arabic coffee: Arabic coffee",
+            "Arabic Coffee, Arabic Coffee Preparation, Middle Eastern Coffee"
+          ]
+        },
+        {
+          "label": "Arabic music",
+          "weight": 0.9,
+          "evidence": [
+            "Fairuz: Classical Arabic, Lebanese Folk, Chanson-Arabesque"
+          ]
+        },
+        {
+          "label": "Cooking & food",
+          "weight": 0.681,
+          "evidence": [
+            "Culinary Enthusiasts",
+            "Culinary, Chef",
+            "Arabic Desserts"
+          ]
+        },
+        {
+          "label": "Books & reading",
+          "weight": 0.35,
+          "evidence": [
+            "Fairuz: Poetic"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Elegant",
+        "Sophisticated",
+        "Luxury Travel",
+        "Global Travel",
+        "Fine Dining",
+        "Social Events",
+        "Art Collecting",
+        "Fine Art"
+      ],
+      "priceComfort": {
+        "p25": 24,
+        "median": 89,
+        "p75": 548,
+        "tier": 0.6,
+        "samples": 146
+      },
+      "warnings": [],
+      "strongMatches": 12,
+      "picks": [
+        {
+          "handle": "medjool-dates-gift-box",
+          "title": "Stuffed Medjool Dates Box",
+          "category": "sweets",
+          "price": 36,
+          "score": {
+            "interest": 1,
+            "property": 0.666,
+            "styleRef": 0.839,
+            "price": 0.551,
+            "total": 0.855
+          },
+          "contrast": 1.509,
+          "interests": [
+            {
+              "label": "Arabic & Gulf heritage",
+              "level": "specific",
+              "weight": 1,
+              "strength": 1
+            },
+            {
+              "label": "Cooking & food",
+              "level": "specific",
+              "weight": 0.681,
+              "strength": 0.6
+            }
+          ],
+          "matched": [
+            "Gold Accents",
+            "Family Gatherings",
+            "Welcoming"
+          ],
+          "seedShare": {
+            "Fairuz": 0.422,
+            "Arabic coffee": 0.423,
+            "Ziad Rahbani": 0.155
+          },
+          "styleRefHits": [
+            {
+              "name": "Patchi",
+              "affinity": 0.839
+            },
+            {
+              "name": "Bateel",
+              "affinity": 0.733
+            }
+          ],
+          "explanation": "Fairuz and Arabic coffee put Arabic & Gulf heritage at the heart of their taste (Qloo links that taste to “Arabic Coffee” and “Arabic Coffee Preparation”). This stuffed medjool dates box is made for that, with the welcoming feel their taste leans toward."
+        },
+        {
+          "handle": "brass-dallah-coffee-set",
+          "title": "Brass Dallah Coffee Set",
+          "category": "tea-coffee",
+          "price": 85,
+          "score": {
+            "interest": 1,
+            "property": 0.502,
+            "styleRef": 0.733,
+            "price": 0.944,
+            "total": 0.843
+          },
+          "contrast": 0.953,
+          "interests": [
+            {
+              "label": "Arabic & Gulf heritage",
+              "level": "specific",
+              "weight": 1,
+              "strength": 1
+            },
+            {
+              "label": "Coffee",
+              "level": "specific",
+              "weight": 0.99,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Gold Accents",
+            "Timeless",
+            "Family Gatherings",
+            "Welcoming"
+          ],
+          "seedShare": {
+            "Fairuz": 0.264,
+            "Arabic coffee": 0.671,
+            "Ziad Rahbani": 0.065
+          },
+          "styleRefHits": [
+            {
+              "name": "Bateel",
+              "affinity": 0.733
+            }
+          ],
+          "explanation": "Fairuz and Arabic coffee put Arabic & Gulf heritage at the heart of their taste (Qloo links that taste to “Arabic Coffee” and “Arabic Coffee Preparation”). This brass dallah coffee set is made for that, with the timeless and welcoming feel their taste leans toward."
+        },
+        {
+          "handle": "arabic-calligraphy-print",
+          "title": "Arabic Calligraphy Art Print",
+          "category": "prints-art",
+          "price": 46,
+          "score": {
+            "interest": 1,
+            "property": 0.476,
+            "styleRef": 0.733,
+            "price": 0.792,
+            "total": 0.822
+          },
+          "contrast": 0.728,
+          "interests": [
+            {
+              "label": "Arabic & Gulf heritage",
+              "level": "specific",
+              "weight": 1,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Art Collecting",
+            "Fine Art",
+            "Timeless"
+          ],
+          "seedShare": {
+            "Fairuz": 0.466,
+            "Arabic coffee": 0.471,
+            "Ziad Rahbani": 0.063
+          },
+          "styleRefHits": [
+            {
+              "name": "Bateel",
+              "affinity": 0.733
+            }
+          ],
+          "explanation": "Fairuz and Arabic coffee put Arabic & Gulf heritage at the heart of their taste (Qloo links that taste to “Arabic Coffee” and “Arabic Coffee Preparation”). This Arabic calligraphy art print is made for that, with the timeless feel their taste leans toward."
+        },
+        {
+          "handle": "finjan-cup-set",
+          "title": "Finjan Coffee Cup Set",
+          "category": "tea-coffee",
+          "price": 39,
+          "score": {
+            "interest": 1,
+            "property": 0.521,
+            "styleRef": 0.733,
+            "price": 0.632,
+            "total": 0.817
+          },
+          "contrast": 1.037,
+          "interests": [
+            {
+              "label": "Arabic & Gulf heritage",
+              "level": "specific",
+              "weight": 1,
+              "strength": 1
+            },
+            {
+              "label": "Coffee",
+              "level": "specific",
+              "weight": 0.99,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Gold Accents",
+            "Timeless",
+            "Welcoming"
+          ],
+          "seedShare": {
+            "Fairuz": 0.264,
+            "Arabic coffee": 0.669,
+            "Ziad Rahbani": 0.067
+          },
+          "styleRefHits": [
+            {
+              "name": "Bateel",
+              "affinity": 0.733
+            }
+          ],
+          "explanation": "Fairuz and Arabic coffee put Arabic & Gulf heritage at the heart of their taste (Qloo links that taste to “Arabic Coffee” and “Arabic Coffee Preparation”). This finjan coffee cup set is made for that, with the timeless and welcoming feel their taste leans toward."
+        },
+        {
+          "handle": "bakhoor-burner-set",
+          "title": "Bakhoor Burner and Oud Chips",
+          "category": "home-fragrance",
+          "price": 48,
+          "score": {
+            "interest": 1,
+            "property": 0.199,
+            "styleRef": 0.777,
+            "price": 0.829,
+            "total": 0.76
+          },
+          "contrast": 0.446,
+          "interests": [
+            {
+              "label": "Arabic & Gulf heritage",
+              "level": "specific",
+              "weight": 1,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Welcoming"
+          ],
+          "seedShare": {
+            "Fairuz": 0.485,
+            "Arabic coffee": 0.486,
+            "Ziad Rahbani": 0.029
+          },
+          "styleRefHits": [
+            {
+              "name": "Ibraheem Al Qurashi",
+              "affinity": 0.777
+            },
+            {
+              "name": "Amouage",
+              "affinity": 0.445
+            }
+          ],
+          "explanation": "Fairuz and Arabic coffee put Arabic & Gulf heritage at the heart of their taste (Qloo links that taste to “Arabic Coffee” and “Arabic Coffee Preparation”). This bakhoor burner and oud chips is made for that, with the welcoming feel their taste leans toward."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Stuffed Medjool Dates Box",
+          "interests": [
+            "Arabic & Gulf heritage",
+            "Cooking & food"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Brass Dallah Coffee Set",
+          "interests": [
+            "Arabic & Gulf heritage",
+            "Coffee"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Arabic Calligraphy Art Print",
+          "interests": [
+            "Arabic & Gulf heritage"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Finjan Coffee Cup Set",
+          "interests": [
+            "Arabic & Gulf heritage",
+            "Coffee"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Bakhoor Burner and Oud Chips",
+          "interests": [
+            "Arabic & Gulf heritage"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.8,
+        "intraListDiversity": 0.64,
+        "seedCoverage": 1,
+        "meanInterest": 1,
+        "meanScore": 0.82
+      },
+      "qloo": {
+        "calls": 24,
+        "cached": 24
+      }
+    },
+    {
+      "id": "football-gaming",
+      "label": "Football + gaming",
+      "seeds": [
+        {
+          "name": "FIFA 22",
+          "type": "urn:entity:videogame",
+          "kind": "entity"
+        },
+        {
+          "name": "Real Madrid CF",
+          "type": "urn:entity:brand",
+          "kind": "entity"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "type": "urn:entity:person",
+          "kind": "entity"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Sport & fitness",
+          "weight": 1,
+          "evidence": [
+            "Real Madrid CF: Sports Organization, International Sports Culture, Global Sports Fans",
+            "Sports Enthusiast, Sport-Loving, Sports Enthusiasts",
+            "FIFA 22: Sports",
+            "Sports Equipment, athletic gear, Sport"
+          ]
+        },
+        {
+          "label": "Gaming",
+          "weight": 0.996,
+          "evidence": [
+            "FIFA 22 is a videogame",
+            "FIFA 22: Multiplayer, Online Multiplayer, Local Multiplayer",
+            "Gamers, Casual Gamers, Gaming Enthusiasts",
+            "Games"
+          ]
+        },
+        {
+          "label": "Football",
+          "weight": 0.996,
+          "evidence": [
+            "Real Madrid CF: Soccer, Spain Soccer, Global Football Culture",
+            "Soccer Enthusiasts, Football Fans",
+            "Other Soccer, Soccer, International Soccer",
+            "Cristiano Ronaldo: Portugal Mens Under-21 International Footballers, Mens Association Football Wingers, Olympic Footballers For Portugal"
+          ]
+        },
+        {
+          "label": "Music",
+          "weight": 0.679,
+          "evidence": [
+            "MusiC-Loving",
+            "Cristiano Ronaldo: Musician",
+            "Pop Music, Musician"
+          ]
+        },
+        {
+          "label": "Fashion & style",
+          "weight": 0.577,
+          "evidence": [
+            "Real Madrid CF: streetwear",
+            "Cristiano Ronaldo: Fashion Entrepreneur"
+          ]
+        },
+        {
+          "label": "Board games & puzzles",
+          "weight": 0.393,
+          "evidence": [
+            "Role-playing"
+          ]
+        },
+        {
+          "label": "Anime",
+          "weight": 0.37,
+          "evidence": [
+            "Anime Enthusiasts, Anime Fans"
+          ]
+        },
+        {
+          "label": "Film & TV",
+          "weight": 0.37,
+          "evidence": [
+            "via Anime"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Luxury Travel",
+        "Bold",
+        "Confident",
+        "Jet-Setting",
+        "Pop Culture",
+        "Artistic Patronage",
+        "Exclusive Events",
+        "Global Travel"
+      ],
+      "priceComfort": {
+        "p25": 35,
+        "median": 126,
+        "p75": 1000,
+        "tier": 0.7,
+        "samples": 140
+      },
+      "warnings": [],
+      "strongMatches": 11,
+      "picks": [
+        {
+          "handle": "tabletop-foosball",
+          "title": "Tabletop Foosball Game",
+          "category": "games-puzzles",
+          "price": 79,
+          "score": {
+            "interest": 0.998,
+            "property": 0.978,
+            "styleRef": 0.916,
+            "price": 0.995,
+            "total": 0.985
+          },
+          "contrast": 2.744,
+          "interests": [
+            {
+              "label": "Football",
+              "level": "specific",
+              "weight": 0.996,
+              "strength": 1
+            },
+            {
+              "label": "Gaming",
+              "level": "specific",
+              "weight": 0.996,
+              "strength": 0.5
+            },
+            {
+              "label": "Board games & puzzles",
+              "level": "specific",
+              "weight": 0.393,
+              "strength": 0.6
+            }
+          ],
+          "matched": [
+            "Competitive",
+            "Fun",
+            "Professional Sports"
+          ],
+          "seedShare": {
+            "FIFA 22": 0.42,
+            "Real Madrid CF": 0.334,
+            "Cristiano Ronaldo": 0.246
+          },
+          "styleRefHits": [
+            {
+              "name": "Adidas",
+              "affinity": 0.916
+            },
+            {
+              "name": "Hasbro",
+              "affinity": 0.373
+            }
+          ],
+          "explanation": "Real Madrid CF and Cristiano Ronaldo put football at the heart of their taste (Qloo links that taste to “Soccer Enthusiasts” and “Football Fans”). This tabletop foosball game is made for that, with the competitive and fun feel their taste leans toward."
+        },
+        {
+          "handle": "vintage-leather-football",
+          "title": "Vintage Leather Football",
+          "category": "sports-outdoors",
+          "price": 45,
+          "score": {
+            "interest": 0.997,
+            "property": 0.909,
+            "styleRef": 1,
+            "price": 0.583,
+            "total": 0.934
+          },
+          "contrast": 2.154,
+          "interests": [
+            {
+              "label": "Football",
+              "level": "specific",
+              "weight": 0.996,
+              "strength": 1
+            },
+            {
+              "label": "Sport & fitness (broad)",
+              "level": "broad",
+              "weight": 1,
+              "strength": 0.7
+            }
+          ],
+          "matched": [
+            "Pop Culture",
+            "Competitive",
+            "Energetic",
+            "Professional Sports"
+          ],
+          "seedShare": {
+            "FIFA 22": 0.259,
+            "Real Madrid CF": 0.448,
+            "Cristiano Ronaldo": 0.292
+          },
+          "styleRefHits": [
+            {
+              "name": "Nike",
+              "affinity": 1
+            },
+            {
+              "name": "Adidas",
+              "affinity": 0.916
+            }
+          ],
+          "explanation": "Real Madrid CF and Cristiano Ronaldo put football at the heart of their taste (Qloo links that taste to “Soccer Enthusiasts” and “Football Fans”). This vintage leather football is made for that, with the competitive and energetic feel their taste leans toward."
+        },
+        {
+          "handle": "ambient-led-light-bars",
+          "title": "Ambient LED Light Bars",
+          "category": "games-puzzles",
+          "price": 59,
+          "score": {
+            "interest": 0.997,
+            "property": 0.95,
+            "styleRef": 0.827,
+            "price": 0.841,
+            "total": 0.953
+          },
+          "contrast": 2.438,
+          "interests": [
+            {
+              "label": "Gaming",
+              "level": "specific",
+              "weight": 0.996,
+              "strength": 1
+            },
+            {
+              "label": "Music (broad)",
+              "level": "broad",
+              "weight": 0.679,
+              "strength": 0.3
+            },
+            {
+              "label": "Film & TV (broad)",
+              "level": "broad",
+              "weight": 0.37,
+              "strength": 0.3
+            }
+          ],
+          "matched": [
+            "Immersive",
+            "Futuristic",
+            "Energetic",
+            "Gaming"
+          ],
+          "seedShare": {
+            "FIFA 22": 0.696,
+            "Real Madrid CF": 0.118,
+            "Cristiano Ronaldo": 0.187
+          },
+          "styleRefHits": [
+            {
+              "name": "Razer",
+              "affinity": 0.827
+            },
+            {
+              "name": "Philips",
+              "affinity": 0.53
+            }
+          ],
+          "explanation": "FIFA 22 puts gaming at the heart of their taste (Qloo links that taste to “Gamers” and “Casual Gamers”). This ambient led light bars is made for that, with the immersive and energetic feel their taste leans toward."
+        },
+        {
+          "handle": "football-pitch-print",
+          "title": "Aerial Pitch Photo Print",
+          "category": "prints-art",
+          "price": 38,
+          "score": {
+            "interest": 0.997,
+            "property": 0.55,
+            "styleRef": 0.916,
+            "price": 0.418,
+            "total": 0.819
+          },
+          "contrast": 1.307,
+          "interests": [
+            {
+              "label": "Football",
+              "level": "specific",
+              "weight": 0.996,
+              "strength": 1
+            },
+            {
+              "label": "Art & illustration (broad)",
+              "level": "broad",
+              "weight": 0.35,
+              "strength": 0.4
+            }
+          ],
+          "matched": [
+            "Art Collecting",
+            "Cinematic",
+            "Professional Sports"
+          ],
+          "seedShare": {
+            "FIFA 22": 0.211,
+            "Real Madrid CF": 0.522,
+            "Cristiano Ronaldo": 0.267
+          },
+          "styleRefHits": [
+            {
+              "name": "Adidas",
+              "affinity": 0.916
+            }
+          ],
+          "explanation": "Real Madrid CF and Cristiano Ronaldo put football at the heart of their taste (Qloo links that taste to “Soccer Enthusiasts” and “Football Fans”). This aerial pitch photo print is made for that, with the cinematic feel their taste leans toward."
+        },
+        {
+          "handle": "football-tactics-board",
+          "title": "Folding Football Tactics Board",
+          "category": "sports-outdoors",
+          "price": 32,
+          "score": {
+            "interest": 0.997,
+            "property": 0.521,
+            "styleRef": 1,
+            "price": 0.275,
+            "total": 0.806
+          },
+          "contrast": 1.329,
+          "interests": [
+            {
+              "label": "Football",
+              "level": "specific",
+              "weight": 0.996,
+              "strength": 1
+            },
+            {
+              "label": "Sport & fitness (broad)",
+              "level": "broad",
+              "weight": 1,
+              "strength": 0.5
+            }
+          ],
+          "matched": [
+            "Competitive",
+            "Professional Sports"
+          ],
+          "seedShare": {
+            "FIFA 22": 0.246,
+            "Real Madrid CF": 0.467,
+            "Cristiano Ronaldo": 0.288
+          },
+          "styleRefHits": [
+            {
+              "name": "Nike",
+              "affinity": 1
+            },
+            {
+              "name": "Adidas",
+              "affinity": 0.916
+            }
+          ],
+          "explanation": "Real Madrid CF and Cristiano Ronaldo put football at the heart of their taste (Qloo links that taste to “Soccer Enthusiasts” and “Football Fans”). This folding football tactics board is made for that, with the competitive feel their taste leans toward."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Tabletop Foosball Game",
+          "interests": [
+            "Football",
+            "Gaming",
+            "Board games & puzzles"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Vintage Leather Football",
+          "interests": [
+            "Football",
+            "Sport & fitness"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Ambient LED Light Bars",
+          "interests": [
+            "Gaming",
+            "Music",
+            "Film & TV"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Aerial Pitch Photo Print",
+          "interests": [
+            "Football",
+            "Art & illustration"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Folding Football Tactics Board",
+          "interests": [
+            "Football",
+            "Sport & fitness"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.6,
+        "intraListDiversity": 0.74,
+        "seedCoverage": 1,
+        "meanInterest": 1,
+        "meanScore": 0.9
+      },
+      "qloo": {
+        "calls": 19,
+        "cached": 19
+      }
+    },
+    {
+      "id": "classic-films-jazz",
+      "label": "Classic films + jazz",
+      "seeds": [
+        {
+          "name": "Casablanca",
+          "type": "urn:entity:movie",
+          "kind": "entity"
+        },
+        {
+          "name": "Miles Davis",
+          "type": "urn:entity:artist",
+          "kind": "entity"
+        },
+        {
+          "name": "Roman Holiday",
+          "type": "urn:entity:movie",
+          "kind": "entity"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Film & TV",
+          "weight": 1,
+          "evidence": [
+            "Casablanca is a movie",
+            "Roman Holiday is a movie",
+            "Roman Holiday: Classic hollywood, National film registry, Cinematic",
+            "Casablanca: Classic cinema, Drama loving, Cinematic"
+          ]
+        },
+        {
+          "label": "Music",
+          "weight": 1,
+          "evidence": [
+            "Miles Davis is a artist",
+            "Miles Davis: Bebop, Jazz, Modal Jazz",
+            "Music Lovers, Jazz Enthusiasts, Jazz Aficionados",
+            "Home Theater, Music Instruments, Record Label"
+          ]
+        },
+        {
+          "label": "Jazz",
+          "weight": 0.967,
+          "evidence": [
+            "Miles Davis: Bebop, Jazz, Modal Jazz",
+            "Jazz Enthusiasts, Jazz Aficionados",
+            "Jazz"
+          ]
+        },
+        {
+          "label": "Classic cinema",
+          "weight": 0.857,
+          "evidence": [
+            "Roman Holiday: Classic hollywood, National film registry, Classic cinema",
+            "Casablanca: High contrast noir influenced framing, Classic cinema"
+          ]
+        },
+        {
+          "label": "Vinyl & hi-fi",
+          "weight": 0.56,
+          "evidence": [
+            "Home Theater, Record Label, Headphones"
+          ]
+        },
+        {
+          "label": "Home & hosting",
+          "weight": 0.488,
+          "evidence": [
+            "Entertaining"
+          ]
+        },
+        {
+          "label": "Travel & outdoors",
+          "weight": 0.48,
+          "evidence": [
+            "Roman Holiday: European cities, Sightseeing, Travel"
+          ]
+        },
+        {
+          "label": "Classical music",
+          "weight": 0.327,
+          "evidence": [
+            "Classical Music"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Global Travel",
+        "Luxury Travel",
+        "Sophisticated",
+        "Fine Art",
+        "Fine Dining",
+        "Artistic Patronage",
+        "Exclusive Events",
+        "Jet-Setting"
+      ],
+      "priceComfort": {
+        "p25": 85,
+        "median": 345,
+        "p75": 1225,
+        "tier": 0.85,
+        "samples": 148
+      },
+      "warnings": [],
+      "strongMatches": 5,
+      "picks": [
+        {
+          "handle": "suitcase-record-player",
+          "title": "Suitcase Record Player",
+          "category": "audio",
+          "price": 149,
+          "score": {
+            "interest": 0.858,
+            "property": 0,
+            "styleRef": 0,
+            "price": 0.892,
+            "total": 0.561
+          },
+          "contrast": 0,
+          "interests": [
+            {
+              "label": "Jazz",
+              "level": "specific",
+              "weight": 0.967,
+              "strength": 0.7
+            },
+            {
+              "label": "Vinyl & hi-fi",
+              "level": "specific",
+              "weight": 0.56,
+              "strength": 1
+            }
+          ],
+          "matched": [],
+          "seedShare": {
+            "Casablanca": 0.151,
+            "Miles Davis": 0.698,
+            "Roman Holiday": 0.151
+          },
+          "styleRefHits": [
+            {
+              "name": "Urban Outfitters",
+              "affinity": 0.743
+            }
+          ],
+          "explanation": "Miles Davis puts jazz at the heart of their taste (Qloo links that taste to “Jazz Enthusiasts” and “Jazz Aficionados”). This suitcase record player is made for that."
+        },
+        {
+          "handle": "canvas-weekender-bag",
+          "title": "Waxed Canvas Weekender",
+          "category": "bags-leather",
+          "price": 135,
+          "score": {
+            "interest": 0.48,
+            "property": 0.438,
+            "styleRef": 0.636,
+            "price": 0.952,
+            "total": 0.532
+          },
+          "contrast": 0.827,
+          "interests": [
+            {
+              "label": "Travel & outdoors",
+              "level": "specific",
+              "weight": 0.48,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Timeless",
+            "Travel"
+          ],
+          "seedShare": {
+            "Casablanca": 0.102,
+            "Miles Davis": 0.088,
+            "Roman Holiday": 0.81
+          },
+          "styleRefHits": [
+            {
+              "name": "Herschel Supply Co",
+              "affinity": 0.636
+            },
+            {
+              "name": "Fjällräven",
+              "affinity": 0.536
+            }
+          ],
+          "explanation": "Roman Holiday puts travel & outdoors at the heart of their taste (Qloo tags Roman Holiday with “European cities” and “Sightseeing”). This waxed canvas weekender is made for that, with the timeless feel their taste leans toward."
+        },
+        {
+          "handle": "picture-palace-art-print",
+          "title": "Picture Palace Art Print",
+          "category": "prints-art",
+          "price": 35,
+          "score": {
+            "interest": 0.871,
+            "property": 0,
+            "styleRef": 0,
+            "price": 0.153,
+            "total": 0.494
+          },
+          "contrast": 0,
+          "interests": [
+            {
+              "label": "Classic cinema",
+              "level": "specific",
+              "weight": 0.857,
+              "strength": 1
+            },
+            {
+              "label": "Art & illustration (broad)",
+              "level": "broad",
+              "weight": 0.164,
+              "strength": 0.6
+            }
+          ],
+          "matched": [],
+          "seedShare": {
+            "Casablanca": 0.452,
+            "Miles Davis": 0.034,
+            "Roman Holiday": 0.513
+          },
+          "styleRefHits": [
+            {
+              "name": "MUBI",
+              "affinity": 0.377
+            },
+            {
+              "name": "The Criterion Collection",
+              "affinity": 0.332
+            }
+          ],
+          "explanation": "Roman Holiday and Casablanca put classic cinema at the heart of their taste (Qloo tags Roman Holiday with “Classic hollywood” and “National film registry”). This picture palace art print is made for that."
+        },
+        {
+          "handle": "over-ear-headphones",
+          "title": "Wireless Over-Ear Headphones",
+          "category": "audio",
+          "price": 129,
+          "score": {
+            "interest": 0.558,
+            "property": 0.076,
+            "styleRef": 0.724,
+            "price": 0.972,
+            "total": 0.496
+          },
+          "contrast": 0.169,
+          "interests": [
+            {
+              "label": "Vinyl & hi-fi",
+              "level": "specific",
+              "weight": 0.56,
+              "strength": 0.8
+            },
+            {
+              "label": "Music (broad)",
+              "level": "broad",
+              "weight": 1,
+              "strength": 0.5
+            }
+          ],
+          "matched": [
+            "High Fidelity Audio"
+          ],
+          "seedShare": {
+            "Casablanca": 0.267,
+            "Miles Davis": 0.498,
+            "Roman Holiday": 0.236
+          },
+          "styleRefHits": [
+            {
+              "name": "Sonos",
+              "affinity": 0.724
+            }
+          ],
+          "explanation": "Miles Davis and Casablanca put vinyl & hi-fi at the heart of their taste (Qloo links that taste to “Home Theater” and “Record Label”). This wireless over-ear headphones is made for that."
+        },
+        {
+          "handle": "walnut-bluetooth-speaker",
+          "title": "Walnut Bluetooth Speaker",
+          "category": "audio",
+          "price": 89,
+          "score": {
+            "interest": 0.504,
+            "property": 0.057,
+            "styleRef": 0.997,
+            "price": 0.93,
+            "total": 0.484
+          },
+          "contrast": 0.119,
+          "interests": [
+            {
+              "label": "Vinyl & hi-fi",
+              "level": "specific",
+              "weight": 0.56,
+              "strength": 0.9
+            }
+          ],
+          "matched": [
+            "High Fidelity Audio"
+          ],
+          "seedShare": {
+            "Casablanca": 0.334,
+            "Miles Davis": 0.333,
+            "Roman Holiday": 0.333
+          },
+          "styleRefHits": [
+            {
+              "name": "Bose Corporation",
+              "affinity": 0.997
+            },
+            {
+              "name": "Bang & Olufsen",
+              "affinity": 0.708
+            }
+          ],
+          "explanation": "Casablanca and Miles Davis put vinyl & hi-fi at the heart of their taste (Qloo links that taste to “Home Theater” and “Record Label”). This walnut bluetooth speaker is made for that."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "Suitcase Record Player",
+          "interests": [
+            "Jazz",
+            "Vinyl & hi-fi"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Waxed Canvas Weekender",
+          "interests": [
+            "Travel & outdoors"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Picture Palace Art Print",
+          "interests": [
+            "Classic cinema",
+            "Art & illustration"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Wireless Over-Ear Headphones",
+          "interests": [
+            "Vinyl & hi-fi",
+            "Music"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Walnut Bluetooth Speaker",
+          "interests": [
+            "Vinyl & hi-fi"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.6,
+        "intraListDiversity": 0.89,
+        "seedCoverage": 1,
+        "meanInterest": 0.65,
+        "meanScore": 0.51
+      },
+      "qloo": {
+        "calls": 19,
+        "cached": 19
+      }
+    },
+    {
+      "id": "kdrama-skincare",
+      "label": "K-drama + skincare",
+      "seeds": [
+        {
+          "name": "Crash Landing on You",
+          "type": "urn:entity:tv_show",
+          "kind": "entity"
+        },
+        {
+          "name": "Laneige",
+          "type": "urn:entity:brand",
+          "kind": "entity"
+        },
+        {
+          "name": "Sulwhasoo",
+          "type": "urn:entity:brand",
+          "kind": "entity"
+        }
+      ],
+      "interests": [
+        {
+          "label": "Beauty & skincare",
+          "weight": 0.999,
+          "evidence": [
+            "Laneige: Health & Beauty, Dewy Glowing Skin, Beauty Curiosity",
+            "Sulwhasoo: Health & Beauty, Ageless Beauty, Beauty Routine",
+            "Cosmetics, Makeup, Beauty",
+            "Skincare, Suncare, Health & Beauty"
+          ]
+        },
+        {
+          "label": "Wellness & self-care",
+          "weight": 0.986,
+          "evidence": [
+            "Sulwhasoo: Self-Care, Holistic Care, Health & Wellness",
+            "Laneige: Mindful Wellness, Self-Care, Self-Care Rituals"
+          ]
+        },
+        {
+          "label": "Korean culture",
+          "weight": 0.973,
+          "evidence": [
+            "Laneige: K-Beauty Movement, K-Beauty Fans, K-Pop Stars",
+            "Sulwhasoo: Korean Beauty Movement, South Korea",
+            "Crash Landing on You: Korean drama",
+            "South Korea, Korean Drama"
+          ]
+        },
+        {
+          "label": "Film & TV",
+          "weight": 0.963,
+          "evidence": [
+            "Crash Landing on You is a tv show",
+            "Crash Landing on You: Tv mini series, Drama loving, K drama"
+          ]
+        },
+        {
+          "label": "Books & reading",
+          "weight": 0.583,
+          "evidence": [
+            "Indonesian Literature, Comic Book, Asian Literature"
+          ]
+        },
+        {
+          "label": "Fashion & style",
+          "weight": 0.485,
+          "evidence": [
+            "Crash Landing on You: Fashion and beauty",
+            "Fashion, Fashion Beauty",
+            "Haute Couture, Accessories, Jewelry"
+          ]
+        },
+        {
+          "label": "Japanese culture",
+          "weight": 0.35,
+          "evidence": [
+            "Sulwhasoo: Japan"
+          ]
+        },
+        {
+          "label": "Fine art",
+          "weight": 0.35,
+          "evidence": [
+            "Sulwhasoo: Museum Exhibitions"
+          ]
+        }
+      ],
+      "topFacets": [
+        "Trendy",
+        "Sophisticated",
+        "Art Collecting",
+        "Refined",
+        "Skincare",
+        "Fine Art",
+        "Fine Dining",
+        "Clean"
+      ],
+      "priceComfort": {
+        "p25": 24,
+        "median": 55,
+        "p75": 335,
+        "tier": 0.45,
+        "samples": 148
+      },
+      "warnings": [],
+      "strongMatches": 11,
+      "picks": [
+        {
+          "handle": "korean-sheet-mask-set",
+          "title": "K-Beauty Sheet Mask Set",
+          "category": "beauty-skincare",
+          "price": 30,
+          "score": {
+            "interest": 1,
+            "property": 1,
+            "styleRef": 1,
+            "price": 0.656,
+            "total": 0.966
+          },
+          "contrast": 7.416,
+          "interests": [
+            {
+              "label": "Beauty & skincare",
+              "level": "specific",
+              "weight": 0.999,
+              "strength": 1
+            },
+            {
+              "label": "Korean culture",
+              "level": "specific",
+              "weight": 0.973,
+              "strength": 1
+            },
+            {
+              "label": "Wellness & self-care",
+              "level": "specific",
+              "weight": 0.986,
+              "strength": 0.4
+            }
+          ],
+          "matched": [
+            "Skincare",
+            "Clean",
+            "Refreshing",
+            "Radiant",
+            "Self-Care Rituals"
+          ],
+          "seedShare": {
+            "Crash Landing on You": 0.174,
+            "Laneige": 0.44,
+            "Sulwhasoo": 0.386
+          },
+          "styleRefHits": [
+            {
+              "name": "Innisfree",
+              "affinity": 1
+            }
+          ],
+          "explanation": "Laneige and Sulwhasoo put beauty & skincare at the heart of their taste (Qloo links that taste to “Cosmetics” and “Makeup”). This K-Beauty sheet mask set is made for that, with the refreshing and radiant feel their taste leans toward."
+        },
+        {
+          "handle": "jade-facial-roller-set",
+          "title": "Jade Facial Roller Set",
+          "category": "beauty-skincare",
+          "price": 32,
+          "score": {
+            "interest": 1,
+            "property": 0.893,
+            "styleRef": 0.564,
+            "price": 0.72,
+            "total": 0.901
+          },
+          "contrast": 6.984,
+          "interests": [
+            {
+              "label": "Beauty & skincare",
+              "level": "specific",
+              "weight": 0.999,
+              "strength": 1
+            },
+            {
+              "label": "Wellness & self-care",
+              "level": "specific",
+              "weight": 0.986,
+              "strength": 0.6
+            }
+          ],
+          "matched": [
+            "Skincare",
+            "Feminine",
+            "Self-Care",
+            "Gentle",
+            "Self-Care Rituals"
+          ],
+          "seedShare": {
+            "Crash Landing on You": 0.159,
+            "Laneige": 0.418,
+            "Sulwhasoo": 0.423
+          },
+          "styleRefHits": [
+            {
+              "name": "Glossier",
+              "affinity": 0.564
+            },
+            {
+              "name": "Sephora",
+              "affinity": 0.465
+            }
+          ],
+          "explanation": "Laneige and Sulwhasoo put beauty & skincare at the heart of their taste (Qloo links that taste to “Cosmetics” and “Makeup”). This jade facial roller set is made for that, with the feminine and gentle feel their taste leans toward."
+        },
+        {
+          "handle": "botanical-skincare-ritual",
+          "title": "Botanical Skincare Ritual Set",
+          "category": "beauty-skincare",
+          "price": 58,
+          "score": {
+            "interest": 0.999,
+            "property": 0.794,
+            "styleRef": 0.403,
+            "price": 0.984,
+            "total": 0.887
+          },
+          "contrast": 5.557,
+          "interests": [
+            {
+              "label": "Beauty & skincare",
+              "level": "specific",
+              "weight": 0.999,
+              "strength": 1
+            },
+            {
+              "label": "Wellness & self-care",
+              "level": "specific",
+              "weight": 0.986,
+              "strength": 0.5
+            }
+          ],
+          "matched": [
+            "Skincare",
+            "Minimalist",
+            "Self-Care",
+            "Gentle",
+            "Radiant"
+          ],
+          "seedShare": {
+            "Crash Landing on You": 0.159,
+            "Laneige": 0.418,
+            "Sulwhasoo": 0.422
+          },
+          "styleRefHits": [
+            {
+              "name": "Aesop",
+              "affinity": 0.403
+            }
+          ],
+          "explanation": "Laneige and Sulwhasoo put beauty & skincare at the heart of their taste (Qloo links that taste to “Cosmetics” and “Makeup”). This botanical skincare ritual set is made for that, with the gentle and radiant feel their taste leans toward."
+        },
+        {
+          "handle": "rose-quartz-gua-sha",
+          "title": "Rose Quartz Gua Sha",
+          "category": "beauty-skincare",
+          "price": 26,
+          "score": {
+            "interest": 1,
+            "property": 0.653,
+            "styleRef": 0.564,
+            "price": 0.512,
+            "total": 0.821
+          },
+          "contrast": 5.3,
+          "interests": [
+            {
+              "label": "Beauty & skincare",
+              "level": "specific",
+              "weight": 0.999,
+              "strength": 1
+            },
+            {
+              "label": "Wellness & self-care",
+              "level": "specific",
+              "weight": 0.986,
+              "strength": 0.6
+            }
+          ],
+          "matched": [
+            "Skincare",
+            "Gentle"
+          ],
+          "seedShare": {
+            "Crash Landing on You": 0.146,
+            "Laneige": 0.425,
+            "Sulwhasoo": 0.43
+          },
+          "styleRefHits": [
+            {
+              "name": "Glossier",
+              "affinity": 0.564
+            }
+          ],
+          "explanation": "Laneige and Sulwhasoo put beauty & skincare at the heart of their taste (Qloo links that taste to “Cosmetics” and “Makeup”). This rose quartz gua sha is made for that, with the gentle feel their taste leans toward."
+        },
+        {
+          "handle": "celadon-tea-set",
+          "title": "Celadon Tea Set",
+          "category": "ceramics-tableware",
+          "price": 58,
+          "score": {
+            "interest": 0.973,
+            "property": 0.232,
+            "styleRef": 0.427,
+            "price": 0.984,
+            "total": 0.734
+          },
+          "contrast": 1.858,
+          "interests": [
+            {
+              "label": "Korean culture",
+              "level": "specific",
+              "weight": 0.973,
+              "strength": 1
+            }
+          ],
+          "matched": [
+            "Gentle",
+            "Afternoon Tea"
+          ],
+          "seedShare": {
+            "Crash Landing on You": 0.137,
+            "Laneige": 0.518,
+            "Sulwhasoo": 0.345
+          },
+          "styleRefHits": [
+            {
+              "name": "Muji",
+              "affinity": 0.427
+            }
+          ],
+          "explanation": "Laneige and Sulwhasoo put Korean culture at the heart of their taste (Qloo links that taste to “South Korea” and “Korean Drama”). This celadon tea set is made for that, with the gentle feel their taste leans toward."
+        }
+      ],
+      "sanity": [
+        {
+          "title": "K-Beauty Sheet Mask Set",
+          "interests": [
+            "Beauty & skincare",
+            "Korean culture",
+            "Wellness & self-care"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Jade Facial Roller Set",
+          "interests": [
+            "Beauty & skincare",
+            "Wellness & self-care"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Botanical Skincare Ritual Set",
+          "interests": [
+            "Beauty & skincare",
+            "Wellness & self-care"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Rose Quartz Gua Sha",
+          "interests": [
+            "Beauty & skincare",
+            "Wellness & self-care"
+          ],
+          "pass": true,
+          "specific": true
+        },
+        {
+          "title": "Celadon Tea Set",
+          "interests": [
+            "Korean culture"
+          ],
+          "pass": true,
+          "specific": true
+        }
+      ],
+      "metrics": {
+        "shown": 5,
+        "fails": 0,
+        "broadOnly": 0,
+        "categoryDiversity": 0.4,
+        "intraListDiversity": 0.48,
+        "seedCoverage": 1,
+        "meanInterest": 0.99,
+        "meanScore": 0.86
+      },
+      "qloo": {
+        "calls": 19,
+        "cached": 19
+      }
+    }
+  ]
+}

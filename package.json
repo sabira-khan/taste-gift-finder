@@ -1,0 +1,35 @@
+{
+  "name": "taste-gift-finder",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "vocab": "tsx scripts/build-vocabulary.ts",
+    "baseline": "tsx scripts/build-interest-baseline.ts && tsx scripts/build-baseline.ts",
+    "photos": "tsx scripts/find-photos.ts",
+    "tag": "tsx scripts/tag-products.ts",
+    "eval": "tsx scripts/eval.ts",
+    "seed:shopify": "tsx scripts/seed-shopify.ts"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^3.21.11",
+    "ofetch": "^1.5.1",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "dotenv": "^18.0.7",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.0",
+    "vue-tsc": "^3.3.13"
+  }
+}

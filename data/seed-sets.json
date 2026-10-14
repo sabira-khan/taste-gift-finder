@@ -1,0 +1,15 @@
+[
+  { "id": "cozy-literary", "seeds": [{ "query": "Taylor Swift", "type": "urn:entity:artist" }, { "query": "Gilmore Girls", "type": "urn:entity:tv_show" }, { "query": "Pride and Prejudice", "type": "urn:entity:book" }] },
+  { "id": "arab-classics", "seeds": [{ "query": "Oum Kalthoum", "type": "urn:entity:artist" }, { "query": "Amr Diab", "type": "urn:entity:person" }, { "query": "Nancy Ajram", "type": "urn:entity:artist" }] },
+  { "id": "melancholy-futurist", "seeds": [{ "query": "Radiohead", "type": "urn:entity:artist" }, { "query": "Blade Runner", "type": "urn:entity:movie" }, { "query": "Kafka on the Shore", "type": "urn:entity:book" }] },
+  { "id": "bollywood", "seeds": [{ "query": "Shah Rukh Khan", "type": "urn:entity:person" }, { "query": "A. R. Rahman", "type": "urn:entity:artist" }, { "query": "Kabhi Khushi Kabhie Gham", "type": "urn:entity:movie" }] },
+  { "id": "glam-pop", "seeds": [{ "query": "Beyoncé", "type": "urn:entity:artist" }, { "query": "Fenty Beauty", "type": "urn:entity:brand" }, { "query": "Rihanna", "type": "urn:entity:artist" }] },
+  { "id": "cozy-gaming", "seeds": [{ "query": "Animal Crossing: New Horizons", "type": "urn:entity:videogame" }, { "query": "Stardew Valley", "type": "urn:entity:videogame" }, { "query": "Studio Ghibli", "type": "urn:entity:artist" }] },
+  { "id": "home-cook", "seeds": [{ "query": "Jerusalem: A Cookbook", "type": "urn:entity:book" }, { "query": "Chef's Table", "type": "urn:entity:tv_show" }, { "query": "Le Creuset", "type": "urn:entity:brand" }] },
+  { "id": "outdoors", "seeds": [{ "query": "Patagonia", "type": "urn:entity:brand" }, { "query": "Into the Wild", "type": "urn:entity:movie" }, { "query": "Planet Earth", "type": "urn:entity:tv_show" }] },
+  { "id": "minimalist", "seeds": [{ "query": "Muji", "type": "urn:entity:brand" }, { "query": "Tidying Up with Marie Kondo", "type": "urn:entity:tv_show" }, { "query": "Aesop", "type": "urn:entity:brand" }] },
+  { "id": "motorsport", "seeds": [{ "query": "Formula 1: Drive to Survive", "type": "urn:entity:tv_show" }, { "query": "Lewis Hamilton", "type": "urn:entity:person" }, { "query": "Porsche", "type": "urn:entity:brand" }] },
+  { "id": "fantasy", "seeds": [{ "query": "Harry Potter and the Philosopher's Stone", "type": "urn:entity:book" }, { "query": "The Lord of the Rings: The Fellowship of the Ring", "type": "urn:entity:movie" }, { "query": "The Witcher", "type": "urn:entity:tv_show" }] },
+  { "id": "gen-z", "seeds": [{ "query": "Billie Eilish", "type": "urn:entity:artist" }, { "query": "Euphoria", "type": "urn:entity:tv_show" }, { "query": "Converse", "type": "urn:entity:brand" }] },
+  { "id": "wellness", "seeds": [{ "query": "Lululemon", "type": "urn:entity:brand" }, { "query": "Headspace", "type": "urn:entity:brand" }, { "query": "The Power of Now", "type": "urn:entity:book" }] }
+]

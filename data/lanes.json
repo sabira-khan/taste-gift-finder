@@ -1,0 +1,8 @@
+[
+  { "id": "accessories", "label": "Accessories", "tags": ["urn:tag:genre:brand:fashion:accessories", "urn:tag:genre:brand:fashion:accessories:jewelry", "urn:tag:genre:brand:fashion:accessories:watch", "urn:tag:genre:brand:fashion:accessories:bags_and_leather"], "categories": ["jewelry-accessories", "bags-leather"] },
+  { "id": "apparel", "label": "Apparel", "tags": ["urn:tag:genre:brand:fashion:casual", "urn:tag:genre:brand:fashion:athletic", "urn:tag:genre:brand:fashion:footwear:sneaker:lifestyle"], "categories": ["apparel", "bags-leather"] },
+  { "id": "beauty", "label": "Beauty & care", "tags": ["urn:tag:genre:brand:health_and_beauty", "urn:tag:genre:brand:health_and_beauty:skincare"], "categories": ["beauty-skincare", "wellness", "home-fragrance"] },
+  { "id": "home", "label": "Home", "tags": ["urn:tag:genre:brand:fashion:home_accessories", "urn:tag:genre:brand:household"], "categories": ["home-fragrance", "ceramics-tableware", "kitchen", "home-decor"] },
+  { "id": "treats", "label": "Coffee, tea & treats", "tags": ["urn:tag:genre:brand:food_and_beverage:drinks:coffee_and_tea", "urn:tag:genre:brand:food_and_beverage:food:candy_and_confectionery", "urn:tag:genre:brand:food_and_beverage:food:bakery"], "categories": ["tea-coffee", "sweets", "kitchen"] },
+  { "id": "play", "label": "Play & sound", "tags": ["urn:tag:genre:brand:electronics:headphones", "urn:tag:genre:brand:electronics:gaming", "urn:tag:genre:brand:electronics:camera_and_video", "urn:tag:genre:brand:entertainment:video_game_developer"], "categories": ["audio", "games-puzzles", "prints-art"] }
+]

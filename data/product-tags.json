@@ -1,0 +1,6146 @@
+{
+  "vocabularyVersion": "2",
+  "builtAt": "2026-10-13T13:13:37.577Z",
+  "products": [
+    {
+      "handle": "hand-thrown-matcha-bowl",
+      "title": "Hand-Thrown Matcha Bowl",
+      "category": "ceramics-tableware",
+      "price": 38,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:earth_tones",
+          "dimension": "aesthetic",
+          "label": "Earth Tones",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:authentic",
+          "dimension": "tone",
+          "label": "Authentic",
+          "idf": 2.084,
+          "brandCount": 103
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:slow_living",
+          "dimension": "lifestyle",
+          "label": "Slow Living",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:morning_routine",
+          "dimension": "lifestyle",
+          "label": "Morning Routine",
+          "idf": 2.43,
+          "brandCount": 70
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:tea_culture",
+          "dimension": "interest",
+          "label": "Tea Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:handmade_craftsmanship",
+          "dimension": "interest",
+          "label": "Handmade Craftsmanship",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:mindfulness",
+          "dimension": "interest",
+          "label": "Mindfulness",
+          "idf": 3.401,
+          "brandCount": 25
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Anthropologie",
+          "entityId": "AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819",
+          "qlooName": "Anthropologie"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tea",
+          "label": "Tea",
+          "strength": 1
+        },
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "speckled-stoneware-mug-pair",
+      "title": "Speckled Stoneware Mug Pair",
+      "category": "ceramics-tableware",
+      "price": 32,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:neutral_color_palette",
+          "dimension": "aesthetic",
+          "label": "Neutral Color Palette",
+          "idf": 2.404,
+          "brandCount": 72
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:textured",
+          "dimension": "aesthetic",
+          "label": "Textured",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:warm",
+          "dimension": "tone",
+          "label": "Warm",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:inviting",
+          "dimension": "tone",
+          "label": "Inviting",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:relaxing_at_home",
+          "dimension": "lifestyle",
+          "label": "Relaxing At Home",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:morning_routine",
+          "dimension": "lifestyle",
+          "label": "Morning Routine",
+          "idf": 2.43,
+          "brandCount": 70
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:artisan_crafts",
+          "dimension": "interest",
+          "label": "Artisan Crafts",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:coffee_culture",
+          "dimension": "interest",
+          "label": "Coffee Culture",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Anthropologie",
+          "entityId": "AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819",
+          "qlooName": "Anthropologie"
+        }
+      ],
+      "interests": [
+        {
+          "id": "coffee",
+          "label": "Coffee",
+          "strength": 1
+        },
+        {
+          "id": "tea",
+          "label": "Tea",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "brass-dallah-coffee-set",
+      "title": "Brass Dallah Coffee Set",
+      "category": "tea-coffee",
+      "price": 85,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:gold_accents",
+          "dimension": "aesthetic",
+          "label": "Gold Accents",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:heritage_inspired",
+          "dimension": "aesthetic",
+          "label": "Heritage-Inspired",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:welcoming",
+          "dimension": "tone",
+          "label": "Welcoming",
+          "idf": 3.72,
+          "brandCount": 18
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:hosting_gatherings",
+          "dimension": "lifestyle",
+          "label": "Hosting Gatherings",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:family_gatherings",
+          "dimension": "lifestyle",
+          "label": "Family Gatherings",
+          "idf": 3.899,
+          "brandCount": 15
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:coffee_culture",
+          "dimension": "interest",
+          "label": "Coffee Culture",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:entertaining",
+          "dimension": "interest",
+          "label": "Entertaining",
+          "idf": 4.039,
+          "brandCount": 13
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Bateel",
+          "entityId": "1859BEE3-AB9C-43B0-B784-0DAB7056DE40",
+          "qlooName": "Bateel"
+        }
+      ],
+      "interests": [
+        {
+          "id": "coffee",
+          "label": "Coffee",
+          "strength": 1
+        },
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "ceremonial-matcha-kit",
+      "title": "Ceremonial Matcha Starter Kit",
+      "category": "tea-coffee",
+      "price": 54,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_tones",
+          "dimension": "aesthetic",
+          "label": "Natural Tones",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:mindful",
+          "dimension": "tone",
+          "label": "Mindful",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:morning_rituals",
+          "dimension": "lifestyle",
+          "label": "Morning Rituals",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:mindful_living",
+          "dimension": "lifestyle",
+          "label": "Mindful Living",
+          "idf": 3.258,
+          "brandCount": 29
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:tea_culture",
+          "dimension": "interest",
+          "label": "Tea Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:holistic_wellness",
+          "dimension": "interest",
+          "label": "Holistic Wellness",
+          "idf": 3,
+          "brandCount": 38
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:self_care_rituals",
+          "dimension": "interest",
+          "label": "Self-Care Rituals",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Aesop",
+          "entityId": "32F867B9-E6DF-44C3-BCE4-40160C7ED5E4",
+          "qlooName": "Aesop"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tea",
+          "label": "Tea",
+          "strength": 1
+        },
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 0.6
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "single-origin-coffee-flight",
+      "title": "Single-Origin Coffee Flight",
+      "category": "tea-coffee",
+      "price": 29,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:earth_tones",
+          "dimension": "aesthetic",
+          "label": "Earth Tones",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:authentic",
+          "dimension": "tone",
+          "label": "Authentic",
+          "idf": 2.084,
+          "brandCount": 103
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:adventurous",
+          "dimension": "tone",
+          "label": "Adventurous",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:morning_routine",
+          "dimension": "lifestyle",
+          "label": "Morning Routine",
+          "idf": 2.43,
+          "brandCount": 70
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:cultural_exploration",
+          "dimension": "lifestyle",
+          "label": "Cultural Exploration",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:specialty_coffee",
+          "dimension": "interest",
+          "label": "Specialty Coffee",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:coffee_culture",
+          "dimension": "interest",
+          "label": "Coffee Culture",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gourmet_food",
+          "dimension": "interest",
+          "label": "Gourmet Food",
+          "idf": 4.984,
+          "brandCount": 5
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Blue Bottle Coffee",
+          "entityId": "22B1BC87-CDFE-4340-86F8-8E0E6E1E6A7D",
+          "qlooName": "Blue Bottle Coffee"
+        },
+        {
+          "name": "Starbucks",
+          "entityId": "B13C02E3-BA3C-4B39-85B4-ACF12FEBC892",
+          "qlooName": "Starbucks"
+        }
+      ],
+      "interests": [
+        {
+          "id": "coffee",
+          "label": "Coffee",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "glass-pour-over-set",
+      "title": "Glass Pour-Over Set",
+      "category": "kitchen",
+      "price": 46,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:clean_lines",
+          "dimension": "aesthetic",
+          "label": "Clean Lines",
+          "idf": 2.146,
+          "brandCount": 96
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:functional",
+          "dimension": "aesthetic",
+          "label": "Functional",
+          "idf": 2.174,
+          "brandCount": 93
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:precise",
+          "dimension": "tone",
+          "label": "Precise",
+          "idf": 3.292,
+          "brandCount": 28
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:morning_routine",
+          "dimension": "lifestyle",
+          "label": "Morning Routine",
+          "idf": 2.43,
+          "brandCount": 70
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:slow_living",
+          "dimension": "lifestyle",
+          "label": "Slow Living",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:specialty_coffee",
+          "dimension": "interest",
+          "label": "Specialty Coffee",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:home_brewing",
+          "dimension": "interest",
+          "label": "Home Brewing",
+          "idf": 4.518,
+          "brandCount": 8
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Williams-Sonoma",
+          "entityId": "2B7931BB-8C2D-4FE0-BA41-8A5216BE6B4D",
+          "qlooName": "Williams-Sonoma"
+        }
+      ],
+      "interests": [
+        {
+          "id": "coffee",
+          "label": "Coffee",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "medjool-dates-gift-box",
+      "title": "Stuffed Medjool Dates Box",
+      "category": "sweets",
+      "price": 36,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:gold_accents",
+          "dimension": "aesthetic",
+          "label": "Gold Accents",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:welcoming",
+          "dimension": "tone",
+          "label": "Welcoming",
+          "idf": 3.72,
+          "brandCount": 18
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:indulgent",
+          "dimension": "tone",
+          "label": "Indulgent",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:family_gatherings",
+          "dimension": "lifestyle",
+          "label": "Family Gatherings",
+          "idf": 3.899,
+          "brandCount": 15
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:holiday_celebrations",
+          "dimension": "lifestyle",
+          "label": "Holiday Celebrations",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gift_giving",
+          "dimension": "interest",
+          "label": "Gift Giving",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:confectionery",
+          "dimension": "interest",
+          "label": "Confectionery",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gourmet_food",
+          "dimension": "interest",
+          "label": "Gourmet Food",
+          "idf": 4.984,
+          "brandCount": 5
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Bateel",
+          "entityId": "1859BEE3-AB9C-43B0-B784-0DAB7056DE40",
+          "qlooName": "Bateel"
+        },
+        {
+          "name": "Patchi",
+          "entityId": "345B968B-A1B5-45DE-B955-E9A0DA1ED779",
+          "qlooName": "Patchi"
+        }
+      ],
+      "interests": [
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        },
+        {
+          "id": "cooking-food",
+          "label": "Cooking & food",
+          "strength": 0.6
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "artisan-chocolate-collection",
+      "title": "Artisan Chocolate Collection",
+      "category": "sweets",
+      "price": 28,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vibrant_colors",
+          "dimension": "aesthetic",
+          "label": "Vibrant Colors",
+          "idf": 2.556,
+          "brandCount": 61
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:intricate_detailing",
+          "dimension": "aesthetic",
+          "label": "Intricate Detailing",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:indulgent",
+          "dimension": "tone",
+          "label": "Indulgent",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:joyful",
+          "dimension": "tone",
+          "label": "Joyful",
+          "idf": 3.441,
+          "brandCount": 24
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:celebratory",
+          "dimension": "tone",
+          "label": "Celebratory",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:celebrating_milestones",
+          "dimension": "lifestyle",
+          "label": "Celebrating Milestones",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:confectionery",
+          "dimension": "interest",
+          "label": "Confectionery",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:dessert_culture",
+          "dimension": "interest",
+          "label": "Dessert Culture",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gift_giving",
+          "dimension": "interest",
+          "label": "Gift Giving",
+          "idf": 3.668,
+          "brandCount": 19
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Lindt Chocolate",
+          "entityId": "98D37ED1-6A73-4E92-9902-F47587061D71",
+          "qlooName": "Lindt Chocolate"
+        },
+        {
+          "name": "Godiva Chocolatier",
+          "entityId": "32EF79CA-9097-4F21-A490-CD89DCCD906E",
+          "qlooName": "Godiva Chocolatier"
+        }
+      ],
+      "interests": [
+        {
+          "id": "cooking-food",
+          "label": "Cooking & food",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "round-wood-serving-board",
+      "title": "Round Hardwood Serving Board",
+      "category": "kitchen",
+      "price": 42,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:earth_tones",
+          "dimension": "aesthetic",
+          "label": "Earth Tones",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:rugged_texture",
+          "dimension": "aesthetic",
+          "label": "Rugged Texture",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:inviting",
+          "dimension": "tone",
+          "label": "Inviting",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:warm",
+          "dimension": "tone",
+          "label": "Warm",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:hosting_dinner_parties",
+          "dimension": "lifestyle",
+          "label": "Hosting Dinner Parties",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:cooking_at_home",
+          "dimension": "lifestyle",
+          "label": "Cooking At Home",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:home_entertaining",
+          "dimension": "interest",
+          "label": "Home Entertaining",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:culinary_arts",
+          "dimension": "interest",
+          "label": "Culinary Arts",
+          "idf": 3.401,
+          "brandCount": 25
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Williams-Sonoma",
+          "entityId": "2B7931BB-8C2D-4FE0-BA41-8A5216BE6B4D",
+          "qlooName": "Williams-Sonoma"
+        },
+        {
+          "name": "Crate & Barrel",
+          "entityId": "A1422E65-D068-45AF-9A94-0EA85AFD26B9",
+          "qlooName": "Crate & Barrel"
+        }
+      ],
+      "interests": [
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 1
+        },
+        {
+          "id": "cooking-food",
+          "label": "Cooking & food",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "enamel-cast-iron-pot",
+      "title": "Enamel Cast Iron Pot",
+      "category": "kitchen",
+      "price": 119,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:robust_construction",
+          "dimension": "aesthetic",
+          "label": "Robust Construction",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_color_palette",
+          "dimension": "aesthetic",
+          "label": "Soft Color Palette",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:home_cooking",
+          "dimension": "lifestyle",
+          "label": "Home Cooking",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:family_gatherings",
+          "dimension": "lifestyle",
+          "label": "Family Gatherings",
+          "idf": 3.899,
+          "brandCount": 15
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gourmet_cooking",
+          "dimension": "interest",
+          "label": "Gourmet Cooking",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:comfort_food",
+          "dimension": "interest",
+          "label": "Comfort Food",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:culinary_arts",
+          "dimension": "interest",
+          "label": "Culinary Arts",
+          "idf": 3.401,
+          "brandCount": 25
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Le Creuset",
+          "entityId": "9886839E-BED5-45F9-8703-276527054727",
+          "qlooName": "Le Creuset"
+        },
+        {
+          "name": "Lodge Cast Iron",
+          "entityId": "82F8EF9D-D2DD-4524-ADE4-9FD414FAA37A",
+          "qlooName": "Lodge Cast Iron"
+        }
+      ],
+      "interests": [
+        {
+          "id": "cooking-food",
+          "label": "Cooking & food",
+          "strength": 1
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "bakhoor-burner-set",
+      "title": "Bakhoor Burner and Oud Chips",
+      "category": "home-fragrance",
+      "price": 48,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:intricate_detailing",
+          "dimension": "aesthetic",
+          "label": "Intricate Detailing",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:sensual",
+          "dimension": "tone",
+          "label": "Sensual",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:welcoming",
+          "dimension": "tone",
+          "label": "Welcoming",
+          "idf": 3.72,
+          "brandCount": 18
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:serene",
+          "dimension": "tone",
+          "label": "Serene",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:hosting_gatherings",
+          "dimension": "lifestyle",
+          "label": "Hosting Gatherings",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:relaxing_at_home",
+          "dimension": "lifestyle",
+          "label": "Relaxing At Home",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fine_fragrance",
+          "dimension": "interest",
+          "label": "Fine Fragrance",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fragrance_collecting",
+          "dimension": "interest",
+          "label": "Fragrance Collecting",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Amouage",
+          "entityId": "490FA95B-6BE4-4CF5-AD10-B4AD04DEDF6D",
+          "qlooName": "Amouage"
+        },
+        {
+          "name": "Ibraheem Al Qurashi",
+          "entityId": "FF26B513-D5F9-4915-8F73-C85DC7726C6F",
+          "qlooName": "Ibraheem Al Qurashi"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fragrance",
+          "label": "Fragrance",
+          "strength": 1
+        },
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "soy-candle-trio",
+      "title": "Fig, Cedar and Rain Candle Trio",
+      "category": "home-fragrance",
+      "price": 36,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:warm_tones",
+          "dimension": "aesthetic",
+          "label": "Warm Tones",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:soothing",
+          "dimension": "tone",
+          "label": "Soothing",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:relaxing_at_home",
+          "dimension": "lifestyle",
+          "label": "Relaxing At Home",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:evening_routine",
+          "dimension": "lifestyle",
+          "label": "Evening Routine",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:self_care",
+          "dimension": "interest",
+          "label": "Self-Care",
+          "idf": 3.078,
+          "brandCount": 35
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:home_decor",
+          "dimension": "interest",
+          "label": "Home Decor",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Jo Malone London",
+          "entityId": "D9FD22A4-9B79-4098-9B10-7F4164ACADFA",
+          "qlooName": "Jo Malone London"
+        },
+        {
+          "name": "Aesop",
+          "entityId": "32F867B9-E6DF-44C3-BCE4-40160C7ED5E4",
+          "qlooName": "Aesop"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fragrance",
+          "label": "Fragrance",
+          "strength": 0.7
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.6
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "linen-throw-blanket",
+      "title": "Washed Linen Throw",
+      "category": "home-decor",
+      "price": 78,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:neutral_color_palette",
+          "dimension": "aesthetic",
+          "label": "Neutral Color Palette",
+          "idf": 2.404,
+          "brandCount": 72
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_textures",
+          "dimension": "aesthetic",
+          "label": "Soft Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:relaxed_silhouettes",
+          "dimension": "aesthetic",
+          "label": "Relaxed Silhouettes",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:relaxed",
+          "dimension": "tone",
+          "label": "Relaxed",
+          "idf": 3.363,
+          "brandCount": 26
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:slow_living",
+          "dimension": "lifestyle",
+          "label": "Slow Living",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:casual_lounging",
+          "dimension": "lifestyle",
+          "label": "Casual Lounging",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:interior_design",
+          "dimension": "interest",
+          "label": "Interior Design",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:slow_living",
+          "dimension": "interest",
+          "label": "Slow Living",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Brooklinen",
+          "entityId": "78F8E031-5C82-4C02-8556-6BF43069811C",
+          "qlooName": "Brooklinen"
+        },
+        {
+          "name": "West Elm",
+          "entityId": "18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C",
+          "qlooName": "West Elm"
+        }
+      ],
+      "interests": [
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.6
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "dried-flower-ceramic-vase",
+      "title": "Dried Flower Bundle with Bud Vase",
+      "category": "home-decor",
+      "price": 44,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:botanical",
+          "dimension": "aesthetic",
+          "label": "Botanical",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:matte_finishes",
+          "dimension": "aesthetic",
+          "label": "Matte Finishes",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_color_palette",
+          "dimension": "aesthetic",
+          "label": "Soft Color Palette",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:romantic",
+          "dimension": "tone",
+          "label": "Romantic",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:gentle",
+          "dimension": "tone",
+          "label": "Gentle",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:curated_living",
+          "dimension": "lifestyle",
+          "label": "Curated Living",
+          "idf": 2.975,
+          "brandCount": 39
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:home_decor",
+          "dimension": "interest",
+          "label": "Home Decor",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:interior_design",
+          "dimension": "interest",
+          "label": "Interior Design",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gardening",
+          "dimension": "interest",
+          "label": "Gardening",
+          "idf": 4.203,
+          "brandCount": 11
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Anthropologie",
+          "entityId": "AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819",
+          "qlooName": "Anthropologie"
+        },
+        {
+          "name": "West Elm",
+          "entityId": "18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C",
+          "qlooName": "West Elm"
+        }
+      ],
+      "interests": [
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.8
+        }
+      ]
+    },
+    {
+      "handle": "botanical-print-set",
+      "title": "Vintage Botanical Print Set",
+      "category": "prints-art",
+      "price": 40,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:botanical_illustrations",
+          "dimension": "aesthetic",
+          "label": "Botanical Illustrations",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:gentle",
+          "dimension": "tone",
+          "label": "Gentle",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:curated_living",
+          "dimension": "lifestyle",
+          "label": "Curated Living",
+          "idf": 2.975,
+          "brandCount": 39
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:art_collecting",
+          "dimension": "lifestyle",
+          "label": "Art Collecting",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fine_art",
+          "dimension": "interest",
+          "label": "Fine Art",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gardening",
+          "dimension": "interest",
+          "label": "Gardening",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:home_decor",
+          "dimension": "interest",
+          "label": "Home Decor",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Rifle Paper Co.",
+          "entityId": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+          "qlooName": "Rifle Paper Co."
+        },
+        {
+          "name": "Anthropologie",
+          "entityId": "AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819",
+          "qlooName": "Anthropologie"
+        }
+      ],
+      "interests": [
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 1
+        },
+        {
+          "id": "fine-art",
+          "label": "Fine art",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "picture-palace-art-print",
+      "title": "Picture Palace Art Print",
+      "category": "prints-art",
+      "price": 35,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:cinematic",
+          "dimension": "aesthetic",
+          "label": "Cinematic",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:bold_typography",
+          "dimension": "aesthetic",
+          "label": "Bold Typography",
+          "idf": 3.292,
+          "brandCount": 28
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:romantic",
+          "dimension": "tone",
+          "label": "Romantic",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:cultural_engagement",
+          "dimension": "lifestyle",
+          "label": "Cultural Engagement",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:nostalgia",
+          "dimension": "interest",
+          "label": "Nostalgia",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:graphic_design",
+          "dimension": "interest",
+          "label": "Graphic Design",
+          "idf": 3.106,
+          "brandCount": 34
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:design_history",
+          "dimension": "interest",
+          "label": "Design History",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "The Criterion Collection",
+          "entityId": "67F5FBDB-3164-4AE1-9988-B791FE0E59F7",
+          "qlooName": "The Criterion Collection"
+        },
+        {
+          "name": "MUBI",
+          "entityId": "F89C9355-E612-4966-8E65-0B20CF3FD35B",
+          "qlooName": "MUBI"
+        }
+      ],
+      "interests": [
+        {
+          "id": "classic-cinema",
+          "label": "Classic cinema",
+          "strength": 1
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "watercolor-travel-set",
+      "title": "Watercolor Travel Set",
+      "category": "stationery",
+      "price": 52,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vibrant_colors",
+          "dimension": "aesthetic",
+          "label": "Vibrant Colors",
+          "idf": 2.556,
+          "brandCount": 61
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:botanical",
+          "dimension": "aesthetic",
+          "label": "Botanical",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:creative",
+          "dimension": "tone",
+          "label": "Creative",
+          "idf": 3.106,
+          "brandCount": 34
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:whimsical",
+          "dimension": "tone",
+          "label": "Whimsical",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:relaxed",
+          "dimension": "tone",
+          "label": "Relaxed",
+          "idf": 3.363,
+          "brandCount": 26
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_hobbies",
+          "dimension": "lifestyle",
+          "label": "Creative Hobbies",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:artistic_pursuit",
+          "dimension": "lifestyle",
+          "label": "Artistic Pursuit",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:creative_hobbies",
+          "dimension": "interest",
+          "label": "Creative Hobbies",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fine_art",
+          "dimension": "interest",
+          "label": "Fine Art",
+          "idf": 3.668,
+          "brandCount": 19
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Faber-Castell",
+          "entityId": "12E337E5-5BF2-42B4-9294-0492D646FC46",
+          "qlooName": "Faber-castell"
+        },
+        {
+          "name": "Staedtler",
+          "entityId": "7AA9927A-354C-47D7-8064-73513BFD3984",
+          "qlooName": "Staedtler"
+        }
+      ],
+      "interests": [
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 1
+        },
+        {
+          "id": "travel-outdoors",
+          "label": "Travel & outdoors",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "leather-bound-journal",
+      "title": "Leather-Bound Journal",
+      "category": "stationery",
+      "price": 38,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:thoughtful",
+          "dimension": "tone",
+          "label": "Thoughtful",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:intellectual",
+          "dimension": "tone",
+          "label": "Intellectual",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_pursuits",
+          "dimension": "lifestyle",
+          "label": "Intellectual Pursuits",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_pursuits",
+          "dimension": "lifestyle",
+          "label": "Creative Pursuits",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:craftsmanship",
+          "dimension": "interest",
+          "label": "Craftsmanship",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:personal_development",
+          "dimension": "interest",
+          "label": "Personal Development",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Moleskine",
+          "entityId": "AB06A58F-6962-4663-80A7-EF7D9208969A",
+          "qlooName": "Moleskine"
+        },
+        {
+          "name": "Faber-Castell",
+          "entityId": "12E337E5-5BF2-42B4-9294-0492D646FC46",
+          "qlooName": "Faber-castell"
+        }
+      ],
+      "interests": [
+        {
+          "id": "writing-stationery",
+          "label": "Writing & stationery",
+          "strength": 1
+        },
+        {
+          "id": "books-reading",
+          "label": "Books & reading",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "fountain-pen-gift-set",
+      "title": "Fountain Pen Gift Set",
+      "category": "stationery",
+      "price": 64,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:polished_finishes",
+          "dimension": "aesthetic",
+          "label": "Polished Finishes",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:elegant",
+          "dimension": "aesthetic",
+          "label": "Elegant",
+          "idf": 3.525,
+          "brandCount": 22
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:refined",
+          "dimension": "tone",
+          "label": "Refined",
+          "idf": 2.883,
+          "brandCount": 43
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_pursuits",
+          "dimension": "lifestyle",
+          "label": "Intellectual Pursuits",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:professional",
+          "dimension": "lifestyle",
+          "label": "Professional",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:craftsmanship",
+          "dimension": "interest",
+          "label": "Craftsmanship",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:classic_design",
+          "dimension": "interest",
+          "label": "Classic Design",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Montblanc",
+          "entityId": "74A63948-E4FD-45E9-BFF0-2D5D30380330",
+          "qlooName": "Montblanc"
+        },
+        {
+          "name": "Moleskine",
+          "entityId": "AB06A58F-6962-4663-80A7-EF7D9208969A",
+          "qlooName": "Moleskine"
+        }
+      ],
+      "interests": [
+        {
+          "id": "writing-stationery",
+          "label": "Writing & stationery",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "suitcase-record-player",
+      "title": "Suitcase Record Player",
+      "category": "audio",
+      "price": 149,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:warm",
+          "dimension": "tone",
+          "label": "Warm",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:sentimental",
+          "dimension": "tone",
+          "label": "Sentimental",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:relaxing_at_home",
+          "dimension": "lifestyle",
+          "label": "Relaxing At Home",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music",
+          "dimension": "interest",
+          "label": "Music",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:nostalgia",
+          "dimension": "interest",
+          "label": "Nostalgia",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music_culture",
+          "dimension": "interest",
+          "label": "Music Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Audio-Technica",
+          "entityId": "C9D94F56-EC13-4C8E-A749-158DC835BE33",
+          "qlooName": "Audio-Technica"
+        },
+        {
+          "name": "Urban Outfitters",
+          "entityId": "4F94C666-5FFA-4A42-8453-24C2F779EC36",
+          "qlooName": "Urban Outfitters"
+        }
+      ],
+      "interests": [
+        {
+          "id": "vinyl-hifi",
+          "label": "Vinyl & hi-fi",
+          "strength": 1
+        },
+        {
+          "id": "jazz",
+          "label": "Jazz",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "walnut-bluetooth-speaker",
+      "title": "Walnut Bluetooth Speaker",
+      "category": "audio",
+      "price": 89,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:clean_lines",
+          "dimension": "aesthetic",
+          "label": "Clean Lines",
+          "idf": 2.146,
+          "brandCount": 96
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:warm",
+          "dimension": "tone",
+          "label": "Warm",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:working_from_home",
+          "dimension": "lifestyle",
+          "label": "Working From Home",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:high_fidelity_audio",
+          "dimension": "interest",
+          "label": "High Fidelity Audio",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music",
+          "dimension": "interest",
+          "label": "Music",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:interior_design",
+          "dimension": "interest",
+          "label": "Interior Design",
+          "idf": 2.223,
+          "brandCount": 88
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Bang & Olufsen",
+          "entityId": "854D6053-16C7-4A75-B69B-04179609B10B",
+          "qlooName": "Bang & Olufsen"
+        },
+        {
+          "name": "Bose Corporation",
+          "entityId": "C49D3CF7-CEA3-4EC7-97E2-6C678A7236FD",
+          "qlooName": "Bose Corporation"
+        }
+      ],
+      "interests": [
+        {
+          "id": "vinyl-hifi",
+          "label": "Vinyl & hi-fi",
+          "strength": 0.9
+        }
+      ]
+    },
+    {
+      "handle": "landscape-jigsaw-puzzle",
+      "title": "1000-Piece Illustrated Jigsaw",
+      "category": "games-puzzles",
+      "price": 26,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:playful_imagery",
+          "dimension": "aesthetic",
+          "label": "Playful Imagery",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:colorful",
+          "dimension": "aesthetic",
+          "label": "Colorful",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:whimsical",
+          "dimension": "tone",
+          "label": "Whimsical",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:relaxed",
+          "dimension": "tone",
+          "label": "Relaxed",
+          "idf": 3.363,
+          "brandCount": 26
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:family_movie_nights",
+          "dimension": "lifestyle",
+          "label": "Family Movie Nights",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:relaxing_at_home",
+          "dimension": "lifestyle",
+          "label": "Relaxing At Home",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:casual_gaming",
+          "dimension": "interest",
+          "label": "Casual Gaming",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:family_activities",
+          "dimension": "interest",
+          "label": "Family Activities",
+          "idf": 4.984,
+          "brandCount": 5
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Ravensburger",
+          "entityId": "C64B2837-3E84-4E58-9639-4958435162F0",
+          "qlooName": "Ravensburger"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tabletop-puzzles",
+          "label": "Board games & puzzles",
+          "strength": 1
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "walnut-chess-set",
+      "title": "Walnut and Maple Chess Set",
+      "category": "games-puzzles",
+      "price": 68,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:intellectual",
+          "dimension": "tone",
+          "label": "Intellectual",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:competitive",
+          "dimension": "tone",
+          "label": "Competitive",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_pursuits",
+          "dimension": "lifestyle",
+          "label": "Intellectual Pursuits",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:competitive_gaming",
+          "dimension": "interest",
+          "label": "Competitive Gaming",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:craftsmanship",
+          "dimension": "interest",
+          "label": "Craftsmanship",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:classic_design",
+          "dimension": "interest",
+          "label": "Classic Design",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Hermès",
+          "entityId": "EC1EFF80-25D5-48C1-A03A-B9C73166CDDD",
+          "qlooName": "Hermès"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tabletop-puzzles",
+          "label": "Board games & puzzles",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "mechanical-keyboard-retro",
+      "title": "Retro Mechanical Keyboard",
+      "category": "games-puzzles",
+      "price": 95,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:ergonomic",
+          "dimension": "aesthetic",
+          "label": "Ergonomic",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:pastel_color_palette",
+          "dimension": "aesthetic",
+          "label": "Pastel Color Palette",
+          "idf": 4.039,
+          "brandCount": 13
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:gaming",
+          "dimension": "lifestyle",
+          "label": "Gaming",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:working_from_home",
+          "dimension": "lifestyle",
+          "label": "Working From Home",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pc_gaming",
+          "dimension": "interest",
+          "label": "PC Gaming",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:hardware_customization",
+          "dimension": "interest",
+          "label": "Hardware Customization",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:tech_gadgets",
+          "dimension": "interest",
+          "label": "Tech Gadgets",
+          "idf": 4.803,
+          "brandCount": 6
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Logitech",
+          "entityId": "B17B81E9-0DE4-4A82-B307-24F0161CF2AE",
+          "qlooName": "Logitech"
+        },
+        {
+          "name": "Razer",
+          "entityId": "D73F5D9A-6A4B-447F-9041-09813F22F85E",
+          "qlooName": "Razer"
+        }
+      ],
+      "interests": [
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "botanical-skincare-ritual",
+      "title": "Botanical Skincare Ritual Set",
+      "category": "beauty-skincare",
+      "price": 58,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:botanical",
+          "dimension": "aesthetic",
+          "label": "Botanical",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nurturing",
+          "dimension": "tone",
+          "label": "Nurturing",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:gentle",
+          "dimension": "tone",
+          "label": "Gentle",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:radiant",
+          "dimension": "tone",
+          "label": "Radiant",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:self_care",
+          "dimension": "lifestyle",
+          "label": "Self-Care",
+          "idf": 2.456,
+          "brandCount": 68
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:beauty_routine",
+          "dimension": "lifestyle",
+          "label": "Beauty Routine",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:skincare",
+          "dimension": "interest",
+          "label": "Skincare",
+          "idf": 3.363,
+          "brandCount": 26
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:clean_beauty",
+          "dimension": "interest",
+          "label": "Clean Beauty",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Laneige",
+          "entityId": "ABE0FE94-B7A2-4F17-A744-54A07F8617A7",
+          "qlooName": "Laneige"
+        },
+        {
+          "name": "Aesop",
+          "entityId": "32F867B9-E6DF-44C3-BCE4-40160C7ED5E4",
+          "qlooName": "Aesop"
+        }
+      ],
+      "interests": [
+        {
+          "id": "beauty-skincare",
+          "label": "Beauty & skincare",
+          "strength": 1
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "jade-facial-roller-set",
+      "title": "Jade Facial Roller Set",
+      "category": "beauty-skincare",
+      "price": 32,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:pastel_color_palette",
+          "dimension": "aesthetic",
+          "label": "Pastel Color Palette",
+          "idf": 4.039,
+          "brandCount": 13
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:polished_finishes",
+          "dimension": "aesthetic",
+          "label": "Polished Finishes",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:soothing",
+          "dimension": "tone",
+          "label": "Soothing",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:gentle",
+          "dimension": "tone",
+          "label": "Gentle",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:feminine",
+          "dimension": "tone",
+          "label": "Feminine",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:self_care",
+          "dimension": "lifestyle",
+          "label": "Self-Care",
+          "idf": 2.456,
+          "brandCount": 68
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:evening_routine",
+          "dimension": "lifestyle",
+          "label": "Evening Routine",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:skincare",
+          "dimension": "interest",
+          "label": "Skincare",
+          "idf": 3.363,
+          "brandCount": 26
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:self_care_rituals",
+          "dimension": "interest",
+          "label": "Self-Care Rituals",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Glossier",
+          "entityId": "742FBE1B-B70F-471F-AD07-A55C9A903628",
+          "qlooName": "Glossier"
+        },
+        {
+          "name": "Sephora",
+          "entityId": "2C5054E1-8691-4F52-83CD-310D029BA6A3",
+          "qlooName": "Sephora"
+        }
+      ],
+      "interests": [
+        {
+          "id": "beauty-skincare",
+          "label": "Beauty & skincare",
+          "strength": 1
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "mulberry-silk-sleep-set",
+      "title": "Mulberry Silk Sleep Set",
+      "category": "wellness",
+      "price": 55,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_textures",
+          "dimension": "aesthetic",
+          "label": "Soft Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_color_palette",
+          "dimension": "aesthetic",
+          "label": "Soft Color Palette",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:indulgent",
+          "dimension": "tone",
+          "label": "Indulgent",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:serene",
+          "dimension": "tone",
+          "label": "Serene",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:bedtime_routine",
+          "dimension": "lifestyle",
+          "label": "Bedtime Routine",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:self_care",
+          "dimension": "lifestyle",
+          "label": "Self-Care",
+          "idf": 2.456,
+          "brandCount": 68
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:self_care",
+          "dimension": "interest",
+          "label": "Self-Care",
+          "idf": 3.078,
+          "brandCount": 35
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:holistic_wellness",
+          "dimension": "interest",
+          "label": "Holistic Wellness",
+          "idf": 3,
+          "brandCount": 38
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Brooklinen",
+          "entityId": "78F8E031-5C82-4C02-8556-6BF43069811C",
+          "qlooName": "Brooklinen"
+        },
+        {
+          "name": "Casper",
+          "entityId": "1DDDFC7F-5407-4602-A3B4-FFFFC17B2419",
+          "qlooName": "Casper"
+        }
+      ],
+      "interests": [
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 1
+        },
+        {
+          "id": "beauty-skincare",
+          "label": "Beauty & skincare",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "cork-yoga-mat",
+      "title": "Natural Cork Yoga Mat",
+      "category": "wellness",
+      "price": 72,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_tones",
+          "dimension": "aesthetic",
+          "label": "Natural Tones",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:functional",
+          "dimension": "aesthetic",
+          "label": "Functional",
+          "idf": 2.174,
+          "brandCount": 93
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:grounded",
+          "dimension": "tone",
+          "label": "Grounded",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:mindful",
+          "dimension": "tone",
+          "label": "Mindful",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:invigorating",
+          "dimension": "tone",
+          "label": "Invigorating",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:yoga_practice",
+          "dimension": "lifestyle",
+          "label": "Yoga Practice",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:mindful_living",
+          "dimension": "lifestyle",
+          "label": "Mindful Living",
+          "idf": 3.258,
+          "brandCount": 29
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:yoga",
+          "dimension": "interest",
+          "label": "Yoga",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:mindfulness",
+          "dimension": "interest",
+          "label": "Mindfulness",
+          "idf": 3.401,
+          "brandCount": 25
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:sustainable_living",
+          "dimension": "interest",
+          "label": "Sustainable Living",
+          "idf": 2.355,
+          "brandCount": 76
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Lululemon",
+          "entityId": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+          "qlooName": "Lululemon"
+        },
+        {
+          "name": "Alo Yoga",
+          "entityId": "2F924D90-11A8-4B2D-85AE-6C59A08E77BF",
+          "qlooName": "Alo Yoga"
+        }
+      ],
+      "interests": [
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 1
+        },
+        {
+          "id": "sport-fitness",
+          "label": "Sport & fitness",
+          "strength": 0.8
+        }
+      ]
+    },
+    {
+      "handle": "minimal-leather-cardholder",
+      "title": "Minimal Leather Cardholder",
+      "category": "bags-leather",
+      "price": 48,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:understated",
+          "dimension": "aesthetic",
+          "label": "Understated",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:polished",
+          "dimension": "aesthetic",
+          "label": "Polished",
+          "idf": 3.776,
+          "brandCount": 17
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:refined",
+          "dimension": "tone",
+          "label": "Refined",
+          "idf": 2.883,
+          "brandCount": 43
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:sophisticated",
+          "dimension": "tone",
+          "label": "Sophisticated",
+          "idf": 1.454,
+          "brandCount": 221
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:urban_professional",
+          "dimension": "lifestyle",
+          "label": "Urban Professional",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:commuting",
+          "dimension": "lifestyle",
+          "label": "Commuting",
+          "idf": 2.443,
+          "brandCount": 69
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:craftsmanship",
+          "dimension": "interest",
+          "label": "Craftsmanship",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:luxury_goods",
+          "dimension": "interest",
+          "label": "Luxury Goods",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Bellroy",
+          "entityId": "491B649E-3A7E-4E3B-B69D-090DC98E5D4C",
+          "qlooName": "Bellroy"
+        },
+        {
+          "name": "Montblanc",
+          "entityId": "74A63948-E4FD-45E9-BFF0-2D5D30380330",
+          "qlooName": "Montblanc"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fashion-style",
+          "label": "Fashion & style",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "canvas-weekender-bag",
+      "title": "Waxed Canvas Weekender",
+      "category": "bags-leather",
+      "price": 135,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:rugged",
+          "dimension": "aesthetic",
+          "label": "Rugged",
+          "idf": 4.039,
+          "brandCount": 13
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:utilitarian",
+          "dimension": "aesthetic",
+          "label": "Utilitarian",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:earth_tones",
+          "dimension": "aesthetic",
+          "label": "Earth Tones",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:adventurous",
+          "dimension": "tone",
+          "label": "Adventurous",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:weekend_getaways",
+          "dimension": "lifestyle",
+          "label": "Weekend Getaways",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:road_trips",
+          "dimension": "lifestyle",
+          "label": "Road Trips",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:travel",
+          "dimension": "interest",
+          "label": "Travel",
+          "idf": 2.367,
+          "brandCount": 75
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:outdoor_exploration",
+          "dimension": "interest",
+          "label": "Outdoor Exploration",
+          "idf": 3.899,
+          "brandCount": 15
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Herschel Supply Co",
+          "entityId": "29D35818-60FF-4833-B2D7-7EB74E4633CF",
+          "qlooName": "Herschel Supply Co"
+        },
+        {
+          "name": "Fjällräven",
+          "entityId": "1BFF764A-D06D-48CA-9075-1E0F2A3FCE3D",
+          "qlooName": "Fjällräven"
+        }
+      ],
+      "interests": [
+        {
+          "id": "travel-outdoors",
+          "label": "Travel & outdoors",
+          "strength": 1
+        },
+        {
+          "id": "fashion-style",
+          "label": "Fashion & style",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "gold-medallion-pendant",
+      "title": "Gold Vermeil Medallion Pendant",
+      "category": "jewelry-accessories",
+      "price": 90,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:gold_accents",
+          "dimension": "aesthetic",
+          "label": "Gold Accents",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:elegant",
+          "dimension": "aesthetic",
+          "label": "Elegant",
+          "idf": 3.525,
+          "brandCount": 22
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist_detailing",
+          "dimension": "aesthetic",
+          "label": "Minimalist Detailing",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:romantic",
+          "dimension": "tone",
+          "label": "Romantic",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:sentimental",
+          "dimension": "tone",
+          "label": "Sentimental",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:feminine",
+          "dimension": "tone",
+          "label": "Feminine",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:celebrating_milestones",
+          "dimension": "lifestyle",
+          "label": "Celebrating Milestones",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fine_jewelry",
+          "dimension": "interest",
+          "label": "Fine Jewelry",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:personal_style",
+          "dimension": "interest",
+          "label": "Personal Style",
+          "idf": 3.835,
+          "brandCount": 16
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Mejuri",
+          "entityId": "D2BE4884-27B3-46EC-905F-6175AEC7ACE1",
+          "qlooName": "Mejuri"
+        },
+        {
+          "name": "L'azurde",
+          "entityId": "634954BB-17FB-4193-9E1E-9251BD4E7900",
+          "qlooName": "L'azurde"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fashion-style",
+          "label": "Fashion & style",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "cashmere-blend-scarf",
+      "title": "Cashmere Blend Scarf",
+      "category": "apparel",
+      "price": 70,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:neutral_color_palette",
+          "dimension": "aesthetic",
+          "label": "Neutral Color Palette",
+          "idf": 2.404,
+          "brandCount": 72
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_textures",
+          "dimension": "aesthetic",
+          "label": "Soft Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:understated",
+          "dimension": "tone",
+          "label": "Understated",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:effortless_style",
+          "dimension": "lifestyle",
+          "label": "Effortless Style",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:urban_living",
+          "dimension": "lifestyle",
+          "label": "Urban Living",
+          "idf": 2.355,
+          "brandCount": 76
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:minimalist_fashion",
+          "dimension": "interest",
+          "label": "Minimalist Fashion",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:slow_fashion",
+          "dimension": "interest",
+          "label": "Slow Fashion",
+          "idf": 4.803,
+          "brandCount": 6
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Uniqlo",
+          "entityId": "46C9F889-EC89-4715-A767-DEABACF52C41",
+          "qlooName": "Uniqlo"
+        },
+        {
+          "name": "COS",
+          "entityId": "2CA2569D-223D-42D6-BB2F-F8B5D36B9AEC",
+          "qlooName": "COS"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fashion-style",
+          "label": "Fashion & style",
+          "strength": 0.8
+        }
+      ]
+    },
+    {
+      "handle": "embroidered-crewneck",
+      "title": "Embroidered Organic Crewneck",
+      "category": "apparel",
+      "price": 58,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:relaxed_silhouettes",
+          "dimension": "aesthetic",
+          "label": "Relaxed Silhouettes",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:graphic",
+          "dimension": "aesthetic",
+          "label": "Graphic",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:casual",
+          "dimension": "tone",
+          "label": "Casual",
+          "idf": 3.258,
+          "brandCount": 29
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:youthful",
+          "dimension": "tone",
+          "label": "Youthful",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:casual_weekends",
+          "dimension": "lifestyle",
+          "label": "Casual Weekends",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:street_style",
+          "dimension": "lifestyle",
+          "label": "Street Style",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:streetwear",
+          "dimension": "interest",
+          "label": "Streetwear",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:sustainable_fashion",
+          "dimension": "interest",
+          "label": "Sustainable Fashion",
+          "idf": 4.803,
+          "brandCount": 6
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Converse",
+          "entityId": "7FFF01CF-7B0E-405A-A232-14176B165E60",
+          "qlooName": "Converse"
+        },
+        {
+          "name": "Carhartt",
+          "entityId": "2D69DB33-B4DF-4879-B3DC-308E3402A1FD",
+          "qlooName": "Carhartt"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fashion-style",
+          "label": "Fashion & style",
+          "strength": 0.8
+        }
+      ]
+    },
+    {
+      "handle": "illustrated-classics-box",
+      "title": "Illustrated Classics Box Set",
+      "category": "books-reading",
+      "price": 65,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic_patterns",
+          "dimension": "aesthetic",
+          "label": "Classic Patterns",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:romantic",
+          "dimension": "tone",
+          "label": "Romantic",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:intellectual",
+          "dimension": "tone",
+          "label": "Intellectual",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_pursuits",
+          "dimension": "lifestyle",
+          "label": "Intellectual Pursuits",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:relaxing_at_home",
+          "dimension": "lifestyle",
+          "label": "Relaxing At Home",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:design_history",
+          "dimension": "interest",
+          "label": "Design History",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:nostalgia",
+          "dimension": "interest",
+          "label": "Nostalgia",
+          "idf": 4.65,
+          "brandCount": 7
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Penguin Random House",
+          "entityId": "E0D8457F-104A-4EC2-88A4-BAF73532562F",
+          "qlooName": "Penguin Random House"
+        }
+      ],
+      "interests": [
+        {
+          "id": "books-reading",
+          "label": "Books & reading",
+          "strength": 1
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "brass-bedside-reading-lamp",
+      "title": "Brass Bedside Reading Lamp",
+      "category": "books-reading",
+      "price": 59,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:metallic_finishes",
+          "dimension": "aesthetic",
+          "label": "Metallic Finishes",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:warm_tones",
+          "dimension": "aesthetic",
+          "label": "Warm Tones",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:bedtime_routine",
+          "dimension": "lifestyle",
+          "label": "Bedtime Routine",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_pursuits",
+          "dimension": "lifestyle",
+          "label": "Intellectual Pursuits",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:slow_living",
+          "dimension": "interest",
+          "label": "Slow Living",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:mindful_living",
+          "dimension": "interest",
+          "label": "Mindful Living",
+          "idf": 3.776,
+          "brandCount": 17
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        }
+      ],
+      "interests": [
+        {
+          "id": "books-reading",
+          "label": "Books & reading",
+          "strength": 0.8
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "vintage-leather-football",
+      "title": "Vintage Leather Football",
+      "category": "sports-outdoors",
+      "price": 45,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:rugged_texture",
+          "dimension": "aesthetic",
+          "label": "Rugged Texture",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sporty",
+          "dimension": "aesthetic",
+          "label": "Sporty",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:competitive",
+          "dimension": "tone",
+          "label": "Competitive",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:energetic",
+          "dimension": "tone",
+          "label": "Energetic",
+          "idf": 2.526,
+          "brandCount": 63
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:active_lifestyle",
+          "dimension": "lifestyle",
+          "label": "Active Lifestyle",
+          "idf": 3.441,
+          "brandCount": 24
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:professional_sports",
+          "dimension": "interest",
+          "label": "Professional Sports",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:outdoor_sports",
+          "dimension": "interest",
+          "label": "Outdoor Sports",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pop_culture",
+          "dimension": "interest",
+          "label": "Pop Culture",
+          "idf": 2.704,
+          "brandCount": 52
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Adidas",
+          "entityId": "FCEA7CA1-1D40-4680-B337-E74594D9BCF1",
+          "qlooName": "Adidas"
+        },
+        {
+          "name": "Nike",
+          "entityId": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+          "qlooName": "Nike"
+        }
+      ],
+      "interests": [
+        {
+          "id": "football",
+          "label": "Football",
+          "strength": 1
+        },
+        {
+          "id": "sport-fitness",
+          "label": "Sport & fitness",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "risograph-zine-sticker-pack",
+      "title": "Risograph Zine and Sticker Pack",
+      "category": "prints-art",
+      "price": 24,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:bold_typography",
+          "dimension": "aesthetic",
+          "label": "Bold Typography",
+          "idf": 3.292,
+          "brandCount": 28
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:graphic_heavy",
+          "dimension": "aesthetic",
+          "label": "Graphic-Heavy",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vibrant_colors",
+          "dimension": "aesthetic",
+          "label": "Vibrant Colors",
+          "idf": 2.556,
+          "brandCount": 61
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:rebellious",
+          "dimension": "tone",
+          "label": "Rebellious",
+          "idf": 3.72,
+          "brandCount": 18
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:edgy",
+          "dimension": "tone",
+          "label": "Edgy",
+          "idf": 3.899,
+          "brandCount": 15
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_self_expression",
+          "dimension": "lifestyle",
+          "label": "Creative Self-Expression",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:street_art",
+          "dimension": "interest",
+          "label": "Street Art",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pop_culture",
+          "dimension": "interest",
+          "label": "Pop Culture",
+          "idf": 2.704,
+          "brandCount": 52
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:graphic_design",
+          "dimension": "interest",
+          "label": "Graphic Design",
+          "idf": 3.106,
+          "brandCount": 34
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Converse",
+          "entityId": "7FFF01CF-7B0E-405A-A232-14176B165E60",
+          "qlooName": "Converse"
+        },
+        {
+          "name": "Urban Outfitters",
+          "entityId": "4F94C666-5FFA-4A42-8453-24C2F779EC36",
+          "qlooName": "Urban Outfitters"
+        }
+      ],
+      "interests": [
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 1
+        },
+        {
+          "id": "manga-comics",
+          "label": "Manga & comics",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "manga-drawing-kit",
+      "title": "Manga Drawing Kit",
+      "category": "stationery",
+      "price": 34,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:graphic",
+          "dimension": "aesthetic",
+          "label": "Graphic",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:playful_imagery",
+          "dimension": "aesthetic",
+          "label": "Playful Imagery",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:creative",
+          "dimension": "tone",
+          "label": "Creative",
+          "idf": 3.106,
+          "brandCount": 34
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:expressive",
+          "dimension": "tone",
+          "label": "Expressive",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_hobbies",
+          "dimension": "lifestyle",
+          "label": "Creative Hobbies",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:creative_self_expression",
+          "dimension": "interest",
+          "label": "Creative Self-Expression",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:digital_art",
+          "dimension": "interest",
+          "label": "Digital Art",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pop_culture",
+          "dimension": "interest",
+          "label": "Pop Culture",
+          "idf": 2.704,
+          "brandCount": 52
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Moleskine",
+          "entityId": "AB06A58F-6962-4663-80A7-EF7D9208969A",
+          "qlooName": "Moleskine"
+        },
+        {
+          "name": "Faber-Castell",
+          "entityId": "12E337E5-5BF2-42B4-9294-0492D646FC46",
+          "qlooName": "Faber-castell"
+        }
+      ],
+      "interests": [
+        {
+          "id": "manga-comics",
+          "label": "Manga & comics",
+          "strength": 1
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "dusk-street-anime-print",
+      "title": "Dusk Street Art Print",
+      "category": "prints-art",
+      "price": 42,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vibrant_colors",
+          "dimension": "aesthetic",
+          "label": "Vibrant Colors",
+          "idf": 2.556,
+          "brandCount": 61
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:stylized_character_design",
+          "dimension": "aesthetic",
+          "label": "Stylized Character Design",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:whimsical",
+          "dimension": "tone",
+          "label": "Whimsical",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:art_collecting",
+          "dimension": "lifestyle",
+          "label": "Art Collecting",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pop_culture",
+          "dimension": "interest",
+          "label": "Pop Culture",
+          "idf": 2.704,
+          "brandCount": 52
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:digital_art",
+          "dimension": "interest",
+          "label": "Digital Art",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:visual_arts",
+          "dimension": "interest",
+          "label": "Visual Arts",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Urban Outfitters",
+          "entityId": "4F94C666-5FFA-4A42-8453-24C2F779EC36",
+          "qlooName": "Urban Outfitters"
+        }
+      ],
+      "interests": [
+        {
+          "id": "anime-film",
+          "label": "Anime",
+          "strength": 0.8
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 1
+        },
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 0.8
+        }
+      ]
+    },
+    {
+      "handle": "great-wave-woodblock-print",
+      "title": "Great Wave Woodblock Print",
+      "category": "prints-art",
+      "price": 48,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:heritage_inspired",
+          "dimension": "aesthetic",
+          "label": "Heritage-Inspired",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:serene",
+          "dimension": "tone",
+          "label": "Serene",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:art_collecting",
+          "dimension": "lifestyle",
+          "label": "Art Collecting",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fine_art",
+          "dimension": "interest",
+          "label": "Fine Art",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:design_history",
+          "dimension": "interest",
+          "label": "Design History",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        }
+      ],
+      "interests": [
+        {
+          "id": "fine-art",
+          "label": "Fine art",
+          "strength": 1
+        },
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 1
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "ramen-bowl-set",
+      "title": "Ceramic Ramen Bowl Set",
+      "category": "ceramics-tableware",
+      "price": 44,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:earth_tones",
+          "dimension": "aesthetic",
+          "label": "Earth Tones",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:textured",
+          "dimension": "aesthetic",
+          "label": "Textured",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:comforting",
+          "dimension": "tone",
+          "label": "Comforting",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:authentic",
+          "dimension": "tone",
+          "label": "Authentic",
+          "idf": 2.084,
+          "brandCount": 103
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:cooking_at_home",
+          "dimension": "lifestyle",
+          "label": "Cooking At Home",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:comfort_food",
+          "dimension": "interest",
+          "label": "Comfort Food",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:culinary_exploration",
+          "dimension": "interest",
+          "label": "Culinary Exploration",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Crate & Barrel",
+          "entityId": "A1422E65-D068-45AF-9A94-0EA85AFD26B9",
+          "qlooName": "Crate & Barrel"
+        }
+      ],
+      "interests": [
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 1
+        },
+        {
+          "id": "cooking-food",
+          "label": "Cooking & food",
+          "strength": 0.6
+        },
+        {
+          "id": "anime-film",
+          "label": "Anime",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "washi-tape-sticker-set",
+      "title": "Washi Tape and Sticker Set",
+      "category": "stationery",
+      "price": 22,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:playful",
+          "dimension": "aesthetic",
+          "label": "Playful",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:patterned",
+          "dimension": "aesthetic",
+          "label": "Patterned",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:creative",
+          "dimension": "tone",
+          "label": "Creative",
+          "idf": 3.106,
+          "brandCount": 34
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_hobbies",
+          "dimension": "lifestyle",
+          "label": "Creative Hobbies",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:diy_crafts",
+          "dimension": "interest",
+          "label": "DIY Crafts",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:creative_expression",
+          "dimension": "interest",
+          "label": "Creative Expression",
+          "idf": 4.984,
+          "brandCount": 5
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Rifle Paper Co.",
+          "entityId": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+          "qlooName": "Rifle Paper Co."
+        }
+      ],
+      "interests": [
+        {
+          "id": "writing-stationery",
+          "label": "Writing & stationery",
+          "strength": 1
+        },
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 0.6
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "over-ear-headphones",
+      "title": "Wireless Over-Ear Headphones",
+      "category": "audio",
+      "price": 129,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sleek",
+          "dimension": "aesthetic",
+          "label": "Sleek",
+          "idf": 2.741,
+          "brandCount": 50
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:immersive",
+          "dimension": "tone",
+          "label": "Immersive",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:focused",
+          "dimension": "tone",
+          "label": "Focused",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:music_discovery",
+          "dimension": "lifestyle",
+          "label": "Music Discovery",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:high_fidelity_audio",
+          "dimension": "interest",
+          "label": "High Fidelity Audio",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music",
+          "dimension": "interest",
+          "label": "Music",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Audio-Technica",
+          "entityId": "C9D94F56-EC13-4C8E-A749-158DC835BE33",
+          "qlooName": "Audio-Technica"
+        },
+        {
+          "name": "Sonos",
+          "entityId": "9847B888-65A3-404C-82DB-80F37DB5DF59",
+          "qlooName": "Sonos"
+        }
+      ],
+      "interests": [
+        {
+          "id": "vinyl-hifi",
+          "label": "Vinyl & hi-fi",
+          "strength": 0.8
+        },
+        {
+          "id": "lofi",
+          "label": "Lo-fi & chill beats",
+          "strength": 0.5
+        },
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "vinyl-record-crate",
+      "title": "Solid Wood Vinyl Record Crate",
+      "category": "audio",
+      "price": 58,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:warm",
+          "dimension": "tone",
+          "label": "Warm",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:music_discovery",
+          "dimension": "lifestyle",
+          "label": "Music Discovery",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music_culture",
+          "dimension": "interest",
+          "label": "Music Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:nostalgia",
+          "dimension": "interest",
+          "label": "Nostalgia",
+          "idf": 4.65,
+          "brandCount": 7
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Urban Outfitters",
+          "entityId": "4F94C666-5FFA-4A42-8453-24C2F779EC36",
+          "qlooName": "Urban Outfitters"
+        },
+        {
+          "name": "Crate & Barrel",
+          "entityId": "A1422E65-D068-45AF-9A94-0EA85AFD26B9",
+          "qlooName": "Crate & Barrel"
+        }
+      ],
+      "interests": [
+        {
+          "id": "vinyl-hifi",
+          "label": "Vinyl & hi-fi",
+          "strength": 1
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "wooden-kalimba",
+      "title": "Wooden Kalimba Thumb Piano",
+      "category": "instruments",
+      "price": 36,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:earth_tones",
+          "dimension": "aesthetic",
+          "label": "Earth Tones",
+          "idf": 2.779,
+          "brandCount": 48
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:soothing",
+          "dimension": "tone",
+          "label": "Soothing",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_hobbies",
+          "dimension": "lifestyle",
+          "label": "Creative Hobbies",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music",
+          "dimension": "interest",
+          "label": "Music",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:creative_expression",
+          "dimension": "interest",
+          "label": "Creative Expression",
+          "idf": 4.984,
+          "brandCount": 5
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Fender",
+          "entityId": "4584672D-C702-4E58-AEE3-D8DE584C36C8",
+          "qlooName": "Fender"
+        }
+      ],
+      "interests": [
+        {
+          "id": "music",
+          "label": "Music",
+          "strength": 1
+        },
+        {
+          "id": "lofi",
+          "label": "Lo-fi & chill beats",
+          "strength": 0.6
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "darbuka-hand-drum",
+      "title": "Hand-Painted Clay Darbuka",
+      "category": "instruments",
+      "price": 89,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:intricate_detailing",
+          "dimension": "aesthetic",
+          "label": "Intricate Detailing",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:passionate",
+          "dimension": "tone",
+          "label": "Passionate",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:celebratory",
+          "dimension": "tone",
+          "label": "Celebratory",
+          "idf": 4.297,
+          "brandCount": 10
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:cultural_events",
+          "dimension": "lifestyle",
+          "label": "Cultural Events",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:music_culture",
+          "dimension": "interest",
+          "label": "Music Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:live_music",
+          "dimension": "interest",
+          "label": "Live Music",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Roland",
+          "entityId": "0BA61525-0AB5-4F08-8664-B6FE6B12F9F2",
+          "qlooName": "Roland"
+        }
+      ],
+      "interests": [
+        {
+          "id": "arabic-music",
+          "label": "Arabic music",
+          "strength": 1
+        },
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "finjan-cup-set",
+      "title": "Finjan Coffee Cup Set",
+      "category": "tea-coffee",
+      "price": 39,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:gold_accents",
+          "dimension": "aesthetic",
+          "label": "Gold Accents",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:welcoming",
+          "dimension": "tone",
+          "label": "Welcoming",
+          "idf": 3.72,
+          "brandCount": 18
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:hosting_gatherings",
+          "dimension": "lifestyle",
+          "label": "Hosting Gatherings",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:coffee_culture",
+          "dimension": "interest",
+          "label": "Coffee Culture",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:family_traditions",
+          "dimension": "interest",
+          "label": "Family Traditions",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Bateel",
+          "entityId": "1859BEE3-AB9C-43B0-B784-0DAB7056DE40",
+          "qlooName": "Bateel"
+        }
+      ],
+      "interests": [
+        {
+          "id": "coffee",
+          "label": "Coffee",
+          "strength": 1
+        },
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "cast-iron-teapot",
+      "title": "Cast Iron Tetsubin Teapot",
+      "category": "tea-coffee",
+      "price": 62,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:robust_construction",
+          "dimension": "aesthetic",
+          "label": "Robust Construction",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:traditional",
+          "dimension": "aesthetic",
+          "label": "Traditional",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:grounded",
+          "dimension": "tone",
+          "label": "Grounded",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:afternoon_tea",
+          "dimension": "lifestyle",
+          "label": "Afternoon Tea",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:tea_culture",
+          "dimension": "interest",
+          "label": "Tea Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:heritage_craftsmanship",
+          "dimension": "interest",
+          "label": "Heritage Craftsmanship",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        },
+        {
+          "name": "Le Creuset",
+          "entityId": "9886839E-BED5-45F9-8703-276527054727",
+          "qlooName": "Le Creuset"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tea",
+          "label": "Tea",
+          "strength": 1
+        },
+        {
+          "id": "japanese-culture",
+          "label": "Japanese culture",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "celadon-tea-set",
+      "title": "Celadon Tea Set",
+      "category": "ceramics-tableware",
+      "price": 58,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_color_palette",
+          "dimension": "aesthetic",
+          "label": "Soft Color Palette",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:elegant",
+          "dimension": "aesthetic",
+          "label": "Elegant",
+          "idf": 3.525,
+          "brandCount": 22
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:serene",
+          "dimension": "tone",
+          "label": "Serene",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:gentle",
+          "dimension": "tone",
+          "label": "Gentle",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:afternoon_tea",
+          "dimension": "lifestyle",
+          "label": "Afternoon Tea",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:tea_culture",
+          "dimension": "interest",
+          "label": "Tea Culture",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:artisan_craftsmanship",
+          "dimension": "interest",
+          "label": "Artisan Craftsmanship",
+          "idf": 3.899,
+          "brandCount": 15
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Sulwhasoo",
+          "entityId": "D8B2FC72-1D65-461F-BA5B-38E8C4165336",
+          "qlooName": "Sulwhasoo"
+        },
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tea",
+          "label": "Tea",
+          "strength": 1
+        },
+        {
+          "id": "korean-culture",
+          "label": "Korean culture",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "tabletop-foosball",
+      "title": "Tabletop Foosball Game",
+      "category": "games-puzzles",
+      "price": 79,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sporty",
+          "dimension": "aesthetic",
+          "label": "Sporty",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:competitive",
+          "dimension": "tone",
+          "label": "Competitive",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:fun",
+          "dimension": "tone",
+          "label": "Fun",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:family_movie_nights",
+          "dimension": "lifestyle",
+          "label": "Family Movie Nights",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:casual_gaming",
+          "dimension": "interest",
+          "label": "Casual Gaming",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:professional_sports",
+          "dimension": "interest",
+          "label": "Professional Sports",
+          "idf": 4.65,
+          "brandCount": 7
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Adidas",
+          "entityId": "FCEA7CA1-1D40-4680-B337-E74594D9BCF1",
+          "qlooName": "Adidas"
+        },
+        {
+          "name": "Hasbro",
+          "entityId": "D6563632-EE01-49FB-8177-A4D18480B913",
+          "qlooName": "Hasbro"
+        }
+      ],
+      "interests": [
+        {
+          "id": "football",
+          "label": "Football",
+          "strength": 1
+        },
+        {
+          "id": "tabletop-puzzles",
+          "label": "Board games & puzzles",
+          "strength": 0.6
+        },
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "football-tactics-board",
+      "title": "Folding Football Tactics Board",
+      "category": "sports-outdoors",
+      "price": 32,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sporty",
+          "dimension": "aesthetic",
+          "label": "Sporty",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:functional",
+          "dimension": "aesthetic",
+          "label": "Functional",
+          "idf": 2.174,
+          "brandCount": 93
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:competitive",
+          "dimension": "tone",
+          "label": "Competitive",
+          "idf": 3.966,
+          "brandCount": 14
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:focused",
+          "dimension": "tone",
+          "label": "Focused",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:competitive_play",
+          "dimension": "lifestyle",
+          "label": "Competitive Play",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:professional_sports",
+          "dimension": "interest",
+          "label": "Professional Sports",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:athletic_training",
+          "dimension": "interest",
+          "label": "Athletic Training",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Adidas",
+          "entityId": "FCEA7CA1-1D40-4680-B337-E74594D9BCF1",
+          "qlooName": "Adidas"
+        },
+        {
+          "name": "Nike",
+          "entityId": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+          "qlooName": "Nike"
+        }
+      ],
+      "interests": [
+        {
+          "id": "football",
+          "label": "Football",
+          "strength": 1
+        },
+        {
+          "id": "sport-fitness",
+          "label": "Sport & fitness",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "insulated-sports-bottle",
+      "title": "Insulated Steel Sports Bottle",
+      "category": "sports-outdoors",
+      "price": 28,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sporty",
+          "dimension": "aesthetic",
+          "label": "Sporty",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:durable",
+          "dimension": "aesthetic",
+          "label": "Durable",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:energetic",
+          "dimension": "tone",
+          "label": "Energetic",
+          "idf": 2.526,
+          "brandCount": 63
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:practical",
+          "dimension": "tone",
+          "label": "Practical",
+          "idf": 2.587,
+          "brandCount": 59
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:gym_training",
+          "dimension": "lifestyle",
+          "label": "Gym Training",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fitness",
+          "dimension": "interest",
+          "label": "Fitness",
+          "idf": 3.899,
+          "brandCount": 15
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:outdoor_activities",
+          "dimension": "interest",
+          "label": "Outdoor Activities",
+          "idf": 4.65,
+          "brandCount": 7
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Hydro Flask",
+          "entityId": "F1C9F511-D7FF-438F-80E4-DD02DDDF81FF",
+          "qlooName": "Hydro Flask"
+        },
+        {
+          "name": "Nike",
+          "entityId": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+          "qlooName": "Nike"
+        }
+      ],
+      "interests": [
+        {
+          "id": "sport-fitness",
+          "label": "Sport & fitness",
+          "strength": 1
+        },
+        {
+          "id": "football",
+          "label": "Football",
+          "strength": 0.3
+        },
+        {
+          "id": "travel-outdoors",
+          "label": "Travel & outdoors",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "football-pitch-print",
+      "title": "Aerial Pitch Photo Print",
+      "category": "prints-art",
+      "price": 38,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:high_contrast_photography",
+          "dimension": "aesthetic",
+          "label": "High-Contrast Photography",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:cinematic",
+          "dimension": "aesthetic",
+          "label": "Cinematic",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:passionate",
+          "dimension": "tone",
+          "label": "Passionate",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:dramatic",
+          "dimension": "tone",
+          "label": "Dramatic",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:art_collecting",
+          "dimension": "lifestyle",
+          "label": "Art Collecting",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:professional_sports",
+          "dimension": "interest",
+          "label": "Professional Sports",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:photography",
+          "dimension": "interest",
+          "label": "Photography",
+          "idf": 3.363,
+          "brandCount": 26
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Adidas",
+          "entityId": "FCEA7CA1-1D40-4680-B337-E74594D9BCF1",
+          "qlooName": "Adidas"
+        }
+      ],
+      "interests": [
+        {
+          "id": "football",
+          "label": "Football",
+          "strength": 1
+        },
+        {
+          "id": "art",
+          "label": "Art & illustration",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "mini-home-projector",
+      "title": "Mini Home Cinema Projector",
+      "category": "movie-night",
+      "price": 139,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sleek",
+          "dimension": "aesthetic",
+          "label": "Sleek",
+          "idf": 2.741,
+          "brandCount": 50
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:minimalist",
+          "dimension": "aesthetic",
+          "label": "Minimalist",
+          "idf": 1.181,
+          "brandCount": 321
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:immersive",
+          "dimension": "tone",
+          "label": "Immersive",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:exciting",
+          "dimension": "tone",
+          "label": "Exciting",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:home_entertainment",
+          "dimension": "lifestyle",
+          "label": "Home Entertainment",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:cinema",
+          "dimension": "interest",
+          "label": "Cinema",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:streaming",
+          "dimension": "interest",
+          "label": "Streaming",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Sonos",
+          "entityId": "9847B888-65A3-404C-82DB-80F37DB5DF59",
+          "qlooName": "Sonos"
+        }
+      ],
+      "interests": [
+        {
+          "id": "film-tv",
+          "label": "Film & TV",
+          "strength": 1
+        },
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "movie-night-popcorn-kit",
+      "title": "Movie Night Popcorn Kit",
+      "category": "movie-night",
+      "price": 42,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:playful",
+          "dimension": "aesthetic",
+          "label": "Playful",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:fun",
+          "dimension": "tone",
+          "label": "Fun",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:family_movie_nights",
+          "dimension": "lifestyle",
+          "label": "Family Movie Nights",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:cinema",
+          "dimension": "interest",
+          "label": "Cinema",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:snack_culture",
+          "dimension": "interest",
+          "label": "Snack Culture",
+          "idf": 4.803,
+          "brandCount": 6
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Williams-Sonoma",
+          "entityId": "2B7931BB-8C2D-4FE0-BA41-8A5216BE6B4D",
+          "qlooName": "Williams-Sonoma"
+        }
+      ],
+      "interests": [
+        {
+          "id": "film-tv",
+          "label": "Film & TV",
+          "strength": 1
+        },
+        {
+          "id": "cooking-food",
+          "label": "Cooking & food",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "director-clapperboard",
+      "title": "Wooden Director Clapperboard",
+      "category": "movie-night",
+      "price": 29,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:creative",
+          "dimension": "tone",
+          "label": "Creative",
+          "idf": 3.106,
+          "brandCount": 34
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:creative_pursuits",
+          "dimension": "lifestyle",
+          "label": "Creative Pursuits",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:cinema",
+          "dimension": "interest",
+          "label": "Cinema",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:videography",
+          "dimension": "interest",
+          "label": "Videography",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "MUBI",
+          "entityId": "F89C9355-E612-4966-8E65-0B20CF3FD35B",
+          "qlooName": "MUBI"
+        }
+      ],
+      "interests": [
+        {
+          "id": "film-tv",
+          "label": "Film & TV",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "cinema-letter-lightbox",
+      "title": "Cinema Marquee Letter Lightbox",
+      "category": "movie-night",
+      "price": 34,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:bold_typography",
+          "dimension": "aesthetic",
+          "label": "Bold Typography",
+          "idf": 3.292,
+          "brandCount": 28
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:home_decorating",
+          "dimension": "lifestyle",
+          "label": "Home Decorating",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:cinema",
+          "dimension": "interest",
+          "label": "Cinema",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pop_culture",
+          "dimension": "interest",
+          "label": "Pop Culture",
+          "idf": 2.704,
+          "brandCount": 52
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Urban Outfitters",
+          "entityId": "4F94C666-5FFA-4A42-8453-24C2F779EC36",
+          "qlooName": "Urban Outfitters"
+        }
+      ],
+      "interests": [
+        {
+          "id": "film-tv",
+          "label": "Film & TV",
+          "strength": 0.8
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "rose-quartz-gua-sha",
+      "title": "Rose Quartz Gua Sha",
+      "category": "beauty-skincare",
+      "price": 26,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:pastel_color_palette",
+          "dimension": "aesthetic",
+          "label": "Pastel Color Palette",
+          "idf": 4.039,
+          "brandCount": 13
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:polished_finishes",
+          "dimension": "aesthetic",
+          "label": "Polished Finishes",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:soothing",
+          "dimension": "tone",
+          "label": "Soothing",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:gentle",
+          "dimension": "tone",
+          "label": "Gentle",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:daily_self_care",
+          "dimension": "lifestyle",
+          "label": "Daily Self-Care",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:beauty_rituals",
+          "dimension": "interest",
+          "label": "Beauty Rituals",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:skincare",
+          "dimension": "interest",
+          "label": "Skincare",
+          "idf": 3.363,
+          "brandCount": 26
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Glossier",
+          "entityId": "742FBE1B-B70F-471F-AD07-A55C9A903628",
+          "qlooName": "Glossier"
+        },
+        {
+          "name": "Laneige",
+          "entityId": "ABE0FE94-B7A2-4F17-A744-54A07F8617A7",
+          "qlooName": "Laneige"
+        }
+      ],
+      "interests": [
+        {
+          "id": "beauty-skincare",
+          "label": "Beauty & skincare",
+          "strength": 1
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "vegan-makeup-brush-set",
+      "title": "Vegan Makeup Brush Set",
+      "category": "beauty-skincare",
+      "price": 45,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:neutral_color_palette",
+          "dimension": "aesthetic",
+          "label": "Neutral Color Palette",
+          "idf": 2.404,
+          "brandCount": 72
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:polished",
+          "dimension": "aesthetic",
+          "label": "Polished",
+          "idf": 3.776,
+          "brandCount": 17
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:refined",
+          "dimension": "tone",
+          "label": "Refined",
+          "idf": 2.883,
+          "brandCount": 43
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:confident",
+          "dimension": "tone",
+          "label": "Confident",
+          "idf": 1.871,
+          "brandCount": 132
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:daily_makeup_routine",
+          "dimension": "lifestyle",
+          "label": "Daily Makeup Routine",
+          "idf": 5.205,
+          "brandCount": 4
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:makeup_artistry",
+          "dimension": "interest",
+          "label": "Makeup Artistry",
+          "idf": 4.039,
+          "brandCount": 13
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:personal_care",
+          "dimension": "interest",
+          "label": "Personal Care",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Sephora",
+          "entityId": "2C5054E1-8691-4F52-83CD-310D029BA6A3",
+          "qlooName": "Sephora"
+        },
+        {
+          "name": "Glossier",
+          "entityId": "742FBE1B-B70F-471F-AD07-A55C9A903628",
+          "qlooName": "Glossier"
+        }
+      ],
+      "interests": [
+        {
+          "id": "beauty-skincare",
+          "label": "Beauty & skincare",
+          "strength": 1
+        },
+        {
+          "id": "fashion-style",
+          "label": "Fashion & style",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "korean-sheet-mask-set",
+      "title": "K-Beauty Sheet Mask Set",
+      "category": "beauty-skincare",
+      "price": 30,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:clean",
+          "dimension": "aesthetic",
+          "label": "Clean",
+          "idf": 2.343,
+          "brandCount": 77
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:soft_color_palette",
+          "dimension": "aesthetic",
+          "label": "Soft Color Palette",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:refreshing",
+          "dimension": "tone",
+          "label": "Refreshing",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:radiant",
+          "dimension": "tone",
+          "label": "Radiant",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:evening_routine",
+          "dimension": "lifestyle",
+          "label": "Evening Routine",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:skincare",
+          "dimension": "interest",
+          "label": "Skincare",
+          "idf": 3.363,
+          "brandCount": 26
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:self_care_rituals",
+          "dimension": "interest",
+          "label": "Self-Care Rituals",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Laneige",
+          "entityId": "ABE0FE94-B7A2-4F17-A744-54A07F8617A7",
+          "qlooName": "Laneige"
+        },
+        {
+          "name": "Innisfree",
+          "entityId": "016EA3BD-D740-46A0-B775-4B0E4A248FF0",
+          "qlooName": "Innisfree"
+        }
+      ],
+      "interests": [
+        {
+          "id": "beauty-skincare",
+          "label": "Beauty & skincare",
+          "strength": 1
+        },
+        {
+          "id": "korean-culture",
+          "label": "Korean culture",
+          "strength": 1
+        },
+        {
+          "id": "wellness-selfcare",
+          "label": "Wellness & self-care",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "gaming-desk-mat",
+      "title": "Extended Gaming Desk Mat",
+      "category": "games-puzzles",
+      "price": 29,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:sleek",
+          "dimension": "aesthetic",
+          "label": "Sleek",
+          "idf": 2.741,
+          "brandCount": 50
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:dark_palette",
+          "dimension": "aesthetic",
+          "label": "Dark Palette",
+          "idf": 4.203,
+          "brandCount": 11
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:focused",
+          "dimension": "tone",
+          "label": "Focused",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:cool",
+          "dimension": "tone",
+          "label": "Cool",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:pc_gaming",
+          "dimension": "lifestyle",
+          "label": "PC Gaming",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pc_gaming",
+          "dimension": "interest",
+          "label": "PC Gaming",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:esports",
+          "dimension": "interest",
+          "label": "Esports",
+          "idf": 4.297,
+          "brandCount": 10
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Razer",
+          "entityId": "D73F5D9A-6A4B-447F-9041-09813F22F85E",
+          "qlooName": "Razer"
+        },
+        {
+          "name": "Logitech",
+          "entityId": "B17B81E9-0DE4-4A82-B307-24F0161CF2AE",
+          "qlooName": "Logitech"
+        }
+      ],
+      "interests": [
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "ambient-led-light-bars",
+      "title": "Ambient LED Light Bars",
+      "category": "games-puzzles",
+      "price": 59,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vibrant_colors",
+          "dimension": "aesthetic",
+          "label": "Vibrant Colors",
+          "idf": 2.556,
+          "brandCount": 61
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:futuristic",
+          "dimension": "aesthetic",
+          "label": "Futuristic",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:immersive",
+          "dimension": "tone",
+          "label": "Immersive",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:energetic",
+          "dimension": "tone",
+          "label": "Energetic",
+          "idf": 2.526,
+          "brandCount": 63
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:home_entertainment",
+          "dimension": "lifestyle",
+          "label": "Home Entertainment",
+          "idf": 4.803,
+          "brandCount": 6
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:gaming",
+          "dimension": "interest",
+          "label": "Gaming",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:smart_home_technology",
+          "dimension": "interest",
+          "label": "Smart Home Technology",
+          "idf": 5.205,
+          "brandCount": 4
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Razer",
+          "entityId": "D73F5D9A-6A4B-447F-9041-09813F22F85E",
+          "qlooName": "Razer"
+        },
+        {
+          "name": "Philips",
+          "entityId": "49E1621C-9949-4FBC-9FFA-29DA8907300A",
+          "qlooName": "Philips"
+        }
+      ],
+      "interests": [
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 1
+        },
+        {
+          "id": "music",
+          "label": "Music",
+          "strength": 0.3
+        },
+        {
+          "id": "film-tv",
+          "label": "Film & TV",
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "handle": "pixel-art-print",
+      "title": "Retro Pixel Art Print",
+      "category": "prints-art",
+      "price": 32,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:retro_aesthetic",
+          "dimension": "aesthetic",
+          "label": "Retro Aesthetic",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vibrant_graphics",
+          "dimension": "aesthetic",
+          "label": "Vibrant Graphics",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:playful",
+          "dimension": "tone",
+          "label": "Playful",
+          "idf": 2.076,
+          "brandCount": 104
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:art_collecting",
+          "dimension": "lifestyle",
+          "label": "Art Collecting",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:digital_art",
+          "dimension": "interest",
+          "label": "Digital Art",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:pop_culture",
+          "dimension": "interest",
+          "label": "Pop Culture",
+          "idf": 2.704,
+          "brandCount": 52
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Urban Outfitters",
+          "entityId": "4F94C666-5FFA-4A42-8453-24C2F779EC36",
+          "qlooName": "Urban Outfitters"
+        }
+      ],
+      "interests": [
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 0.8
+        },
+        {
+          "id": "illustration",
+          "label": "Illustration",
+          "strength": 0.8
+        }
+      ]
+    },
+    {
+      "handle": "polyhedral-dice-set",
+      "title": "Polyhedral Dice Set with Pouch",
+      "category": "games-puzzles",
+      "price": 27,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:playful",
+          "dimension": "aesthetic",
+          "label": "Playful",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:intricate_detailing",
+          "dimension": "aesthetic",
+          "label": "Intricate Detailing",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:adventurous",
+          "dimension": "tone",
+          "label": "Adventurous",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:whimsical",
+          "dimension": "tone",
+          "label": "Whimsical",
+          "idf": 3.835,
+          "brandCount": 16
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:competitive_play",
+          "dimension": "lifestyle",
+          "label": "Competitive Play",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:casual_gaming",
+          "dimension": "interest",
+          "label": "Casual Gaming",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:storytelling",
+          "dimension": "interest",
+          "label": "Storytelling",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Hasbro",
+          "entityId": "D6563632-EE01-49FB-8177-A4D18480B913",
+          "qlooName": "Hasbro"
+        }
+      ],
+      "interests": [
+        {
+          "id": "tabletop-puzzles",
+          "label": "Board games & puzzles",
+          "strength": 1
+        },
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "arabic-calligraphy-print",
+      "title": "Arabic Calligraphy Art Print",
+      "category": "prints-art",
+      "price": 46,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:intricate_detailing",
+          "dimension": "aesthetic",
+          "label": "Intricate Detailing",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:monochrome",
+          "dimension": "aesthetic",
+          "label": "Monochrome",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:timeless",
+          "dimension": "tone",
+          "label": "Timeless",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:reflective",
+          "dimension": "tone",
+          "label": "Reflective",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:art_collecting",
+          "dimension": "lifestyle",
+          "label": "Art Collecting",
+          "idf": 4.518,
+          "brandCount": 8
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:fine_art",
+          "dimension": "interest",
+          "label": "Fine Art",
+          "idf": 3.668,
+          "brandCount": 19
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:heritage_craftsmanship",
+          "dimension": "interest",
+          "label": "Heritage Craftsmanship",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Bateel",
+          "entityId": "1859BEE3-AB9C-43B0-B784-0DAB7056DE40",
+          "qlooName": "Bateel"
+        }
+      ],
+      "interests": [
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        },
+        {
+          "id": "fine-art",
+          "label": "Fine art",
+          "strength": 0.7
+        },
+        {
+          "id": "writing-stationery",
+          "label": "Writing & stationery",
+          "strength": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "sadu-weave-cushion",
+      "title": "Sadu-Inspired Woven Cushion",
+      "category": "home-decor",
+      "price": 52,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:geometric_patterns",
+          "dimension": "aesthetic",
+          "label": "Geometric Patterns",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:textured",
+          "dimension": "aesthetic",
+          "label": "Textured",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:welcoming",
+          "dimension": "tone",
+          "label": "Welcoming",
+          "idf": 3.72,
+          "brandCount": 18
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:warm",
+          "dimension": "tone",
+          "label": "Warm",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:hosting_gatherings",
+          "dimension": "lifestyle",
+          "label": "Hosting Gatherings",
+          "idf": 4.65,
+          "brandCount": 7
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:textile_arts",
+          "dimension": "interest",
+          "label": "Textile Arts",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:heritage_craftsmanship",
+          "dimension": "interest",
+          "label": "Heritage Craftsmanship",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Anthropologie",
+          "entityId": "AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819",
+          "qlooName": "Anthropologie"
+        },
+        {
+          "name": "West Elm",
+          "entityId": "18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C",
+          "qlooName": "West Elm"
+        }
+      ],
+      "interests": [
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.7
+        }
+      ]
+    },
+    {
+      "handle": "brass-lantern",
+      "title": "Pierced Brass Lantern",
+      "category": "home-decor",
+      "price": 64,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:intricate_detailing",
+          "dimension": "aesthetic",
+          "label": "Intricate Detailing",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:metallic_accents",
+          "dimension": "aesthetic",
+          "label": "Metallic Accents",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:inviting",
+          "dimension": "tone",
+          "label": "Inviting",
+          "idf": 3.226,
+          "brandCount": 30
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:romantic",
+          "dimension": "tone",
+          "label": "Romantic",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:home_decorating",
+          "dimension": "lifestyle",
+          "label": "Home Decorating",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:home_decor",
+          "dimension": "interest",
+          "label": "Home Decor",
+          "idf": 4.118,
+          "brandCount": 12
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:heritage_craftsmanship",
+          "dimension": "interest",
+          "label": "Heritage Craftsmanship",
+          "idf": 5.492,
+          "brandCount": 3
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Anthropologie",
+          "entityId": "AC39CF94-AA91-4EE5-ACAA-CC05EEC5B819",
+          "qlooName": "Anthropologie"
+        },
+        {
+          "name": "West Elm",
+          "entityId": "18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C",
+          "qlooName": "West Elm"
+        }
+      ],
+      "interests": [
+        {
+          "id": "arab-heritage",
+          "label": "Arabic & Gulf heritage",
+          "strength": 1
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.6
+        }
+      ]
+    },
+    {
+      "handle": "vintage-hardcover-bundle",
+      "title": "Curated Vintage Hardcover Bundle",
+      "category": "books-reading",
+      "price": 49,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:vintage_inspired",
+          "dimension": "aesthetic",
+          "label": "Vintage-Inspired",
+          "idf": 3.618,
+          "brandCount": 20
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:classic",
+          "dimension": "aesthetic",
+          "label": "Classic",
+          "idf": 3.327,
+          "brandCount": 27
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:nostalgic",
+          "dimension": "tone",
+          "label": "Nostalgic",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:intellectual",
+          "dimension": "tone",
+          "label": "Intellectual",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_leisure",
+          "dimension": "lifestyle",
+          "label": "Intellectual Leisure",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:storytelling",
+          "dimension": "interest",
+          "label": "Storytelling",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:nostalgia",
+          "dimension": "interest",
+          "label": "Nostalgia",
+          "idf": 4.65,
+          "brandCount": 7
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Penguin Random House",
+          "entityId": "E0D8457F-104A-4EC2-88A4-BAF73532562F",
+          "qlooName": "Penguin Random House"
+        }
+      ],
+      "interests": [
+        {
+          "id": "books-reading",
+          "label": "Books & reading",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "handle": "oak-floating-book-ledge",
+      "title": "Oak Floating Book Ledge",
+      "category": "books-reading",
+      "price": 44,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:natural_textures",
+          "dimension": "aesthetic",
+          "label": "Natural Textures",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:clean_lines",
+          "dimension": "aesthetic",
+          "label": "Clean Lines",
+          "idf": 2.146,
+          "brandCount": 96
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:calm",
+          "dimension": "tone",
+          "label": "Calm",
+          "idf": 3.025,
+          "brandCount": 37
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:thoughtful",
+          "dimension": "tone",
+          "label": "Thoughtful",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_leisure",
+          "dimension": "lifestyle",
+          "label": "Intellectual Leisure",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:interior_design",
+          "dimension": "interest",
+          "label": "Interior Design",
+          "idf": 2.223,
+          "brandCount": 88
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:minimalist_design",
+          "dimension": "interest",
+          "label": "Minimalist Design",
+          "idf": 3.164,
+          "brandCount": 32
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "West Elm",
+          "entityId": "18D4B0BC-4E4F-4563-809C-1A4B0AC9D39C",
+          "qlooName": "West Elm"
+        },
+        {
+          "name": "Muji",
+          "entityId": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+          "qlooName": "Muji"
+        }
+      ],
+      "interests": [
+        {
+          "id": "books-reading",
+          "label": "Books & reading",
+          "strength": 0.9
+        },
+        {
+          "id": "home-hosting",
+          "label": "Home & hosting",
+          "strength": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "reading-journal",
+      "title": "Linen Reading Journal",
+      "category": "books-reading",
+      "price": 26,
+      "terms": [
+        {
+          "key": "urn:tag:aesthetic_property:qloo:neutral_color_palette",
+          "dimension": "aesthetic",
+          "label": "Neutral Color Palette",
+          "idf": 2.404,
+          "brandCount": 72
+        },
+        {
+          "key": "urn:tag:aesthetic_property:qloo:clean_typography",
+          "dimension": "aesthetic",
+          "label": "Clean Typography",
+          "idf": 3.051,
+          "brandCount": 36
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:reflective",
+          "dimension": "tone",
+          "label": "Reflective",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:emotional_tone:qloo:thoughtful",
+          "dimension": "tone",
+          "label": "Thoughtful",
+          "idf": 4.401,
+          "brandCount": 9
+        },
+        {
+          "key": "urn:tag:lifestyle:qloo:intellectual_pursuits",
+          "dimension": "lifestyle",
+          "label": "Intellectual Pursuits",
+          "idf": 4.984,
+          "brandCount": 5
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:storytelling",
+          "dimension": "interest",
+          "label": "Storytelling",
+          "idf": 5.492,
+          "brandCount": 3
+        },
+        {
+          "key": "urn:tag:interest_adjacency:qloo:personal_development",
+          "dimension": "interest",
+          "label": "Personal Development",
+          "idf": 4.118,
+          "brandCount": 12
+        }
+      ],
+      "similarStyle": [
+        {
+          "name": "Moleskine",
+          "entityId": "AB06A58F-6962-4663-80A7-EF7D9208969A",
+          "qlooName": "Moleskine"
+        },
+        {
+          "name": "Rifle Paper Co.",
+          "entityId": "BE74FBA3-EEC5-4D55-BA71-750C8322A827",
+          "qlooName": "Rifle Paper Co."
+        }
+      ],
+      "interests": [
+        {
+          "id": "books-reading",
+          "label": "Books & reading",
+          "strength": 1
+        },
+        {
+          "id": "writing-stationery",
+          "label": "Writing & stationery",
+          "strength": 0.6
+        }
+      ]
+    }
+  ]
+}

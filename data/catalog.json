@@ -1,0 +1,2444 @@
+[
+  {
+    "handle": "hand-thrown-matcha-bowl",
+    "title": "Hand-Thrown Matcha Bowl",
+    "description": "A wheel-thrown stoneware chawan with a soft speckled glaze, made for slow morning tea.",
+    "category": "ceramics-tableware",
+    "price": 38,
+    "photoQuery": "matcha bowl ceramic",
+    "descriptors": [
+      "aesthetic:Earth Tones",
+      "aesthetic:Natural Textures",
+      "tone:Calm",
+      "tone:Authentic",
+      "lifestyle:Slow Living",
+      "lifestyle:Morning Routine",
+      "interest:Tea Culture",
+      "interest:Handmade Craftsmanship",
+      "interest:Mindfulness"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Anthropologie"
+    ],
+    "photo": {
+      "id": "Jge6KRP6t94",
+      "url": "https://images.unsplash.com/photo-1708572727896-117b5ea25a86?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a bowl of green liquid next to a whisk",
+      "photographer": "Andrea Lacasse",
+      "photographerUrl": "https://unsplash.com/@andrealacasse",
+      "sourceUrl": "https://unsplash.com/photos/a-bowl-of-green-liquid-next-to-a-whisk-Jge6KRP6t94",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "tea": 1,
+      "japanese-culture": 0.6
+    }
+  },
+  {
+    "handle": "speckled-stoneware-mug-pair",
+    "title": "Speckled Stoneware Mug Pair",
+    "description": "Two chunky handmade mugs in oatmeal glaze, sized for long conversations.",
+    "category": "ceramics-tableware",
+    "price": 32,
+    "photoQuery": "handmade ceramic mugs",
+    "descriptors": [
+      "aesthetic:Neutral Color Palette",
+      "aesthetic:Textured",
+      "tone:Comforting",
+      "tone:Warm",
+      "tone:Inviting",
+      "lifestyle:Relaxing At Home",
+      "lifestyle:Morning Routine",
+      "interest:Artisan Crafts",
+      "interest:Coffee Culture"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Anthropologie"
+    ],
+    "photo": {
+      "id": "CipURjPCXOo",
+      "url": "https://images.unsplash.com/photo-1536936812504-0e77dc3f0b40?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "two white ceramic mug",
+      "photographer": "Katja Vogt",
+      "photographerUrl": "https://unsplash.com/@folkmade",
+      "sourceUrl": "https://unsplash.com/photos/two-white-ceramic-mug-CipURjPCXOo",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "coffee": 1,
+      "tea": 0.5
+    }
+  },
+  {
+    "handle": "brass-dallah-coffee-set",
+    "title": "Brass Dallah Coffee Set",
+    "description": "A polished brass dallah with four handleless finjan cups for traditional Arabic coffee.",
+    "category": "tea-coffee",
+    "price": 85,
+    "photoQuery": "arabic coffee pot dallah",
+    "descriptors": [
+      "aesthetic:Traditional",
+      "aesthetic:Gold Accents",
+      "aesthetic:Heritage-Inspired",
+      "tone:Welcoming",
+      "tone:Nostalgic",
+      "tone:Timeless",
+      "lifestyle:Hosting Gatherings",
+      "lifestyle:Family Gatherings",
+      "interest:Coffee Culture",
+      "interest:Entertaining"
+    ],
+    "similarStyle": [
+      "Bateel"
+    ],
+    "photo": {
+      "id": "yHiljmYZrck",
+      "url": "https://images.unsplash.com/photo-1604924434662-4127d9fa3070?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "gold and silver teapot on brown coffee beans",
+      "photographer": "mostafa mahmoudi",
+      "photographerUrl": "https://unsplash.com/@mostafa_mahmoudi24",
+      "sourceUrl": "https://unsplash.com/photos/gold-and-silver-teapot-on-brown-coffee-beans-yHiljmYZrck",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "coffee": 1,
+      "arab-heritage": 1,
+      "home-hosting": 0.6
+    }
+  },
+  {
+    "handle": "ceremonial-matcha-kit",
+    "title": "Ceremonial Matcha Starter Kit",
+    "description": "Stone-ground ceremonial matcha with a bamboo whisk, scoop and whisk rest.",
+    "category": "tea-coffee",
+    "price": 54,
+    "photoQuery": "matcha whisk bamboo",
+    "descriptors": [
+      "aesthetic:Minimalist",
+      "aesthetic:Natural Tones",
+      "tone:Calm",
+      "tone:Mindful",
+      "lifestyle:Morning Rituals",
+      "lifestyle:Mindful Living",
+      "interest:Tea Culture",
+      "interest:Holistic Wellness",
+      "interest:Self-Care Rituals"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Aesop"
+    ],
+    "photo": {
+      "id": "u_8m7fCJQmw",
+      "url": "https://images.unsplash.com/photo-1565117711038-1e0a80eed005?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "filled clear drinking glass",
+      "photographer": "Alice Pasqual",
+      "photographerUrl": "https://unsplash.com/@stri_khedonia",
+      "sourceUrl": "https://unsplash.com/photos/filled-clear-drinking-glass-u_8m7fCJQmw",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "tea": 1,
+      "japanese-culture": 0.6,
+      "wellness-selfcare": 0.4
+    }
+  },
+  {
+    "handle": "single-origin-coffee-flight",
+    "title": "Single-Origin Coffee Flight",
+    "description": "Three small-lot roasts from Ethiopia, Yemen and Colombia with tasting notes.",
+    "category": "tea-coffee",
+    "price": 29,
+    "photoQuery": "coffee beans bags",
+    "descriptors": [
+      "aesthetic:Earth Tones",
+      "tone:Authentic",
+      "tone:Adventurous",
+      "lifestyle:Morning Routine",
+      "lifestyle:Cultural Exploration",
+      "interest:Specialty Coffee",
+      "interest:Coffee Culture",
+      "interest:Gourmet Food"
+    ],
+    "similarStyle": [
+      "Blue Bottle Coffee",
+      "Starbucks"
+    ],
+    "photo": {
+      "id": "7QlJ79Cj43w",
+      "url": "https://images.unsplash.com/photo-1562051036-e0eea191d42f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "brown coffee beans inside white sack",
+      "photographer": "Nadia Valko",
+      "photographerUrl": "https://unsplash.com/@nadiavalko",
+      "sourceUrl": "https://unsplash.com/photos/brown-coffee-beans-inside-white-sack-7QlJ79Cj43w",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "coffee": 1
+    }
+  },
+  {
+    "handle": "glass-pour-over-set",
+    "title": "Glass Pour-Over Set",
+    "description": "A borosilicate dripper and carafe with a gooseneck kettle for a precise brew ritual.",
+    "category": "kitchen",
+    "price": 46,
+    "photoQuery": "pour over coffee glass",
+    "descriptors": [
+      "aesthetic:Clean Lines",
+      "aesthetic:Minimalist",
+      "aesthetic:Functional",
+      "tone:Precise",
+      "tone:Calm",
+      "lifestyle:Morning Routine",
+      "lifestyle:Slow Living",
+      "interest:Specialty Coffee",
+      "interest:Home Brewing"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Williams-Sonoma"
+    ],
+    "photo": {
+      "id": "KGR2u2rG6c4",
+      "url": "https://images.unsplash.com/photo-1729277133095-bff46b56c29a?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A coffee maker pouring coffee into a cup",
+      "photographer": "Beau Carpenter",
+      "photographerUrl": "https://unsplash.com/@btcarpenter",
+      "sourceUrl": "https://unsplash.com/photos/a-coffee-maker-pouring-coffee-into-a-cup-KGR2u2rG6c4",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "coffee": 1
+    }
+  },
+  {
+    "handle": "medjool-dates-gift-box",
+    "title": "Stuffed Medjool Dates Box",
+    "description": "Plump Medjool dates filled with pistachio, almond and orange peel in a keepsake box.",
+    "category": "sweets",
+    "price": 36,
+    "photoQuery": "dates gift box",
+    "descriptors": [
+      "aesthetic:Gold Accents",
+      "aesthetic:Traditional",
+      "tone:Welcoming",
+      "tone:Indulgent",
+      "lifestyle:Family Gatherings",
+      "lifestyle:Holiday Celebrations",
+      "interest:Gift Giving",
+      "interest:Confectionery",
+      "interest:Gourmet Food"
+    ],
+    "similarStyle": [
+      "Bateel",
+      "Patchi"
+    ],
+    "photo": {
+      "id": "MdaNz3uaJUI",
+      "url": "https://images.unsplash.com/photo-1663505305557-53be07c5b810?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a group of small wooden bowls with brown objects in them",
+      "photographer": "Glenov Brankovic",
+      "photographerUrl": "https://unsplash.com/@glenovbrankovic",
+      "sourceUrl": "https://unsplash.com/photos/a-group-of-small-wooden-bowls-with-brown-objects-in-them-MdaNz3uaJUI",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "arab-heritage": 1,
+      "cooking-food": 0.6,
+      "home-hosting": 0.5
+    }
+  },
+  {
+    "handle": "artisan-chocolate-collection",
+    "title": "Artisan Chocolate Collection",
+    "description": "Sixteen hand-painted bonbons with pistachio, cardamom, yuzu and salted caramel. Alcohol-free.",
+    "category": "sweets",
+    "price": 28,
+    "photoQuery": "artisan chocolate bonbons",
+    "descriptors": [
+      "aesthetic:Vibrant Colors",
+      "aesthetic:Intricate Detailing",
+      "tone:Indulgent",
+      "tone:Joyful",
+      "tone:Celebratory",
+      "lifestyle:Celebrating Milestones",
+      "interest:Confectionery",
+      "interest:Dessert Culture",
+      "interest:Gift Giving"
+    ],
+    "similarStyle": [
+      "Lindt Chocolate",
+      "Godiva Chocolatier"
+    ],
+    "photo": {
+      "id": "SAlVV13XgTo",
+      "url": "https://images.unsplash.com/photo-1566565286951-f81c7ba5619d?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "chocolate box",
+      "photographer": "Jessica Johnston",
+      "photographerUrl": "https://unsplash.com/@jdjohnston",
+      "sourceUrl": "https://unsplash.com/photos/chocolate-box-SAlVV13XgTo",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "cooking-food": 0.7
+    }
+  },
+  {
+    "handle": "round-wood-serving-board",
+    "title": "Round Hardwood Serving Board",
+    "description": "A thick round hardwood board with soft edges, made for mezze nights and long tables.",
+    "category": "kitchen",
+    "price": 42,
+    "photoQuery": "wooden cutting board",
+    "descriptors": [
+      "aesthetic:Natural Textures",
+      "aesthetic:Earth Tones",
+      "aesthetic:Rugged Texture",
+      "tone:Inviting",
+      "tone:Warm",
+      "lifestyle:Hosting Dinner Parties",
+      "lifestyle:Cooking At Home",
+      "interest:Home Entertaining",
+      "interest:Culinary Arts"
+    ],
+    "similarStyle": [
+      "Williams-Sonoma",
+      "Crate & Barrel"
+    ],
+    "photo": {
+      "id": "AqEtPR8ahdQ",
+      "url": "https://images.unsplash.com/photo-1690983322070-22861e13ce47?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a wooden cutting board surrounded by various ingredients",
+      "photographer": "Sergey Kotenev",
+      "photographerUrl": "https://unsplash.com/@sergeykotenev",
+      "sourceUrl": "https://unsplash.com/photos/a-wooden-cutting-board-surrounded-by-various-ingredients-AqEtPR8ahdQ",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "home-hosting": 1,
+      "cooking-food": 0.7
+    }
+  },
+  {
+    "handle": "enamel-cast-iron-pot",
+    "title": "Enamel Cast Iron Pot",
+    "description": "A 3.5 quart enamelled cast iron pot in flame orange, from stovetop to table.",
+    "category": "kitchen",
+    "price": 119,
+    "photoQuery": "cast iron pot kitchen",
+    "descriptors": [
+      "aesthetic:Classic",
+      "aesthetic:Robust Construction",
+      "aesthetic:Soft Color Palette",
+      "tone:Comforting",
+      "tone:Timeless",
+      "lifestyle:Home Cooking",
+      "lifestyle:Family Gatherings",
+      "interest:Gourmet Cooking",
+      "interest:Comfort Food",
+      "interest:Culinary Arts"
+    ],
+    "similarStyle": [
+      "Le Creuset",
+      "Lodge Cast Iron"
+    ],
+    "photo": {
+      "id": "hRwSIjkn-LE",
+      "url": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "orange plastic container on white table",
+      "photographer": "Cooker King",
+      "photographerUrl": "https://unsplash.com/@cookerking",
+      "sourceUrl": "https://unsplash.com/photos/orange-plastic-container-on-white-table-hRwSIjkn-LE",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "cooking-food": 1,
+      "home-hosting": 0.5
+    }
+  },
+  {
+    "handle": "bakhoor-burner-set",
+    "title": "Bakhoor Burner and Oud Chips",
+    "description": "A carved ceramic mabkhara with two blends of oud bakhoor for a fragrant home.",
+    "category": "home-fragrance",
+    "price": 48,
+    "photoQuery": "incense burner smoke",
+    "descriptors": [
+      "aesthetic:Traditional",
+      "aesthetic:Intricate Detailing",
+      "tone:Sensual",
+      "tone:Welcoming",
+      "tone:Serene",
+      "lifestyle:Hosting Gatherings",
+      "lifestyle:Relaxing At Home",
+      "interest:Fine Fragrance",
+      "interest:Fragrance Collecting"
+    ],
+    "similarStyle": [
+      "Amouage",
+      "Ibraheem Al Qurashi"
+    ],
+    "photo": {
+      "id": "k0bv_oE34DQ",
+      "url": "https://images.unsplash.com/photo-1639390167093-9c62311fe84d?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a smokestack sitting in a bowl on a table",
+      "photographer": "Cosmin Ursea",
+      "photographerUrl": "https://unsplash.com/@cosminursea",
+      "sourceUrl": "https://unsplash.com/photos/a-smokestack-sitting-in-a-bowl-on-a-table-k0bv_oE34DQ",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "fragrance": 1,
+      "arab-heritage": 1
+    }
+  },
+  {
+    "handle": "soy-candle-trio",
+    "title": "Fig, Cedar and Rain Candle Trio",
+    "description": "Three soy wax candles in amber glass with cotton wicks and clean, alcohol-free scents.",
+    "category": "home-fragrance",
+    "price": 36,
+    "photoQuery": "candles amber glass",
+    "descriptors": [
+      "aesthetic:Minimalist Packaging",
+      "aesthetic:Warm Tones",
+      "tone:Calm",
+      "tone:Comforting",
+      "tone:Soothing",
+      "lifestyle:Relaxing At Home",
+      "lifestyle:Evening Routine",
+      "interest:Self-Care",
+      "interest:Home Decor"
+    ],
+    "similarStyle": [
+      "Jo Malone London",
+      "Aesop"
+    ],
+    "photo": {
+      "id": "OAW0OCLn52I",
+      "url": "https://images.unsplash.com/photo-1612293905607-b003de9e54fb?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A hand lighting a candle in a brown glass jar with a match",
+      "photographer": "No Revisions",
+      "photographerUrl": "https://unsplash.com/@norevisions",
+      "sourceUrl": "https://unsplash.com/photos/hand-lighting-candle-in-glass-jar-OAW0OCLn52I",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "fragrance": 0.7,
+      "wellness-selfcare": 0.6,
+      "home-hosting": 0.3
+    }
+  },
+  {
+    "handle": "linen-throw-blanket",
+    "title": "Washed Linen Throw",
+    "description": "A stonewashed linen throw with fringed edges, soft from the first use.",
+    "category": "home-decor",
+    "price": 78,
+    "photoQuery": "linen throw blanket sofa",
+    "descriptors": [
+      "aesthetic:Neutral Color Palette",
+      "aesthetic:Soft Textures",
+      "aesthetic:Relaxed Silhouettes",
+      "tone:Comforting",
+      "tone:Relaxed",
+      "lifestyle:Slow Living",
+      "lifestyle:Casual Lounging",
+      "interest:Interior Design",
+      "interest:Slow Living"
+    ],
+    "similarStyle": [
+      "Brooklinen",
+      "West Elm"
+    ],
+    "photo": {
+      "id": "Os53eXcWy2I",
+      "url": "https://images.unsplash.com/photo-1761330439252-325f2091e88d?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A neutral-toned sofa with a textured vase",
+      "photographer": "Caroline Badran",
+      "photographerUrl": "https://unsplash.com/@___atmos",
+      "sourceUrl": "https://unsplash.com/photos/a-neutral-toned-sofa-with-a-textured-vase-Os53eXcWy2I",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "home-hosting": 0.6,
+      "wellness-selfcare": 0.4
+    }
+  },
+  {
+    "handle": "dried-flower-ceramic-vase",
+    "title": "Dried Flower Bundle with Bud Vase",
+    "description": "A pampas and bunny-tail bundle with a matte bud vase that lasts for seasons.",
+    "category": "home-decor",
+    "price": 44,
+    "photoQuery": "dried flowers vase",
+    "descriptors": [
+      "aesthetic:Botanical",
+      "aesthetic:Matte Finishes",
+      "aesthetic:Soft Color Palette",
+      "tone:Romantic",
+      "tone:Gentle",
+      "lifestyle:Curated Living",
+      "interest:Home Decor",
+      "interest:Interior Design",
+      "interest:Gardening"
+    ],
+    "similarStyle": [
+      "Anthropologie",
+      "West Elm"
+    ],
+    "photo": {
+      "id": "720f6XT65tg",
+      "url": "https://images.unsplash.com/photo-1618674622469-d7fd1a22fcf8?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "white flowers in brown glass bottle",
+      "photographer": "Gaelle Marcel",
+      "photographerUrl": "https://unsplash.com/@gaellemarcel",
+      "sourceUrl": "https://unsplash.com/photos/white-flowers-in-brown-glass-bottle-720f6XT65tg",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "home-hosting": 0.8
+    }
+  },
+  {
+    "handle": "botanical-print-set",
+    "title": "Vintage Botanical Print Set",
+    "description": "Three archival giclée prints of restored nineteenth-century botanical plates.",
+    "category": "prints-art",
+    "price": 40,
+    "photoQuery": "botanical prints wall frames",
+    "descriptors": [
+      "aesthetic:Botanical Illustrations",
+      "aesthetic:Vintage-Inspired",
+      "tone:Nostalgic",
+      "tone:Gentle",
+      "lifestyle:Curated Living",
+      "lifestyle:Art Collecting",
+      "interest:Fine Art",
+      "interest:Gardening",
+      "interest:Home Decor"
+    ],
+    "similarStyle": [
+      "Rifle Paper Co.",
+      "Anthropologie"
+    ],
+    "photo": {
+      "id": "XV847lPfgA4",
+      "url": "https://images.unsplash.com/photo-1787507136009-19ae8d98d867?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Three framed botanical prints with green leaves on a light green wall",
+      "photographer": "Harsh Vardhan Yadav",
+      "photographerUrl": "https://unsplash.com/@_varrdhan",
+      "sourceUrl": "https://unsplash.com/photos/botanical-prints-on-green-wall-XV847lPfgA4",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "illustration": 1,
+      "fine-art": 0.5
+    }
+  },
+  {
+    "handle": "picture-palace-art-print",
+    "title": "Picture Palace Art Print",
+    "description": "A giclée print of a restored 1920s picture palace interior, in a numbered edition.",
+    "category": "prints-art",
+    "price": 35,
+    "photoQuery": "vintage cinema theater",
+    "descriptors": [
+      "aesthetic:Retro Aesthetic",
+      "aesthetic:Cinematic",
+      "aesthetic:Bold Typography",
+      "tone:Nostalgic",
+      "tone:Romantic",
+      "lifestyle:Cultural Engagement",
+      "interest:Nostalgia",
+      "interest:Graphic Design",
+      "interest:Design History"
+    ],
+    "similarStyle": [
+      "The Criterion Collection",
+      "MUBI"
+    ],
+    "photo": {
+      "id": "4txHVae2MJ0",
+      "url": "https://images.unsplash.com/photo-1615414015111-8d98cb65677e?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "brown and red theater interior",
+      "photographer": "Liam McGarry",
+      "photographerUrl": "https://unsplash.com/@liammcgarry",
+      "sourceUrl": "https://unsplash.com/photos/brown-and-red-theater-interior-4txHVae2MJ0",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "classic-cinema": 1,
+      "illustration": 0.6
+    }
+  },
+  {
+    "handle": "watercolor-travel-set",
+    "title": "Watercolor Travel Set",
+    "description": "Twenty-four artist-grade pans in a tin with a water brush and cold-press postcards.",
+    "category": "stationery",
+    "price": 52,
+    "photoQuery": "watercolor paint set",
+    "descriptors": [
+      "aesthetic:Vibrant Colors",
+      "aesthetic:Botanical",
+      "tone:Creative",
+      "tone:Whimsical",
+      "tone:Relaxed",
+      "lifestyle:Creative Hobbies",
+      "lifestyle:Artistic Pursuit",
+      "interest:Creative Hobbies",
+      "interest:Fine Art"
+    ],
+    "similarStyle": [
+      "Faber-Castell",
+      "Staedtler"
+    ],
+    "photo": {
+      "id": "BZUo9Tf83HQ",
+      "url": "https://images.unsplash.com/photo-1601220959415-375d328bddc4?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "person holding white and green wooden chopsticks",
+      "photographer": "Wioleta Zakrzewska",
+      "photographerUrl": "https://unsplash.com/@wiozak",
+      "sourceUrl": "https://unsplash.com/photos/person-holding-white-and-green-wooden-chopsticks-BZUo9Tf83HQ",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "illustration": 1,
+      "travel-outdoors": 0.3
+    }
+  },
+  {
+    "handle": "leather-bound-journal",
+    "title": "Leather-Bound Journal",
+    "description": "A refillable vegetable-tanned leather journal with dot-grid paper and a brass clasp.",
+    "category": "stationery",
+    "price": 38,
+    "photoQuery": "leather journal notebook",
+    "descriptors": [
+      "aesthetic:Vintage-Inspired",
+      "aesthetic:Natural Textures",
+      "tone:Thoughtful",
+      "tone:Timeless",
+      "tone:Intellectual",
+      "lifestyle:Intellectual Pursuits",
+      "lifestyle:Creative Pursuits",
+      "interest:Craftsmanship",
+      "interest:Personal Development"
+    ],
+    "similarStyle": [
+      "Moleskine",
+      "Faber-Castell"
+    ],
+    "photo": {
+      "id": "i-ut6Z7qOnc",
+      "url": "https://images.unsplash.com/photo-1583341655648-78bdf4ed6d13?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "red leather long wallet on white table",
+      "photographer": "Rich Smith",
+      "photographerUrl": "https://unsplash.com/@richwilliamsmith",
+      "sourceUrl": "https://unsplash.com/photos/red-leather-long-wallet-on-white-table-i-ut6Z7qOnc",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "writing-stationery": 1,
+      "books-reading": 0.4
+    }
+  },
+  {
+    "handle": "fountain-pen-gift-set",
+    "title": "Fountain Pen Gift Set",
+    "description": "A lacquered fountain pen with a fine steel nib, converter and two ink colours.",
+    "category": "stationery",
+    "price": 64,
+    "photoQuery": "fountain pen writing",
+    "descriptors": [
+      "aesthetic:Classic",
+      "aesthetic:Polished Finishes",
+      "aesthetic:Elegant",
+      "tone:Refined",
+      "tone:Timeless",
+      "lifestyle:Intellectual Pursuits",
+      "lifestyle:Professional",
+      "interest:Craftsmanship",
+      "interest:Classic Design"
+    ],
+    "similarStyle": [
+      "Montblanc",
+      "Moleskine"
+    ],
+    "photo": {
+      "id": "8XddFc6NkBY",
+      "url": "https://images.unsplash.com/photo-1518674660708-0e2c0473e68e?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A gold fountain pen with an engraved nib on a white surface",
+      "photographer": "Art Lasovsky",
+      "photographerUrl": "https://unsplash.com/@artlasovsky",
+      "sourceUrl": "https://unsplash.com/photos/gold-fountain-pen-on-white-8XddFc6NkBY",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "writing-stationery": 1
+    }
+  },
+  {
+    "handle": "suitcase-record-player",
+    "title": "Suitcase Record Player",
+    "description": "A three-speed turntable in a canvas case with built-in speakers and Bluetooth out.",
+    "category": "audio",
+    "price": 149,
+    "photoQuery": "record player vinyl",
+    "descriptors": [
+      "aesthetic:Retro Aesthetic",
+      "aesthetic:Vintage-Inspired",
+      "tone:Nostalgic",
+      "tone:Warm",
+      "tone:Sentimental",
+      "lifestyle:Relaxing At Home",
+      "interest:Music",
+      "interest:Nostalgia",
+      "interest:Music Culture"
+    ],
+    "similarStyle": [
+      "Audio-Technica",
+      "Urban Outfitters"
+    ],
+    "photo": {
+      "id": "UaSpWm8pTOc",
+      "url": "https://images.unsplash.com/photo-1601148071764-8c3f50e9ab20?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "vinyl record player on table",
+      "photographer": "Dorien Monnens",
+      "photographerUrl": "https://unsplash.com/@dorienmonnens",
+      "sourceUrl": "https://unsplash.com/photos/vinyl-record-player-on-table-UaSpWm8pTOc",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "vinyl-hifi": 1,
+      "jazz": 0.7
+    }
+  },
+  {
+    "handle": "walnut-bluetooth-speaker",
+    "title": "Walnut Bluetooth Speaker",
+    "description": "A solid walnut speaker with a fabric grille and warm, room-filling sound.",
+    "category": "audio",
+    "price": 89,
+    "photoQuery": "wooden speaker desk",
+    "descriptors": [
+      "aesthetic:Natural Textures",
+      "aesthetic:Minimalist",
+      "aesthetic:Clean Lines",
+      "tone:Warm",
+      "tone:Calm",
+      "lifestyle:Working From Home",
+      "interest:High Fidelity Audio",
+      "interest:Music",
+      "interest:Interior Design"
+    ],
+    "similarStyle": [
+      "Bang & Olufsen",
+      "Bose Corporation"
+    ],
+    "photo": {
+      "id": "ziosREb7628",
+      "url": "https://images.unsplash.com/photo-1564593822213-66b81f28e631?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black and brown speaker",
+      "photographer": "Behnam Norouzi",
+      "photographerUrl": "https://unsplash.com/@behy_studio",
+      "sourceUrl": "https://unsplash.com/photos/black-and-brown-speaker-ziosREb7628",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "vinyl-hifi": 0.9
+    }
+  },
+  {
+    "handle": "landscape-jigsaw-puzzle",
+    "title": "1000-Piece Illustrated Jigsaw",
+    "description": "A thick-board puzzle of a dreamy hillside village, illustrated by hand.",
+    "category": "games-puzzles",
+    "price": 26,
+    "photoQuery": "jigsaw puzzle pieces table",
+    "descriptors": [
+      "aesthetic:Playful Imagery",
+      "aesthetic:Colorful",
+      "tone:Whimsical",
+      "tone:Nostalgic",
+      "tone:Relaxed",
+      "lifestyle:Family Movie Nights",
+      "lifestyle:Relaxing At Home",
+      "interest:Casual Gaming",
+      "interest:Family Activities"
+    ],
+    "similarStyle": [
+      "Ravensburger"
+    ],
+    "photo": {
+      "id": "V9qc-JVKIBo",
+      "url": "https://images.unsplash.com/photo-1612385763901-68857dd4c43c?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "red white and gray jigsaw puzzle",
+      "photographer": "Nathalia Segato",
+      "photographerUrl": "https://unsplash.com/@trintaycinco",
+      "sourceUrl": "https://unsplash.com/photos/red-white-and-gray-jigsaw-puzzle-V9qc-JVKIBo",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "tabletop-puzzles": 1,
+      "illustration": 0.4
+    }
+  },
+  {
+    "handle": "walnut-chess-set",
+    "title": "Walnut and Maple Chess Set",
+    "description": "A folding hardwood board with weighted, hand-turned pieces.",
+    "category": "games-puzzles",
+    "price": 68,
+    "photoQuery": "wooden chess set",
+    "descriptors": [
+      "aesthetic:Classic",
+      "aesthetic:Natural Textures",
+      "tone:Intellectual",
+      "tone:Timeless",
+      "tone:Competitive",
+      "lifestyle:Intellectual Pursuits",
+      "interest:Competitive Gaming",
+      "interest:Craftsmanship",
+      "interest:Classic Design"
+    ],
+    "similarStyle": [
+      "Hermès"
+    ],
+    "photo": {
+      "id": "_GF3sgGkSB0",
+      "url": "https://images.unsplash.com/photo-1646109324562-aab0ec63a54f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a wooden chess board with black and white chess pieces",
+      "photographer": "Leanna Cushman",
+      "photographerUrl": "https://unsplash.com/@leannacushman",
+      "sourceUrl": "https://unsplash.com/photos/a-wooden-chess-board-with-black-and-white-chess-pieces-_GF3sgGkSB0",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "tabletop-puzzles": 1
+    }
+  },
+  {
+    "handle": "mechanical-keyboard-retro",
+    "title": "Retro Mechanical Keyboard",
+    "description": "A hot-swappable 75 percent keyboard with cream keycaps and tactile switches.",
+    "category": "games-puzzles",
+    "price": 95,
+    "photoQuery": "mechanical keyboard retro",
+    "descriptors": [
+      "aesthetic:Retro Aesthetic",
+      "aesthetic:Ergonomic",
+      "aesthetic:Pastel Color Palette",
+      "tone:Playful",
+      "tone:Nostalgic",
+      "lifestyle:Gaming",
+      "lifestyle:Working From Home",
+      "interest:PC Gaming",
+      "interest:Hardware Customization",
+      "interest:Tech Gadgets"
+    ],
+    "similarStyle": [
+      "Logitech",
+      "Razer"
+    ],
+    "photo": {
+      "id": "NiZy4dwvbB8",
+      "url": "https://images.unsplash.com/photo-1630423960692-948c658709e6?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black computer keyboard on brown wooden table",
+      "photographer": "Alphacolor",
+      "photographerUrl": "https://unsplash.com/@duck58cth",
+      "sourceUrl": "https://unsplash.com/photos/black-computer-keyboard-on-brown-wooden-table-NiZy4dwvbB8",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "gaming": 1
+    }
+  },
+  {
+    "handle": "botanical-skincare-ritual",
+    "title": "Botanical Skincare Ritual Set",
+    "description": "A gentle cleanser, rosehip serum and rich cream in recyclable glass. Alcohol-free formulas.",
+    "category": "beauty-skincare",
+    "price": 58,
+    "photoQuery": "skincare bottles flatlay",
+    "descriptors": [
+      "aesthetic:Minimalist Packaging",
+      "aesthetic:Botanical",
+      "tone:Nurturing",
+      "tone:Gentle",
+      "tone:Radiant",
+      "lifestyle:Self-Care Routine",
+      "lifestyle:Beauty Routine",
+      "interest:Skincare",
+      "interest:Clean Beauty"
+    ],
+    "similarStyle": [
+      "Laneige",
+      "Aesop"
+    ],
+    "photo": {
+      "id": "W71jxsXrwyQ",
+      "url": "https://images.unsplash.com/photo-1613803745799-ba6c10aace85?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black and orange bottle beside white round container",
+      "photographer": "Birgith Roosipuu",
+      "photographerUrl": "https://unsplash.com/@msbirgith",
+      "sourceUrl": "https://unsplash.com/photos/black-and-orange-bottle-beside-white-round-container-W71jxsXrwyQ",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "beauty-skincare": 1,
+      "wellness-selfcare": 0.5
+    }
+  },
+  {
+    "handle": "jade-facial-roller-set",
+    "title": "Jade Facial Roller Set",
+    "description": "A polished jade facial roller and gua sha stone in a silk-lined case.",
+    "category": "beauty-skincare",
+    "price": 32,
+    "photoQuery": "jade face roller",
+    "descriptors": [
+      "aesthetic:Pastel Color Palette",
+      "aesthetic:Polished Finishes",
+      "tone:Soothing",
+      "tone:Gentle",
+      "tone:Feminine",
+      "lifestyle:Self-Care Routine",
+      "lifestyle:Evening Routine",
+      "interest:Skincare",
+      "interest:Self-Care Rituals"
+    ],
+    "similarStyle": [
+      "Glossier",
+      "Sephora"
+    ],
+    "photo": {
+      "id": "0z4h9qneDMA",
+      "url": "https://images.unsplash.com/photo-1592136957897-b2b6ca21e10d?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "silver spoon and fork on white surface",
+      "photographer": "Content Pixie",
+      "photographerUrl": "https://unsplash.com/@contentpixie",
+      "sourceUrl": "https://unsplash.com/photos/silver-spoon-and-fork-on-white-surface-0z4h9qneDMA",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "beauty-skincare": 1,
+      "wellness-selfcare": 0.6
+    }
+  },
+  {
+    "handle": "mulberry-silk-sleep-set",
+    "title": "Mulberry Silk Sleep Set",
+    "description": "A 22-momme mulberry silk pillowcase pair for cooler, deeper rest.",
+    "category": "wellness",
+    "price": 55,
+    "photoQuery": "silk bedding",
+    "descriptors": [
+      "aesthetic:Soft Textures",
+      "aesthetic:Soft Color Palette",
+      "tone:Calm",
+      "tone:Indulgent",
+      "tone:Serene",
+      "lifestyle:Bedtime Routine",
+      "lifestyle:Self-Care",
+      "interest:Self-Care",
+      "interest:Holistic Wellness"
+    ],
+    "similarStyle": [
+      "Brooklinen",
+      "Casper"
+    ],
+    "photo": {
+      "id": "WSFIGaEp6JA",
+      "url": "https://images.unsplash.com/photo-1606796913629-e870d68d4535?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "white and gray floral bed linen",
+      "photographer": "Susan Wilkinson",
+      "photographerUrl": "https://unsplash.com/@susan_wilkinson",
+      "sourceUrl": "https://unsplash.com/photos/white-and-gray-floral-bed-linen-WSFIGaEp6JA",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "wellness-selfcare": 1,
+      "beauty-skincare": 0.5
+    }
+  },
+  {
+    "handle": "cork-yoga-mat",
+    "title": "Natural Cork Yoga Mat",
+    "description": "A non-slip cork and natural rubber mat with a cotton carry strap.",
+    "category": "wellness",
+    "price": 72,
+    "photoQuery": "yoga mat natural",
+    "descriptors": [
+      "aesthetic:Natural Tones",
+      "aesthetic:Functional",
+      "tone:Grounded",
+      "tone:Mindful",
+      "tone:Invigorating",
+      "lifestyle:Yoga Practice",
+      "lifestyle:Mindful Living",
+      "interest:Yoga",
+      "interest:Mindfulness",
+      "interest:Sustainable Living"
+    ],
+    "similarStyle": [
+      "Lululemon",
+      "Alo Yoga"
+    ],
+    "photo": {
+      "id": "b8Q5fHBsyik",
+      "url": "https://images.unsplash.com/photo-1646239646963-b0b9be56d6b5?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a yoga mat with two blocks on top of it",
+      "photographer": "Samantha Sheppard",
+      "photographerUrl": "https://unsplash.com/@samsheppardphoto",
+      "sourceUrl": "https://unsplash.com/photos/a-yoga-mat-with-two-blocks-on-top-of-it-b8Q5fHBsyik",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "wellness-selfcare": 1,
+      "sport-fitness": 0.8
+    }
+  },
+  {
+    "handle": "minimal-leather-cardholder",
+    "title": "Minimal Leather Cardholder",
+    "description": "A slim full-grain leather cardholder with hand-stitched edges, monogram-ready.",
+    "category": "bags-leather",
+    "price": 48,
+    "photoQuery": "leather card holder wallet",
+    "descriptors": [
+      "aesthetic:Minimalist",
+      "aesthetic:Understated",
+      "aesthetic:Polished",
+      "tone:Refined",
+      "tone:Sophisticated",
+      "lifestyle:Urban Professional",
+      "lifestyle:Commuting",
+      "interest:Craftsmanship",
+      "interest:Luxury Goods"
+    ],
+    "similarStyle": [
+      "Bellroy",
+      "Montblanc"
+    ],
+    "photo": {
+      "id": "rhP8U-86GZA",
+      "url": "https://images.unsplash.com/photo-1628483211662-9bcc692c46dc?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a leather wallet, a comb, thread, and scissors on a table",
+      "photographer": "Konstantin Evdokimov",
+      "photographerUrl": "https://unsplash.com/@constantinevdokimov",
+      "sourceUrl": "https://unsplash.com/photos/a-leather-wallet-a-comb-thread-and-scissors-on-a-table-rhP8U-86GZA",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "fashion-style": 0.7
+    }
+  },
+  {
+    "handle": "canvas-weekender-bag",
+    "title": "Waxed Canvas Weekender",
+    "description": "A rugged waxed canvas and leather holdall for short escapes.",
+    "category": "bags-leather",
+    "price": 135,
+    "photoQuery": "canvas duffle bag travel",
+    "descriptors": [
+      "aesthetic:Rugged",
+      "aesthetic:Utilitarian",
+      "aesthetic:Earth Tones",
+      "tone:Adventurous",
+      "tone:Timeless",
+      "lifestyle:Weekend Getaways",
+      "lifestyle:Road Trips",
+      "interest:Travel",
+      "interest:Outdoor Exploration"
+    ],
+    "similarStyle": [
+      "Herschel Supply Co",
+      "Fjällräven"
+    ],
+    "photo": {
+      "id": "9XiN0r2NWSM",
+      "url": "https://images.unsplash.com/photo-1448582649076-3981753123b5?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "brown duffel bag beside white and brown wooden chair",
+      "photographer": "Erol Ahmed",
+      "photographerUrl": "https://unsplash.com/@erol",
+      "sourceUrl": "https://unsplash.com/photos/brown-duffel-bag-beside-white-and-brown-wooden-chair-9XiN0r2NWSM",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "travel-outdoors": 1,
+      "fashion-style": 0.4
+    }
+  },
+  {
+    "handle": "gold-medallion-pendant",
+    "title": "Gold Vermeil Medallion Pendant",
+    "description": "A delicate engraved medallion in 18k gold vermeil on a fine cable chain.",
+    "category": "jewelry-accessories",
+    "price": 90,
+    "photoQuery": "gold pendant necklace minimal",
+    "descriptors": [
+      "aesthetic:Gold Accents",
+      "aesthetic:Elegant",
+      "aesthetic:Minimalist Detailing",
+      "tone:Romantic",
+      "tone:Sentimental",
+      "tone:Feminine",
+      "lifestyle:Celebrating Milestones",
+      "interest:Fine Jewelry",
+      "interest:Personal Style"
+    ],
+    "similarStyle": [
+      "Mejuri",
+      "L'azurde"
+    ],
+    "photo": {
+      "id": "Uyuz3a-4Vq0",
+      "url": "https://images.unsplash.com/photo-1725033796879-f8c3a3309c0c?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A silver necklace with a small medallion on it",
+      "photographer": "Carmen Roman",
+      "photographerUrl": "https://unsplash.com/@ccroman",
+      "sourceUrl": "https://unsplash.com/photos/a-silver-necklace-with-a-small-medallion-on-it-Uyuz3a-4Vq0",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "fashion-style": 1
+    }
+  },
+  {
+    "handle": "cashmere-blend-scarf",
+    "title": "Cashmere Blend Scarf",
+    "description": "A generously sized cashmere and wool scarf in heather grey.",
+    "category": "apparel",
+    "price": 70,
+    "photoQuery": "grey wool scarf",
+    "descriptors": [
+      "aesthetic:Neutral Color Palette",
+      "aesthetic:Soft Textures",
+      "aesthetic:Classic",
+      "tone:Comforting",
+      "tone:Understated",
+      "lifestyle:Effortless Style",
+      "lifestyle:Urban Living",
+      "interest:Minimalist Fashion",
+      "interest:Slow Fashion"
+    ],
+    "similarStyle": [
+      "Uniqlo",
+      "COS"
+    ],
+    "photo": {
+      "id": "t-hk95zvjSQ",
+      "url": "https://images.unsplash.com/photo-1737061467961-7d6415cb674e?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A pair of gray gloves sitting on top of each other",
+      "photographer": "Maria Kovalets",
+      "photographerUrl": "https://unsplash.com/@marylooo",
+      "sourceUrl": "https://unsplash.com/photos/a-pair-of-gray-gloves-sitting-on-top-of-each-other-t-hk95zvjSQ",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "fashion-style": 0.8
+    }
+  },
+  {
+    "handle": "embroidered-crewneck",
+    "title": "Embroidered Organic Crewneck",
+    "description": "A heavyweight organic cotton crewneck with tonal botanical embroidery.",
+    "category": "apparel",
+    "price": 58,
+    "photoQuery": "folded sweatshirt cotton",
+    "descriptors": [
+      "aesthetic:Relaxed Silhouettes",
+      "aesthetic:Graphic",
+      "tone:Playful",
+      "tone:Casual",
+      "tone:Youthful",
+      "lifestyle:Casual Weekends",
+      "lifestyle:Street Style",
+      "interest:Streetwear",
+      "interest:Sustainable Fashion"
+    ],
+    "similarStyle": [
+      "Converse",
+      "Carhartt"
+    ],
+    "photo": {
+      "id": "wl2TODALiAY",
+      "url": "https://images.unsplash.com/photo-1640747669771-b82a6e40f534?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a stack of folded cloths with a cotton ball on top",
+      "photographer": "Moonstarious Project",
+      "photographerUrl": "https://unsplash.com/@moonstariousproject",
+      "sourceUrl": "https://unsplash.com/photos/a-stack-of-folded-cloths-with-a-cotton-ball-on-top-wl2TODALiAY",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "fashion-style": 0.8
+    }
+  },
+  {
+    "handle": "illustrated-classics-box",
+    "title": "Illustrated Classics Box Set",
+    "description": "Five clothbound classic novels with illustrated covers and ribbon markers.",
+    "category": "books-reading",
+    "price": 65,
+    "photoQuery": "stack of old books",
+    "descriptors": [
+      "aesthetic:Classic Patterns",
+      "aesthetic:Vintage-Inspired",
+      "tone:Nostalgic",
+      "tone:Romantic",
+      "tone:Intellectual",
+      "lifestyle:Intellectual Pursuits",
+      "lifestyle:Relaxing At Home",
+      "interest:Design History",
+      "interest:Nostalgia"
+    ],
+    "similarStyle": [
+      "Penguin Random House"
+    ],
+    "photo": {
+      "id": "-esAIGzeMqU",
+      "url": "https://images.unsplash.com/photo-1556566952-11eff3d06ed4?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "four assorted-title books",
+      "photographer": "Paige Cody",
+      "photographerUrl": "https://unsplash.com/@paige_cody",
+      "sourceUrl": "https://unsplash.com/photos/four-assorted-title-books--esAIGzeMqU",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "books-reading": 1,
+      "illustration": 0.4
+    }
+  },
+  {
+    "handle": "brass-bedside-reading-lamp",
+    "title": "Brass Bedside Reading Lamp",
+    "description": "A brass table lamp with a pleated shade and a warm, dimmable glow.",
+    "category": "books-reading",
+    "price": 59,
+    "photoQuery": "reading lamp book night",
+    "descriptors": [
+      "aesthetic:Metallic Finishes",
+      "aesthetic:Warm Tones",
+      "tone:Comforting",
+      "tone:Calm",
+      "lifestyle:Bedtime Routine",
+      "lifestyle:Intellectual Pursuits",
+      "interest:Slow Living",
+      "interest:Mindful Living"
+    ],
+    "similarStyle": [
+      "Muji"
+    ],
+    "photo": {
+      "id": "z8Bu78gaMPA",
+      "url": "https://images.unsplash.com/photo-1735476878964-93b7e4202cf2?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A lamp that is sitting on a table",
+      "photographer": "Nguyễn Hiệp",
+      "photographerUrl": "https://unsplash.com/@hieptltb97",
+      "sourceUrl": "https://unsplash.com/photos/a-lamp-that-is-sitting-on-a-table-z8Bu78gaMPA",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "books-reading": 0.8,
+      "home-hosting": 0.3
+    }
+  },
+  {
+    "handle": "vintage-leather-football",
+    "title": "Vintage Leather Football",
+    "description": "A hand-stitched leather football in the classic 32-panel pattern, made for display or a kickabout.",
+    "category": "sports-outdoors",
+    "price": 45,
+    "photoQuery": "vintage leather soccer ball",
+    "descriptors": [
+      "aesthetic:Classic",
+      "aesthetic:Rugged Texture",
+      "aesthetic:Sporty",
+      "tone:Competitive",
+      "tone:Energetic",
+      "tone:Nostalgic",
+      "lifestyle:Active Lifestyle",
+      "interest:Professional Sports",
+      "interest:Outdoor Sports",
+      "interest:Pop Culture"
+    ],
+    "similarStyle": [
+      "Adidas",
+      "Nike"
+    ],
+    "photo": {
+      "id": "W5IZKe3bGgM",
+      "url": "https://images.unsplash.com/photo-1761255240689-f7864e34628e?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Close-up of a vintage leather soccer ball",
+      "photographer": "Bernd 📷 Dittrich",
+      "photographerUrl": "https://unsplash.com/@hdbernd",
+      "sourceUrl": "https://unsplash.com/photos/close-up-of-a-vintage-leather-soccer-ball-W5IZKe3bGgM",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "football": 1,
+      "sport-fitness": 0.7
+    }
+  },
+  {
+    "handle": "risograph-zine-sticker-pack",
+    "title": "Risograph Zine and Sticker Pack",
+    "description": "Three independent manga-style comic zines and a sheet of die-cut stickers, printed in fluorescent riso inks.",
+    "category": "prints-art",
+    "price": 24,
+    "photoQuery": "zine risograph print",
+    "descriptors": [
+      "aesthetic:Bold Typography",
+      "aesthetic:Graphic-Heavy",
+      "aesthetic:Vibrant Colors",
+      "tone:Rebellious",
+      "tone:Playful",
+      "tone:Edgy",
+      "lifestyle:Creative Self-Expression",
+      "interest:Street Art",
+      "interest:Pop Culture",
+      "interest:Graphic Design"
+    ],
+    "similarStyle": [
+      "Converse",
+      "Urban Outfitters"
+    ],
+    "photo": {
+      "id": "hhajZMO_tOg",
+      "url": "https://images.unsplash.com/photo-1721709384897-5afd4684eb93?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A table topped with notebooks and papers on top of a wooden table",
+      "photographer": "tommao wang",
+      "photographerUrl": "https://unsplash.com/@tommaomaoer",
+      "sourceUrl": "https://unsplash.com/photos/a-table-topped-with-notebooks-and-papers-on-top-of-a-wooden-table-hhajZMO_tOg",
+      "license": "Unsplash License"
+    },
+    "interests": {
+      "illustration": 1,
+      "manga-comics": 0.6
+    }
+  },
+  {
+    "handle": "manga-drawing-kit",
+    "title": "Manga Drawing Kit",
+    "description": "Gel ink pens, fine liners and a spiral pad of smooth bleed-proof paper for inking panels and characters.",
+    "category": "stationery",
+    "price": 34,
+    "photoQuery": "brush pens ink drawing sketchbook",
+    "interests": {
+      "manga-comics": 1,
+      "illustration": 0.7
+    },
+    "descriptors": [
+      "aesthetic:Graphic",
+      "aesthetic:Playful Imagery",
+      "tone:Creative",
+      "tone:Expressive",
+      "lifestyle:Creative Hobbies",
+      "interest:Creative Self-Expression",
+      "interest:Digital Art",
+      "interest:Pop Culture"
+    ],
+    "similarStyle": [
+      "Moleskine",
+      "Faber-Castell"
+    ],
+    "photo": {
+      "id": "huceKxh5o3Y",
+      "url": "https://images.unsplash.com/photo-1605012555174-f01851e9410d?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "white printer paper with sketch of woman",
+      "photographer": "pure julia",
+      "photographerUrl": "https://unsplash.com/@purejulia",
+      "sourceUrl": "https://unsplash.com/photos/white-printer-paper-with-sketch-of-woman-huceKxh5o3Y",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "dusk-street-anime-print",
+    "title": "Dusk Street Art Print",
+    "description": "A hand-painted print of a lamplit Japanese street at dusk, in the quiet, nostalgic style of classic anime backgrounds.",
+    "category": "prints-art",
+    "price": 42,
+    "photoQuery": "anime style city illustration",
+    "interests": {
+      "anime-film": 0.8,
+      "illustration": 1,
+      "japanese-culture": 0.8
+    },
+    "descriptors": [
+      "aesthetic:Vibrant Colors",
+      "aesthetic:Stylized Character Design",
+      "tone:Nostalgic",
+      "tone:Whimsical",
+      "lifestyle:Art Collecting",
+      "interest:Pop Culture",
+      "interest:Digital Art",
+      "interest:Visual Arts"
+    ],
+    "similarStyle": [
+      "Urban Outfitters"
+    ],
+    "photo": {
+      "id": "gjIIkr9-8qc",
+      "url": "https://images.unsplash.com/photo-1762112800032-b8d8119557b8?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Street scene at dusk with traditional japanese buildings",
+      "photographer": "The Walters Art Museum",
+      "photographerUrl": "https://unsplash.com/@thewalters",
+      "sourceUrl": "https://unsplash.com/photos/street-scene-at-dusk-with-traditional-japanese-buildings-gjIIkr9-8qc",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "great-wave-woodblock-print",
+    "title": "Great Wave Woodblock Print",
+    "description": "A museum-quality reproduction of the classic Japanese woodblock wave, printed on textured washi paper.",
+    "category": "prints-art",
+    "price": 48,
+    "photoQuery": "japanese woodblock print wave",
+    "interests": {
+      "fine-art": 1,
+      "japanese-culture": 1,
+      "illustration": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Traditional",
+      "aesthetic:Heritage-Inspired",
+      "tone:Timeless",
+      "tone:Serene",
+      "lifestyle:Art Collecting",
+      "interest:Fine Art",
+      "interest:Design History"
+    ],
+    "similarStyle": [
+      "Muji"
+    ],
+    "photo": {
+      "id": "ZBH-w0cjl6E",
+      "url": "https://images.unsplash.com/photo-1783958384742-b316026f543c?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A large blue wave cresting over boats near Mount Fuji in Japan",
+      "photographer": "The Metropolitan Museum of Art",
+      "photographerUrl": "https://unsplash.com/@metropolitanmuseum",
+      "sourceUrl": "https://unsplash.com/photos/wave-and-mount-fuji-in-japan-ZBH-w0cjl6E",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "ramen-bowl-set",
+    "title": "Ceramic Ramen Bowl Set",
+    "description": "Two deep glazed ramen bowls with chopsticks and spoons, made for slurp-worthy nights in.",
+    "category": "ceramics-tableware",
+    "price": 44,
+    "photoQuery": "ramen bowl ceramic chopsticks",
+    "interests": {
+      "japanese-culture": 1,
+      "cooking-food": 0.6,
+      "anime-film": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Earth Tones",
+      "aesthetic:Textured",
+      "tone:Comforting",
+      "tone:Authentic",
+      "lifestyle:Cooking At Home",
+      "interest:Comfort Food",
+      "interest:Culinary Exploration"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Crate & Barrel"
+    ],
+    "photo": {
+      "id": "qguuVUzsavg",
+      "url": "https://images.unsplash.com/photo-1679279726940-be5ce80c632c?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a person holding chopsticks over a bowl of noodles",
+      "photographer": "Xavier Chng",
+      "photographerUrl": "https://unsplash.com/@cohesionsingapore",
+      "sourceUrl": "https://unsplash.com/photos/a-person-holding-chopsticks-over-a-bowl-of-noodles-qguuVUzsavg",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "washi-tape-sticker-set",
+    "title": "Washi Tape and Sticker Set",
+    "description": "Twelve rolls of patterned Japanese washi tape plus illustrated sticker sheets for journals and letters.",
+    "category": "stationery",
+    "price": 22,
+    "photoQuery": "washi tape rolls",
+    "interests": {
+      "writing-stationery": 1,
+      "japanese-culture": 0.6,
+      "illustration": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Playful",
+      "aesthetic:Patterned",
+      "tone:Playful",
+      "tone:Creative",
+      "lifestyle:Creative Hobbies",
+      "interest:DIY Crafts",
+      "interest:Creative Expression"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Rifle Paper Co."
+    ],
+    "photo": {
+      "id": "gBgUy1hrx54",
+      "url": "https://images.unsplash.com/photo-1777401085816-0192a4e2a7b0?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Four rolls of decorative tape with cute designs",
+      "photographer": "Madeline Liu",
+      "photographerUrl": "https://unsplash.com/@madeline_sd",
+      "sourceUrl": "https://unsplash.com/photos/four-rolls-of-decorative-tape-with-cute-designs-gBgUy1hrx54",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "over-ear-headphones",
+    "title": "Wireless Over-Ear Headphones",
+    "description": "Closed-back wireless headphones with warm, detailed sound and soft memory-foam cushions.",
+    "category": "audio",
+    "price": 129,
+    "photoQuery": "over ear headphones minimal",
+    "interests": {
+      "vinyl-hifi": 0.8,
+      "lofi": 0.5,
+      "gaming": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Sleek",
+      "aesthetic:Minimalist",
+      "tone:Immersive",
+      "tone:Focused",
+      "lifestyle:Music Discovery",
+      "interest:High Fidelity Audio",
+      "interest:Music"
+    ],
+    "similarStyle": [
+      "Audio-Technica",
+      "Sonos"
+    ],
+    "photo": {
+      "id": "oXXc-s5nNy8",
+      "url": "https://images.unsplash.com/photo-1585298723682-7115561c51b7?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black and white photo of headphones",
+      "photographer": "Sebastian Banasiewcz",
+      "photographerUrl": "https://unsplash.com/@kamiseba",
+      "sourceUrl": "https://unsplash.com/photos/black-and-white-photo-of-headphones-oXXc-s5nNy8",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "vinyl-record-crate",
+    "title": "Solid Wood Vinyl Record Crate",
+    "description": "A dovetailed wooden crate that holds eighty LPs, with cut-out handles for flipping through.",
+    "category": "audio",
+    "price": 58,
+    "photoQuery": "vinyl records wooden crate",
+    "interests": {
+      "vinyl-hifi": 1,
+      "home-hosting": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Natural Textures",
+      "aesthetic:Vintage-Inspired",
+      "tone:Nostalgic",
+      "tone:Warm",
+      "lifestyle:Music Discovery",
+      "interest:Music Culture",
+      "interest:Nostalgia"
+    ],
+    "similarStyle": [
+      "Urban Outfitters",
+      "Crate & Barrel"
+    ],
+    "photo": {
+      "id": "oy0P04JuhOM",
+      "url": "https://images.unsplash.com/photo-1689693138530-cbcb0582a2ea?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a couple of wooden crates sitting on top of a counter",
+      "photographer": "Jonathan Kemper",
+      "photographerUrl": "https://unsplash.com/@jupp",
+      "sourceUrl": "https://unsplash.com/photos/a-couple-of-wooden-crates-sitting-on-top-of-a-counter-oy0P04JuhOM",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "wooden-kalimba",
+    "title": "Wooden Kalimba Thumb Piano",
+    "description": "A seventeen-key kalimba in solid wood with a tuning hammer and a songbook for beginners.",
+    "category": "instruments",
+    "price": 36,
+    "photoQuery": "kalimba thumb piano",
+    "interests": {
+      "music": 1,
+      "lofi": 0.6,
+      "wellness-selfcare": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Natural Textures",
+      "aesthetic:Earth Tones",
+      "tone:Soothing",
+      "tone:Playful",
+      "lifestyle:Creative Hobbies",
+      "interest:Music",
+      "interest:Creative Expression"
+    ],
+    "similarStyle": [
+      "Fender"
+    ],
+    "photo": {
+      "id": "mSWuIvoe9bc",
+      "url": "https://images.unsplash.com/photo-1725042064740-b1107a5d35fc?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A wooden cutting board with flowers on top of it",
+      "photographer": "Maria Nikolova",
+      "photographerUrl": "https://unsplash.com/@marianikolova",
+      "sourceUrl": "https://unsplash.com/photos/a-wooden-cutting-board-with-flowers-on-top-of-it-mSWuIvoe9bc",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "darbuka-hand-drum",
+    "title": "Hand-Painted Clay Darbuka",
+    "description": "A hand-painted clay goblet drum with a laced skin head, tuned for the doum and tek of classic Arabic rhythms.",
+    "category": "instruments",
+    "price": 89,
+    "photoQuery": "goblet drum",
+    "interests": {
+      "arabic-music": 1,
+      "arab-heritage": 1
+    },
+    "descriptors": [
+      "aesthetic:Intricate Detailing",
+      "aesthetic:Traditional",
+      "tone:Passionate",
+      "tone:Celebratory",
+      "lifestyle:Cultural Events",
+      "interest:Music Culture",
+      "interest:Live Music"
+    ],
+    "similarStyle": [
+      "Roland"
+    ],
+    "photo": {
+      "id": "qDjyLsqHqN8",
+      "url": "https://images.unsplash.com/photo-1779445727933-55e79be3c07b?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "A collection of traditional handcrafted drums and decorative items",
+      "photographer": "Margo Evardson",
+      "photographerUrl": "https://unsplash.com/@stadinstudio",
+      "sourceUrl": "https://unsplash.com/photos/a-collection-of-traditional-handcrafted-drums-and-decorative-items-qDjyLsqHqN8",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "finjan-cup-set",
+    "title": "Finjan Coffee Cup Set",
+    "description": "Six handleless finjan cups with gold rims for serving qahwa the traditional way.",
+    "category": "tea-coffee",
+    "price": 39,
+    "photoQuery": "arabic coffee cups",
+    "interests": {
+      "coffee": 1,
+      "arab-heritage": 1,
+      "home-hosting": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Gold Accents",
+      "aesthetic:Traditional",
+      "tone:Welcoming",
+      "tone:Timeless",
+      "lifestyle:Hosting Gatherings",
+      "interest:Coffee Culture",
+      "interest:Family Traditions"
+    ],
+    "similarStyle": [
+      "Bateel"
+    ],
+    "photo": {
+      "id": "8DxSIJO1EZ4",
+      "url": "https://images.unsplash.com/photo-1712803192060-109b8dba9681?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a man holding a cup in his hand",
+      "photographer": "حثل",
+      "photographerUrl": "https://unsplash.com/@e_i9",
+      "sourceUrl": "https://unsplash.com/photos/a-man-holding-a-cup-in-his-hand-8DxSIJO1EZ4",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "cast-iron-teapot",
+    "title": "Cast Iron Tetsubin Teapot",
+    "description": "A Japanese-style cast iron teapot with a stainless steel infuser, keeping tea warm for hours.",
+    "category": "tea-coffee",
+    "price": 62,
+    "photoQuery": "cast iron teapot",
+    "interests": {
+      "tea": 1,
+      "japanese-culture": 0.7
+    },
+    "descriptors": [
+      "aesthetic:Robust Construction",
+      "aesthetic:Traditional",
+      "tone:Calm",
+      "tone:Grounded",
+      "lifestyle:Afternoon Tea",
+      "interest:Tea Culture",
+      "interest:Heritage Craftsmanship"
+    ],
+    "similarStyle": [
+      "Muji",
+      "Le Creuset"
+    ],
+    "photo": {
+      "id": "uJnKfYG5jxA",
+      "url": "https://images.unsplash.com/photo-1674707429029-9de78da14b6b?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a black teapot sitting on top of a wooden table",
+      "photographer": "Christina Spoerer",
+      "photographerUrl": "https://unsplash.com/@christinaspoerer",
+      "sourceUrl": "https://unsplash.com/photos/a-black-teapot-sitting-on-top-of-a-wooden-table-uJnKfYG5jxA",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "celadon-tea-set",
+    "title": "Celadon Tea Set",
+    "description": "Six celadon-glazed cups and a matching clay teapot, a nod to centuries of Korean and Chinese tea craft.",
+    "category": "ceramics-tableware",
+    "price": 58,
+    "photoQuery": "green ceramic tea cups",
+    "interests": {
+      "tea": 1,
+      "korean-culture": 1
+    },
+    "descriptors": [
+      "aesthetic:Soft Color Palette",
+      "aesthetic:Elegant",
+      "tone:Serene",
+      "tone:Gentle",
+      "lifestyle:Afternoon Tea",
+      "interest:Tea Culture",
+      "interest:Artisan Craftsmanship"
+    ],
+    "similarStyle": [
+      "Sulwhasoo",
+      "Muji"
+    ],
+    "photo": {
+      "id": "ofrFmR6uWNw",
+      "url": "https://images.unsplash.com/photo-1783915817252-1d81ed28ed9d?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Traditional brown teapot and green teacups arranged on wood",
+      "photographer": "Ivenory",
+      "photographerUrl": "https://unsplash.com/@ivenory",
+      "sourceUrl": "https://unsplash.com/photos/traditional-brown-teapot-and-green-teacups-arranged-on-wood-ofrFmR6uWNw",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "tabletop-foosball",
+    "title": "Tabletop Foosball Game",
+    "description": "A compact wooden football table with eight rods, two balls and score counters for living-room derbies.",
+    "category": "games-puzzles",
+    "price": 79,
+    "photoQuery": "foosball table",
+    "interests": {
+      "football": 1,
+      "tabletop-puzzles": 0.6,
+      "gaming": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Sporty",
+      "aesthetic:Retro Aesthetic",
+      "tone:Competitive",
+      "tone:Fun",
+      "lifestyle:Family Movie Nights",
+      "interest:Casual Gaming",
+      "interest:Professional Sports"
+    ],
+    "similarStyle": [
+      "Adidas",
+      "Hasbro"
+    ],
+    "photo": {
+      "id": "RMPpCjyTZr4",
+      "url": "https://images.unsplash.com/photo-1667991833334-10d614d2a5c2?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a group of people in blue suits",
+      "photographer": "Kultar Ruprai",
+      "photographerUrl": "https://unsplash.com/@ksruprai",
+      "sourceUrl": "https://unsplash.com/photos/a-group-of-people-in-blue-suits-RMPpCjyTZr4",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "football-tactics-board",
+    "title": "Folding Football Tactics Board",
+    "description": "A coach's folding tactics board with a printed pitch, magnetic counters and a clip for match notes.",
+    "category": "sports-outdoors",
+    "price": 32,
+    "photoQuery": "football tactics board coach",
+    "interests": {
+      "football": 1,
+      "sport-fitness": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Sporty",
+      "aesthetic:Functional",
+      "tone:Competitive",
+      "tone:Focused",
+      "lifestyle:Competitive Play",
+      "interest:Professional Sports",
+      "interest:Athletic Training"
+    ],
+    "similarStyle": [
+      "Adidas",
+      "Nike"
+    ],
+    "photo": {
+      "id": "v0H-vn0BixI",
+      "url": "https://images.unsplash.com/photo-1585757318177-0570a997dc3a?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "man in blue crew neck t-shirt standing on track field during daytime",
+      "photographer": "Nguyen Thu Hoai",
+      "photographerUrl": "https://unsplash.com/@thwhoai",
+      "sourceUrl": "https://unsplash.com/photos/man-in-blue-crew-neck-t-shirt-standing-on-track-field-during-daytime-v0H-vn0BixI",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "insulated-sports-bottle",
+    "title": "Insulated Steel Sports Bottle",
+    "description": "A double-wall stainless steel bottle that keeps water cold through a full match or training session.",
+    "category": "sports-outdoors",
+    "price": 28,
+    "photoQuery": "stainless steel water bottle sport",
+    "interests": {
+      "sport-fitness": 1,
+      "football": 0.3,
+      "travel-outdoors": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Sporty",
+      "aesthetic:Durable",
+      "tone:Energetic",
+      "tone:Practical",
+      "lifestyle:Gym Training",
+      "interest:Fitness",
+      "interest:Outdoor Activities"
+    ],
+    "similarStyle": [
+      "Hydro Flask",
+      "Nike"
+    ],
+    "photo": {
+      "id": "Aej5gA11eHQ",
+      "url": "https://images.unsplash.com/photo-1605714312496-01e90cb509cc?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "white bottle on white table",
+      "photographer": "Vanesa Giaconi",
+      "photographerUrl": "https://unsplash.com/@vanesagiaconi",
+      "sourceUrl": "https://unsplash.com/photos/white-bottle-on-white-table-Aej5gA11eHQ",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "football-pitch-print",
+    "title": "Aerial Pitch Photo Print",
+    "description": "A large top-down photographic print of a football pitch, all lines and stripes, ready to frame.",
+    "category": "prints-art",
+    "price": 38,
+    "photoQuery": "empty football stadium night",
+    "interests": {
+      "football": 1,
+      "art": 0.4
+    },
+    "descriptors": [
+      "aesthetic:High-Contrast Photography",
+      "aesthetic:Cinematic",
+      "tone:Passionate",
+      "tone:Dramatic",
+      "lifestyle:Art Collecting",
+      "interest:Professional Sports",
+      "interest:Photography"
+    ],
+    "similarStyle": [
+      "Adidas"
+    ],
+    "photo": {
+      "id": "kuViFO5d1UE",
+      "url": "https://images.unsplash.com/photo-1607414721186-5309963d7b52?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "aerial view of soccer field",
+      "photographer": "untldshots",
+      "photographerUrl": "https://unsplash.com/@rajabbarack",
+      "sourceUrl": "https://unsplash.com/photos/aerial-view-of-soccer-field-kuViFO5d1UE",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "mini-home-projector",
+    "title": "Mini Home Cinema Projector",
+    "description": "A compact projector that throws a 100-inch picture on any wall, made for film nights at home.",
+    "category": "movie-night",
+    "price": 139,
+    "photoQuery": "mini projector movie night",
+    "interests": {
+      "film-tv": 1,
+      "gaming": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Sleek",
+      "aesthetic:Minimalist",
+      "tone:Immersive",
+      "tone:Exciting",
+      "lifestyle:Home Entertainment",
+      "interest:Cinema",
+      "interest:Streaming"
+    ],
+    "similarStyle": [
+      "Sonos"
+    ],
+    "photo": {
+      "id": "TiHLKH9qvEo",
+      "url": "https://images.unsplash.com/photo-1637656375538-9dfe600ccfd2?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a white projector sitting on top of a table",
+      "photographer": "Projector1",
+      "photographerUrl": "https://unsplash.com/@projector1",
+      "sourceUrl": "https://unsplash.com/photos/a-white-projector-sitting-on-top-of-a-table-TiHLKH9qvEo",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "movie-night-popcorn-kit",
+    "title": "Movie Night Popcorn Kit",
+    "description": "A stovetop popcorn popper with heirloom kernels, seasonings and striped serving boxes.",
+    "category": "movie-night",
+    "price": 42,
+    "photoQuery": "popcorn bowl movie night",
+    "interests": {
+      "film-tv": 1,
+      "cooking-food": 0.4
+    },
+    "descriptors": [
+      "aesthetic:Retro Aesthetic",
+      "aesthetic:Playful",
+      "tone:Fun",
+      "tone:Nostalgic",
+      "lifestyle:Family Movie Nights",
+      "interest:Cinema",
+      "interest:Snack Culture"
+    ],
+    "similarStyle": [
+      "Williams-Sonoma"
+    ],
+    "photo": {
+      "id": "CkgqmxCRh5g",
+      "url": "https://images.unsplash.com/photo-1691480213129-106b2c7d1ee8?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a yellow and white striped cup filled with popcorn",
+      "photographer": "personalgraphic.com",
+      "photographerUrl": "https://unsplash.com/@personal_graphic",
+      "sourceUrl": "https://unsplash.com/photos/a-yellow-and-white-striped-cup-filled-with-popcorn-CkgqmxCRh5g",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "director-clapperboard",
+    "title": "Wooden Director Clapperboard",
+    "description": "A full-size wooden clapperboard with chalkboard slate, for aspiring filmmakers and film-poster walls.",
+    "category": "movie-night",
+    "price": 29,
+    "photoQuery": "clapperboard film slate",
+    "interests": {
+      "film-tv": 1
+    },
+    "descriptors": [
+      "aesthetic:Classic",
+      "aesthetic:Vintage-Inspired",
+      "tone:Creative",
+      "tone:Nostalgic",
+      "lifestyle:Creative Pursuits",
+      "interest:Cinema",
+      "interest:Videography"
+    ],
+    "similarStyle": [
+      "MUBI"
+    ],
+    "photo": {
+      "id": "eFbou-gmoKI",
+      "url": "https://images.unsplash.com/photo-1637246861500-b9999234a89f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a movie clapper sitting on a chair next to a potted plant",
+      "photographer": "Leuchtturm Entertainment",
+      "photographerUrl": "https://unsplash.com/@leuchtturm_entertainment",
+      "sourceUrl": "https://unsplash.com/photos/a-movie-clapper-sitting-on-a-chair-next-to-a-potted-plant-eFbou-gmoKI",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "cinema-letter-lightbox",
+    "title": "Cinema Marquee Letter Lightbox",
+    "description": "A light-up marquee box with 300 letters and symbols for spelling out tonight's feature.",
+    "category": "movie-night",
+    "price": 34,
+    "photoQuery": "letter lightbox cinema",
+    "interests": {
+      "film-tv": 0.8,
+      "home-hosting": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Retro Aesthetic",
+      "aesthetic:Bold Typography",
+      "tone:Playful",
+      "tone:Nostalgic",
+      "lifestyle:Home Decorating",
+      "interest:Cinema",
+      "interest:Pop Culture"
+    ],
+    "similarStyle": [
+      "Urban Outfitters"
+    ],
+    "photo": {
+      "id": "Mp0-gA2R-X0",
+      "url": "https://images.unsplash.com/photo-1641674062301-9d08301a3785?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a lit up sign that says you are here",
+      "photographer": "philippe spitalier",
+      "photographerUrl": "https://unsplash.com/@spit",
+      "sourceUrl": "https://unsplash.com/photos/a-lit-up-sign-that-says-you-are-here-Mp0-gA2R-X0",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "rose-quartz-gua-sha",
+    "title": "Rose Quartz Gua Sha",
+    "description": "A hand-polished rose quartz gua sha stone for a cooling, sculpting facial massage.",
+    "category": "beauty-skincare",
+    "price": 26,
+    "photoQuery": "gua sha",
+    "interests": {
+      "beauty-skincare": 1,
+      "wellness-selfcare": 0.6
+    },
+    "descriptors": [
+      "aesthetic:Pastel Color Palette",
+      "aesthetic:Polished Finishes",
+      "tone:Soothing",
+      "tone:Gentle",
+      "lifestyle:Daily Self-Care",
+      "interest:Beauty Rituals",
+      "interest:Skincare"
+    ],
+    "similarStyle": [
+      "Glossier",
+      "Laneige"
+    ],
+    "photo": {
+      "id": "mGKBxiFXieM",
+      "url": "https://images.unsplash.com/photo-1665378764540-8aca31360df9?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a close-up of a knife and a knife",
+      "photographer": "KARLY VANCUYLENBERG",
+      "photographerUrl": "https://unsplash.com/@karlzmate",
+      "sourceUrl": "https://unsplash.com/photos/a-close-up-of-a-knife-and-a-knife-mGKBxiFXieM",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "vegan-makeup-brush-set",
+    "title": "Vegan Makeup Brush Set",
+    "description": "Ten soft synthetic brushes with wooden handles in a roll-up linen case.",
+    "category": "beauty-skincare",
+    "price": 45,
+    "photoQuery": "makeup brushes set",
+    "interests": {
+      "beauty-skincare": 1,
+      "fashion-style": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Neutral Color Palette",
+      "aesthetic:Polished",
+      "tone:Refined",
+      "tone:Confident",
+      "lifestyle:Daily Makeup Routine",
+      "interest:Makeup Artistry",
+      "interest:Personal Care"
+    ],
+    "similarStyle": [
+      "Sephora",
+      "Glossier"
+    ],
+    "photo": {
+      "id": "PEttXYw9hi8",
+      "url": "https://images.unsplash.com/photo-1620464003286-a5b0d79f32c2?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black and brown makeup brush set",
+      "photographer": "Edz Norton",
+      "photographerUrl": "https://unsplash.com/@edznorton",
+      "sourceUrl": "https://unsplash.com/photos/black-and-brown-makeup-brush-set-PEttXYw9hi8",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "korean-sheet-mask-set",
+    "title": "K-Beauty Sheet Mask Set",
+    "description": "Twelve hydrating sheet masks with rice, green tea and snail mucin, inspired by Korean ten-step routines.",
+    "category": "beauty-skincare",
+    "price": 30,
+    "photoQuery": "sheet mask face",
+    "interests": {
+      "beauty-skincare": 1,
+      "korean-culture": 1,
+      "wellness-selfcare": 0.4
+    },
+    "descriptors": [
+      "aesthetic:Clean",
+      "aesthetic:Soft Color Palette",
+      "tone:Refreshing",
+      "tone:Radiant",
+      "lifestyle:Evening Routine",
+      "interest:Skincare",
+      "interest:Self-Care Rituals"
+    ],
+    "similarStyle": [
+      "Laneige",
+      "Innisfree"
+    ],
+    "photo": {
+      "id": "BAPMUZJNyGs",
+      "url": "https://images.unsplash.com/photo-1775642548902-2f60a0aa1405?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Woman applying a sheet mask to her face",
+      "photographer": "Christian Agbede",
+      "photographerUrl": "https://unsplash.com/@chriscreations__",
+      "sourceUrl": "https://unsplash.com/photos/woman-applying-a-sheet-mask-to-her-face-BAPMUZJNyGs",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "gaming-desk-mat",
+    "title": "Extended Gaming Desk Mat",
+    "description": "A full-desk stitched-edge mat with a smooth micro-weave surface for mouse and keyboard.",
+    "category": "games-puzzles",
+    "price": 29,
+    "photoQuery": "desk mat keyboard mouse setup",
+    "interests": {
+      "gaming": 1
+    },
+    "descriptors": [
+      "aesthetic:Sleek",
+      "aesthetic:Dark Palette",
+      "tone:Focused",
+      "tone:Cool",
+      "lifestyle:PC Gaming",
+      "interest:PC Gaming",
+      "interest:Esports"
+    ],
+    "similarStyle": [
+      "Razer",
+      "Logitech"
+    ],
+    "photo": {
+      "id": "fq-Ks10WtWI",
+      "url": "https://images.unsplash.com/photo-1584727151652-d09b17ebf23f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black computer keyboard on brown wooden table",
+      "photographer": "Jessica Lam",
+      "photographerUrl": "https://unsplash.com/@lovelle",
+      "sourceUrl": "https://unsplash.com/photos/black-computer-keyboard-on-brown-wooden-table-fq-Ks10WtWI",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "ambient-led-light-bars",
+    "title": "Ambient LED Light Bars",
+    "description": "App-controlled light bars that wash the wall in colour and sync to music, films and games.",
+    "category": "games-puzzles",
+    "price": 59,
+    "photoQuery": "rgb led light gaming setup",
+    "interests": {
+      "gaming": 1,
+      "music": 0.3,
+      "film-tv": 0.3
+    },
+    "descriptors": [
+      "aesthetic:Vibrant Colors",
+      "aesthetic:Futuristic",
+      "tone:Immersive",
+      "tone:Energetic",
+      "lifestyle:Home Entertainment",
+      "interest:Gaming",
+      "interest:Smart Home Technology"
+    ],
+    "similarStyle": [
+      "Razer",
+      "Philips"
+    ],
+    "photo": {
+      "id": "Y-05vRRw3ng",
+      "url": "https://images.unsplash.com/photo-1760999896198-b7e780e42500?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "Gaming setup with laptop, keyboard, and rgb lighting",
+      "photographer": "Gavin Phillips",
+      "photographerUrl": "https://unsplash.com/@gavinspavin",
+      "sourceUrl": "https://unsplash.com/photos/gaming-setup-with-laptop-keyboard-and-rgb-lighting-Y-05vRRw3ng",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "pixel-art-print",
+    "title": "Retro Pixel Art Print",
+    "description": "A pixel art print of candy-pink clouds in chunky 8-bit squares, a love letter to classic arcade games.",
+    "category": "prints-art",
+    "price": 32,
+    "photoQuery": "pixel art",
+    "interests": {
+      "gaming": 0.8,
+      "illustration": 0.8
+    },
+    "descriptors": [
+      "aesthetic:Retro Aesthetic",
+      "aesthetic:Vibrant Graphics",
+      "tone:Nostalgic",
+      "tone:Playful",
+      "lifestyle:Art Collecting",
+      "interest:Digital Art",
+      "interest:Pop Culture"
+    ],
+    "similarStyle": [
+      "Urban Outfitters"
+    ],
+    "photo": {
+      "id": "rP_pS1VMd7c",
+      "url": "https://images.unsplash.com/photo-1650963310446-011fc6a28367?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a group of pink and white squares",
+      "photographer": "Vadim Bogulov",
+      "photographerUrl": "https://unsplash.com/@franku84",
+      "sourceUrl": "https://unsplash.com/photos/a-group-of-pink-and-white-squares-rP_pS1VMd7c",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "polyhedral-dice-set",
+    "title": "Polyhedral Dice Set with Pouch",
+    "description": "Seven speckled resin polyhedral dice in a drawstring pouch, ready for the next role-playing campaign.",
+    "category": "games-puzzles",
+    "price": 27,
+    "photoQuery": "polyhedral dice",
+    "interests": {
+      "tabletop-puzzles": 1,
+      "gaming": 0.6
+    },
+    "descriptors": [
+      "aesthetic:Playful",
+      "aesthetic:Intricate Detailing",
+      "tone:Adventurous",
+      "tone:Whimsical",
+      "lifestyle:Competitive Play",
+      "interest:Casual Gaming",
+      "interest:Storytelling"
+    ],
+    "similarStyle": [
+      "Hasbro"
+    ],
+    "photo": {
+      "id": "TMZFTJXtorc",
+      "url": "https://images.unsplash.com/photo-1708863827400-00a5c21c10f7?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a bag filled with dice sitting on top of a wooden table",
+      "photographer": "Nika Benedictova",
+      "photographerUrl": "https://unsplash.com/@nika_benedictova",
+      "sourceUrl": "https://unsplash.com/photos/a-bag-filled-with-dice-sitting-on-top-of-a-wooden-table-TMZFTJXtorc",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "arabic-calligraphy-print",
+    "title": "Arabic Calligraphy Art Print",
+    "description": "A sculptural Arabic calligraphy art piece with flowing letterforms cut in soft relief, hand-drawn by a contemporary calligrapher.",
+    "category": "prints-art",
+    "price": 46,
+    "photoQuery": "arabic calligraphy",
+    "interests": {
+      "arab-heritage": 1,
+      "fine-art": 0.7,
+      "writing-stationery": 0.4
+    },
+    "descriptors": [
+      "aesthetic:Intricate Detailing",
+      "aesthetic:Monochrome",
+      "tone:Timeless",
+      "tone:Reflective",
+      "lifestyle:Art Collecting",
+      "interest:Fine Art",
+      "interest:Heritage Craftsmanship"
+    ],
+    "similarStyle": [
+      "Bateel"
+    ],
+    "photo": {
+      "id": "MVrgqBB-fqU",
+      "url": "https://images.unsplash.com/photo-1646229227468-ba6eb534d368?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "arabic calligraphy on the ceiling of a building",
+      "photographer": "Agnieszka Stankiewicz",
+      "photographerUrl": "https://unsplash.com/@dubai_love_story",
+      "sourceUrl": "https://unsplash.com/photos/arabic-calligraphy-on-the-ceiling-of-a-building-MVrgqBB-fqU",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "sadu-weave-cushion",
+    "title": "Sadu-Inspired Woven Cushion",
+    "description": "A hand-woven cushion with bold geometric diamond motifs inspired by Bedouin Sadu weaving.",
+    "category": "home-decor",
+    "price": 52,
+    "photoQuery": "woven pattern cushion",
+    "interests": {
+      "arab-heritage": 1,
+      "home-hosting": 0.7
+    },
+    "descriptors": [
+      "aesthetic:Geometric Patterns",
+      "aesthetic:Textured",
+      "tone:Welcoming",
+      "tone:Warm",
+      "lifestyle:Hosting Gatherings",
+      "interest:Textile Arts",
+      "interest:Heritage Craftsmanship"
+    ],
+    "similarStyle": [
+      "Anthropologie",
+      "West Elm"
+    ],
+    "photo": {
+      "id": "sGjKjqIJ7Dw",
+      "url": "https://images.unsplash.com/photo-1589168369516-37ac0605b3ec?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "blue and white throw pillow on brown wicker armchair",
+      "photographer": "Juan Burgos",
+      "photographerUrl": "https://unsplash.com/@jphotomedia",
+      "sourceUrl": "https://unsplash.com/photos/blue-and-white-throw-pillow-on-brown-wicker-armchair-sGjKjqIJ7Dw",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "brass-lantern",
+    "title": "Pierced Brass Lantern",
+    "description": "A hand-pierced brass lantern that scatters star patterns across the room when lit.",
+    "category": "home-decor",
+    "price": 64,
+    "photoQuery": "metal lantern pattern light",
+    "interests": {
+      "arab-heritage": 1,
+      "home-hosting": 0.6
+    },
+    "descriptors": [
+      "aesthetic:Intricate Detailing",
+      "aesthetic:Metallic Accents",
+      "tone:Inviting",
+      "tone:Romantic",
+      "lifestyle:Home Decorating",
+      "interest:Home Decor",
+      "interest:Heritage Craftsmanship"
+    ],
+    "similarStyle": [
+      "Anthropologie",
+      "West Elm"
+    ],
+    "photo": {
+      "id": "zMaXnvwxa4E",
+      "url": "https://images.unsplash.com/photo-1590250998460-ebbc33182ce7?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "black and white floral lamp",
+      "photographer": "Christopher Etchells",
+      "photographerUrl": "https://unsplash.com/@chris_j_etchells",
+      "sourceUrl": "https://unsplash.com/photos/black-and-white-floral-lamp-zMaXnvwxa4E",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "vintage-hardcover-bundle",
+    "title": "Curated Vintage Hardcover Bundle",
+    "description": "Five secondhand cloth-bound hardcovers picked by our booksellers around a single theme, tied with twine.",
+    "category": "books-reading",
+    "price": 49,
+    "photoQuery": "books stack vintage library",
+    "interests": {
+      "books-reading": 1
+    },
+    "descriptors": [
+      "aesthetic:Vintage-Inspired",
+      "aesthetic:Classic",
+      "tone:Nostalgic",
+      "tone:Intellectual",
+      "lifestyle:Intellectual Leisure",
+      "interest:Storytelling",
+      "interest:Nostalgia"
+    ],
+    "similarStyle": [
+      "Penguin Random House"
+    ],
+    "photo": {
+      "id": "FSLWtjqMa0c",
+      "url": "https://images.unsplash.com/photo-1585521549926-ca6526bda09e?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "stack of books on white table",
+      "photographer": "Priscilla Du Preez 🇨🇦",
+      "photographerUrl": "https://unsplash.com/@priscilladupreez",
+      "sourceUrl": "https://unsplash.com/photos/stack-of-books-on-white-table-FSLWtjqMa0c",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "oak-floating-book-ledge",
+    "title": "Oak Floating Book Ledge",
+    "description": "A slim solid-oak wall ledge sized for a bedside stack of current reads and a small plant.",
+    "category": "books-reading",
+    "price": 44,
+    "photoQuery": "wooden bookends books shelf",
+    "interests": {
+      "books-reading": 0.9,
+      "home-hosting": 0.5
+    },
+    "descriptors": [
+      "aesthetic:Natural Textures",
+      "aesthetic:Clean Lines",
+      "tone:Calm",
+      "tone:Thoughtful",
+      "lifestyle:Intellectual Leisure",
+      "interest:Interior Design",
+      "interest:Minimalist Design"
+    ],
+    "similarStyle": [
+      "West Elm",
+      "Muji"
+    ],
+    "photo": {
+      "id": "BKu77TRA0tY",
+      "url": "https://images.unsplash.com/photo-1589816627974-0b199e9464b7?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "books on brown wooden shelf",
+      "photographer": "swabdesign",
+      "photographerUrl": "https://unsplash.com/@swabdesign_official",
+      "sourceUrl": "https://unsplash.com/photos/books-on-brown-wooden-shelf-BKu77TRA0tY",
+      "license": "Unsplash License"
+    }
+  },
+  {
+    "handle": "reading-journal",
+    "title": "Linen Reading Journal",
+    "description": "A linen-bound journal with pages for logging books, favourite quotes and a to-read list.",
+    "category": "books-reading",
+    "price": 26,
+    "photoQuery": "reading journal book coffee",
+    "interests": {
+      "books-reading": 1,
+      "writing-stationery": 0.6
+    },
+    "descriptors": [
+      "aesthetic:Neutral Color Palette",
+      "aesthetic:Clean Typography",
+      "tone:Reflective",
+      "tone:Thoughtful",
+      "lifestyle:Intellectual Pursuits",
+      "interest:Storytelling",
+      "interest:Personal Development"
+    ],
+    "similarStyle": [
+      "Moleskine",
+      "Rifle Paper Co."
+    ],
+    "photo": {
+      "id": "8CGOX7oSMbI",
+      "url": "https://images.unsplash.com/photo-1637689113621-73951984fcc1?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&w=1200&h=1200&fit=crop&crop=entropy&fm=jpg&q=80",
+      "alt": "a cup of coffee and a notebook on a table",
+      "photographer": "Andres Molina",
+      "photographerUrl": "https://unsplash.com/@nomadicfitlust",
+      "sourceUrl": "https://unsplash.com/photos/a-cup-of-coffee-and-a-notebook-on-a-table-8CGOX7oSMbI",
+      "license": "Unsplash License"
+    }
+  }
+]

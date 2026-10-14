@@ -1,0 +1,5104 @@
+{
+  "resolvedSeeds": {
+    "cozy-literary": [
+      {
+        "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+        "kind": "entity",
+        "name": "Taylor Swift",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/4BBEF799-A0C4-4110-AB01-39216993C312-420x-auto.jpg",
+        "description": "An American singer-songwriter known for narrative songwriting and genre versatility."
+      },
+      {
+        "id": "4C60FF74-A236-4488-8FB3-2FE43D1C79FB",
+        "kind": "entity",
+        "name": "Gilmore Girls",
+        "type": "urn:entity:tv_show",
+        "image": "https://images.qloo.com/i/4C60FF74-A236-4488-8FB3-2FE43D1C79FB-420x-auto.jpg"
+      },
+      {
+        "id": "FB39AE3C-D31A-4677-8E07-3D0A42EB67B2",
+        "kind": "entity",
+        "name": "Pride and Prejudice",
+        "type": "urn:entity:book",
+        "image": "https://images.qloo.com/i/FB39AE3C-D31A-4677-8E07-3D0A42EB67B2-420x-auto.jpg"
+      }
+    ],
+    "arab-classics": [
+      {
+        "id": "B5F91079-C6DB-4DB9-A021-27362B08D4D5",
+        "kind": "entity",
+        "name": "Oum Kalthoum",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/B5F91079-C6DB-4DB9-A021-27362B08D4D5-420x-auto.jpg",
+        "description": "Legendary Egyptian singer known for her powerful voice and emotive Arabic classical music."
+      },
+      {
+        "id": "72815BB0-C419-4B81-B278-C74F3C26B486",
+        "kind": "entity",
+        "name": "Amr Diab",
+        "type": "urn:entity:person",
+        "image": "https://images.qloo.com/i/72815BB0-C419-4B81-B278-C74F3C26B486-420x-auto.jpg",
+        "description": "Egyptian actor, composer, and singer"
+      },
+      {
+        "id": "6FD18F6D-7D86-4AD5-8218-19FFED724270",
+        "kind": "entity",
+        "name": "Nancy Ajram",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/6FD18F6D-7D86-4AD5-8218-19FFED724270-420x-auto.jpg",
+        "description": "Nancy Ajram is a Lebanese singer known for her Arabic pop music and widespread popularity in the Arab world."
+      }
+    ],
+    "melancholy-futurist": [
+      {
+        "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "kind": "entity",
+        "name": "Radiohead",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg",
+        "description": "Radiohead is an English rock band known for their innovative and experimental approach to music."
+      },
+      {
+        "id": "A74A74BB-CE73-4A76-807B-8BD1714BC463",
+        "kind": "entity",
+        "name": "Blade Runner",
+        "type": "urn:entity:movie",
+        "image": "https://images.qloo.com/i/A74A74BB-CE73-4A76-807B-8BD1714BC463-420x-auto.jpg"
+      },
+      {
+        "id": "0E1B9145-31B2-458D-B01F-4A35ED5E8ED4",
+        "kind": "entity",
+        "name": "Kafka on the Shore",
+        "type": "urn:entity:book",
+        "image": "https://images.qloo.com/i/0E1B9145-31B2-458D-B01F-4A35ED5E8ED4-420x-auto.jpg",
+        "description": "A teenage boy and an elderly man embark on surreal journeys to escape fate and uncover their destinies."
+      }
+    ],
+    "bollywood": [
+      {
+        "id": "6F78A2FF-DFB3-4A01-AC9B-900FF3D019B7",
+        "kind": "entity",
+        "name": "Shah Rukh Khan",
+        "type": "urn:entity:person",
+        "image": "https://images.qloo.com/i/6F78A2FF-DFB3-4A01-AC9B-900FF3D019B7-420x-auto.jpg",
+        "description": "Indian actor, producer and television personality"
+      },
+      {
+        "id": "9986F595-C20E-4EBB-828F-55E7DEEBE448",
+        "kind": "entity",
+        "name": "A.R. Rahman",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/9986F595-C20E-4EBB-828F-55E7DEEBE448-420x-auto.jpg",
+        "description": "A.R. Rahman is an Indian composer, singer, and music producer known for his film scores and soundtracks blending Indian classical music with electronic music."
+      },
+      {
+        "id": "E0CC430C-48A2-4C11-8084-5D31F7251F87",
+        "kind": "entity",
+        "name": "Kabhi Khushi Kabhie Gham...",
+        "type": "urn:entity:movie",
+        "image": "https://images.qloo.com/i/E0CC430C-48A2-4C11-8084-5D31F7251F87-420x-auto.jpg"
+      }
+    ],
+    "glam-pop": [
+      {
+        "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
+        "kind": "entity",
+        "name": "Beyoncé",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/F6754C46-B3E7-457F-8B7E-06C613597320-420x-auto.jpg",
+        "description": "Beyoncé is an American singer, songwriter, and actress known for her powerful vocals and dynamic performances."
+      },
+      {
+        "id": "91B0C7A7-2FCF-4D04-8AC7-065F7B0FF9D7",
+        "kind": "entity",
+        "name": "Fenty Beauty",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/91B0C7A7-2FCF-4D04-8AC7-065F7B0FF9D7-420x-auto.jpg",
+        "description": "Fenty Beauty is a cosmetics brand by Rihanna offering inclusive makeup, skincare, haircare, and fragrance products for all skin tones and types."
+      },
+      {
+        "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
+        "kind": "entity",
+        "name": "Rihanna",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/723BCD5C-AA73-4E13-AAA6-9FBE10A889E4-420x-auto.jpg",
+        "description": "Barbadian singer, actress, and businesswoman known for her versatile music and global influence."
+      }
+    ],
+    "cozy-gaming": [
+      {
+        "id": "08663BD2-E267-4C7F-9895-86410F67867C",
+        "kind": "entity",
+        "name": "Animal Crossing: New Horizons",
+        "type": "urn:entity:videogame",
+        "image": "https://images.qloo.com/i/08663BD2-E267-4C7F-9895-86410F67867C-420x-auto.jpg",
+        "description": "You move to a deserted island to build a new life—gather resources, craft and decorate, befriend villagers, and shape the island at your own relaxed pace."
+      },
+      {
+        "id": "875DB771-9C4C-4DD0-9249-D2ABD95711F1",
+        "kind": "entity",
+        "name": "Stardew Valley",
+        "type": "urn:entity:videogame",
+        "image": "https://images.qloo.com/i/875DB771-9C4C-4DD0-9249-D2ABD95711F1-420x-auto.jpg",
+        "description": "You inherit a run-down farm and rebuild it while forming relationships, exploring caves, farming, and shaping your life in a small town."
+      },
+      {
+        "id": "D1222FA1-A6FD-45DE-8993-D89E2BB4777A",
+        "kind": "entity",
+        "name": "Studio Ghibli",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/D1222FA1-A6FD-45DE-8993-D89E2BB4777A-420x-auto.jpg",
+        "description": "A renowned Japanese animation studio known for its iconic animated films and music."
+      }
+    ],
+    "home-cook": [
+      {
+        "id": "00E1C9B0-35B8-42E7-A2AB-99A6D1899FC7",
+        "kind": "entity",
+        "name": "Jerusalem: A Cookbook",
+        "type": "urn:entity:book",
+        "image": "https://images.qloo.com/i/00E1C9B0-35B8-42E7-A2AB-99A6D1899FC7-420x-auto.jpg"
+      },
+      {
+        "id": "35D9EDC3-DC6A-42A5-B73B-7A18DCF0C024",
+        "kind": "entity",
+        "name": "Chef's Table",
+        "type": "urn:entity:tv_show",
+        "image": "https://images.qloo.com/i/35D9EDC3-DC6A-42A5-B73B-7A18DCF0C024-420x-auto.jpg"
+      },
+      {
+        "id": "9886839E-BED5-45F9-8703-276527054727",
+        "kind": "entity",
+        "name": "Le Creuset",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/9886839E-BED5-45F9-8703-276527054727-420x-auto.jpg",
+        "description": "Le Creuset is a French cookware brand known for its premium, colorful, and highly durable enameled cast iron pots, pans, and bakeware."
+      }
+    ],
+    "outdoors": [
+      {
+        "id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+        "kind": "entity",
+        "name": "Patagonia",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/DB4CE34E-3A63-4947-946F-9D52502C5762-420x-auto.jpg",
+        "description": "Patagonia is an outdoor apparel company known for sustainable clothing and gear for activities like climbing, surfing, skiing, and trail running."
+      },
+      {
+        "id": "E4FD5F16-4499-4431-9CA9-115625146109",
+        "kind": "entity",
+        "name": "Into the Wild",
+        "type": "urn:entity:movie",
+        "image": "https://images.qloo.com/i/E4FD5F16-4499-4431-9CA9-115625146109-420x-auto.jpg"
+      },
+      {
+        "id": "E1D3EFF4-2671-4700-8800-49E670903D9C",
+        "kind": "entity",
+        "name": "Planet Earth",
+        "type": "urn:entity:tv_show",
+        "image": "https://images.qloo.com/i/E1D3EFF4-2671-4700-8800-49E670903D9C-420x-auto.jpg"
+      }
+    ],
+    "minimalist": [
+      {
+        "id": "E12201A5-CC50-40AF-97AE-C54A2CA303F7",
+        "kind": "entity",
+        "name": "Muji",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/E12201A5-CC50-40AF-97AE-C54A2CA303F7-420x-auto.jpg",
+        "description": "Muji is a Japanese retail brand offering minimalist, quality household goods, clothing, stationery, and furniture."
+      },
+      {
+        "id": "4B629CEC-5FCE-4973-8A8C-92B9DC2B45D2",
+        "kind": "entity",
+        "name": "Tidying Up with Marie Kondo",
+        "type": "urn:entity:tv_show",
+        "image": "https://images.qloo.com/i/4B629CEC-5FCE-4973-8A8C-92B9DC2B45D2-420x-auto.jpg"
+      },
+      {
+        "id": "32F867B9-E6DF-44C3-BCE4-40160C7ED5E4",
+        "kind": "entity",
+        "name": "Aesop",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/32F867B9-E6DF-44C3-BCE4-40160C7ED5E4-420x-auto.jpg",
+        "description": "Aesop is an Australian luxury brand known for its vegan, cruelty-free skincare, haircare, and fragrance products."
+      }
+    ],
+    "motorsport": [
+      {
+        "id": "14028D1F-43C2-41AF-965B-BB2A96767207",
+        "kind": "entity",
+        "name": "Formula 1: Drive to Survive",
+        "type": "urn:entity:tv_show",
+        "image": "https://images.qloo.com/i/14028D1F-43C2-41AF-965B-BB2A96767207-420x-auto.jpg"
+      },
+      {
+        "id": "FD681F02-1EA5-4E8F-B036-3C93D80B81E7",
+        "kind": "entity",
+        "name": "Lewis Hamilton",
+        "type": "urn:entity:person",
+        "image": "https://images.qloo.com/i/FD681F02-1EA5-4E8F-B036-3C93D80B81E7-420x-auto.jpg",
+        "description": "British racing driver"
+      },
+      {
+        "id": "96C5629A-CC62-45C7-9CD2-971331E403D1",
+        "kind": "entity",
+        "name": "Porsche",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/96C5629A-CC62-45C7-9CD2-971331E403D1-420x-auto.jpg",
+        "description": "Porsche is a German automotive brand known for manufacturing high-performance sports cars, SUVs, and electric vehicles, with a strong presence in Indonesia."
+      }
+    ],
+    "fantasy": [
+      {
+        "id": "0C97E7FE-8A86-4B48-9F54-CB0A73CC2B96",
+        "kind": "entity",
+        "name": "Harry Potter and the Sorcerer’s Stone (Harry Potter, #1)",
+        "type": "urn:entity:book",
+        "image": "https://images.qloo.com/i/0C97E7FE-8A86-4B48-9F54-CB0A73CC2B96-420x-auto.jpg"
+      },
+      {
+        "id": "3006EB68-8DD8-426E-B2F2-19BD3B9418F0",
+        "kind": "entity",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "type": "urn:entity:movie",
+        "image": "https://images.qloo.com/i/3006EB68-8DD8-426E-B2F2-19BD3B9418F0-420x-auto.jpg"
+      },
+      {
+        "id": "C96E683D-1701-4489-8238-359B07BE42F5",
+        "kind": "entity",
+        "name": "Black Dragons e-Sports",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/C96E683D-1701-4489-8238-359B07BE42F5-420x-auto.jpg",
+        "description": "Black Dragons e-Sports is a Brazilian professional esports organization known for its Rainbow Six Siege and CS:GO teams, representing a large gamer community."
+      }
+    ],
+    "gen-z": [
+      {
+        "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+        "kind": "entity",
+        "name": "Billie Eilish",
+        "type": "urn:entity:artist",
+        "image": "https://images.qloo.com/i/D7BCE4CD-5135-4608-8A7D-78E08FFD52F3-420x-auto.jpg",
+        "description": "Billie Eilish is an American singer-songwriter known for her unique voice and dark, moody pop music."
+      },
+      {
+        "id": "5A82F9BC-10F6-4A45-8097-6B1E147B7824",
+        "kind": "entity",
+        "name": "Euphoria",
+        "type": "urn:entity:tv_show",
+        "image": "https://images.qloo.com/i/5A82F9BC-10F6-4A45-8097-6B1E147B7824-420x-auto.jpg"
+      },
+      {
+        "id": "7FFF01CF-7B0E-405A-A232-14176B165E60",
+        "kind": "entity",
+        "name": "Converse",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/7FFF01CF-7B0E-405A-A232-14176B165E60-420x-auto.jpg",
+        "description": "Converse is a global footwear and apparel brand known for its iconic Chuck Taylor All Star sneakers and customizable shoe designs."
+      }
+    ],
+    "wellness": [
+      {
+        "id": "D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E",
+        "kind": "entity",
+        "name": "Lululemon",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/D9B9B404-7B35-4E4B-A0CE-4CAB8155FE9E-420x-auto.jpg",
+        "description": "Lululemon is a brand specializing in technical athletic apparel and footwear, known for activewear and yoga gear for men and women."
+      },
+      {
+        "id": "54D2569F-A0F1-41A3-8C83-F0E2155C3EDB",
+        "kind": "entity",
+        "name": "Headspace",
+        "type": "urn:entity:brand",
+        "image": "https://images.qloo.com/i/54D2569F-A0F1-41A3-8C83-F0E2155C3EDB-420x-auto.jpg",
+        "description": "Headspace is a digital health brand offering meditation, mindfulness, sleep aids, mental health coaching, and therapy services through an app and online platform."
+      },
+      {
+        "id": "BBA992EC-56DD-4308-AFF5-8411603BF005",
+        "kind": "entity",
+        "name": "The Power of Now: A Guide to Spiritual Enlightenment",
+        "type": "urn:entity:book",
+        "image": "https://images.qloo.com/i/BBA992EC-56DD-4308-AFF5-8411603BF005-420x-auto.jpg"
+      }
+    ]
+  },
+  "tags": [
+    {
+      "id": "urn:tag:genre:brand:fashion",
+      "name": "Fashion",
+      "type": "urn:tag:genre:brand",
+      "count": 263,
+      "sets": 12
+    },
+    {
+      "id": "urn:tag:industry:qloo:fashion_apparel",
+      "name": "Fashion & Apparel",
+      "type": "urn:tag:industry:qloo",
+      "count": 261,
+      "sets": 12
+    },
+    {
+      "id": "urn:tag:industry:qloo:retail",
+      "name": "Retail",
+      "type": "urn:tag:industry:qloo",
+      "count": 207,
+      "sets": 13
+    },
+    {
+      "id": "urn:tag:product_category:qloo:apparel",
+      "name": "Apparel",
+      "type": "urn:tag:product_category:qloo",
+      "count": 193,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:casual",
+      "name": "Casual",
+      "type": "urn:tag:genre:brand",
+      "count": 166,
+      "sets": 10
+    },
+    {
+      "id": "urn:tag:product_category:qloo:accessories",
+      "name": "Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 143,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear",
+      "name": "Footwear",
+      "type": "urn:tag:genre:brand",
+      "count": 134,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:product_category:qloo:footwear",
+      "name": "Footwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 133,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:accessories",
+      "name": "Accessories",
+      "type": "urn:tag:genre:brand",
+      "count": 117,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:other",
+      "name": "Other",
+      "type": "urn:tag:genre:brand",
+      "count": 115,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:product_category:qloo:outerwear",
+      "name": "Outerwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 109,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:health_and_beauty",
+      "name": "Health & Beauty",
+      "type": "urn:tag:genre:brand",
+      "count": 104,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:industry:qloo:media_entertainment",
+      "name": "Media & Entertainment",
+      "type": "urn:tag:industry:qloo",
+      "count": 101,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:accessories:bags_and_leather",
+      "name": "Bags & Leather",
+      "type": "urn:tag:genre:brand",
+      "count": 95,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:product_category:qloo:fragrance",
+      "name": "Fragrance",
+      "type": "urn:tag:product_category:qloo",
+      "count": 79,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:genre:brand:website",
+      "name": "Website",
+      "type": "urn:tag:genre:brand",
+      "count": 79,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:industry:qloo:automotive",
+      "name": "Automotive",
+      "type": "urn:tag:industry:qloo",
+      "count": 75,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:automotive",
+      "name": "Automotive",
+      "type": "urn:tag:genre:brand",
+      "count": 74,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sneaker:lifestyle",
+      "name": "Lifestyle / Casual",
+      "type": "urn:tag:genre:brand",
+      "count": 73,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:industry:qloo:beauty_personal_care",
+      "name": "Beauty & Personal Care",
+      "type": "urn:tag:industry:qloo",
+      "count": 72,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:formalwear",
+      "name": "Formalwear",
+      "type": "urn:tag:genre:brand",
+      "count": 71,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_goods",
+      "name": "Luxury Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 71,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:product_category:qloo:handbags",
+      "name": "Handbags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 69,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:industry:qloo:sports_fitness",
+      "name": "Sports & Fitness",
+      "type": "urn:tag:industry:qloo",
+      "count": 68,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:genre:brand:automotive:car_and_suv",
+      "name": "Car & SUV",
+      "type": "urn:tag:genre:brand",
+      "count": 66,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:food_beverage",
+      "name": "Food & Beverage",
+      "type": "urn:tag:industry:qloo",
+      "count": 61,
+      "sets": 10
+    },
+    {
+      "id": "urn:tag:product_category:qloo:eyewear",
+      "name": "Eyewear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 59,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:industry:qloo:consumer_electronics",
+      "name": "Consumer Electronics",
+      "type": "urn:tag:industry:qloo",
+      "count": 59,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:industry:qloo:technology",
+      "name": "Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 58,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics",
+      "name": "Electronics",
+      "type": "urn:tag:genre:brand",
+      "count": 57,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app",
+      "name": "Mobile App",
+      "type": "urn:tag:genre:brand",
+      "count": 55,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:product_category:qloo:watches",
+      "name": "Watches",
+      "type": "urn:tag:product_category:qloo",
+      "count": 51,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:accessories:eyewear",
+      "name": "Eyewear",
+      "type": "urn:tag:genre:brand",
+      "count": 47,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sneaker:designer",
+      "name": "High-end / Designer",
+      "type": "urn:tag:genre:brand",
+      "count": 46,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:software",
+      "name": "Software",
+      "type": "urn:tag:genre:brand",
+      "count": 40,
+      "sets": 10
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment",
+      "name": "Entertainment",
+      "type": "urn:tag:genre:brand",
+      "count": 39,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:industry:qloo:health_wellness",
+      "name": "Health & Wellness",
+      "type": "urn:tag:industry:qloo",
+      "count": 38,
+      "sets": 10
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:haute_couture",
+      "name": "Haute Couture",
+      "type": "urn:tag:genre:brand",
+      "count": 36,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:home_goods",
+      "name": "Home Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 35,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage",
+      "name": "Food & Beverage",
+      "type": "urn:tag:genre:brand",
+      "count": 34,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:industry:qloo:footwear",
+      "name": "Footwear",
+      "type": "urn:tag:industry:qloo",
+      "count": 33,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:genre:brand:retail",
+      "name": "Retail",
+      "type": "urn:tag:genre:brand",
+      "count": 32,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:product_category:qloo:denim",
+      "name": "Denim",
+      "type": "urn:tag:product_category:qloo",
+      "count": 31,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:product_category:qloo:cosmetics",
+      "name": "Cosmetics",
+      "type": "urn:tag:product_category:qloo",
+      "count": 31,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media",
+      "name": "Media",
+      "type": "urn:tag:genre:brand",
+      "count": 28,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sneakers",
+      "name": "Sneakers",
+      "type": "urn:tag:genre:brand",
+      "count": 27,
+      "sets": 10
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:accessories:jewelry",
+      "name": "Jewelry",
+      "type": "urn:tag:genre:brand",
+      "count": 27,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:jeans",
+      "name": "Jeans",
+      "type": "urn:tag:genre:brand",
+      "count": 26,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:jewelry",
+      "name": "Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 26,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:computer_accessories",
+      "name": "Computer Accessories",
+      "type": "urn:tag:genre:brand",
+      "count": 26,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:accessories:watch",
+      "name": "Watch",
+      "type": "urn:tag:genre:brand",
+      "count": 23,
+      "sets": 8
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:athletic",
+      "name": "Athletic",
+      "type": "urn:tag:genre:brand",
+      "count": 23,
+      "sets": 9
+    },
+    {
+      "id": "urn:tag:product_category:qloo:swimwear",
+      "name": "Swimwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 22,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:industry:qloo:consumer_packaged_goods",
+      "name": "Consumer Packaged Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 21,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:home_accessories",
+      "name": "Home Accessories",
+      "type": "urn:tag:genre:brand",
+      "count": 20,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:product_category:qloo:fine_jewelry",
+      "name": "Fine Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 20,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:skincare",
+      "name": "Skincare",
+      "type": "urn:tag:product_category:qloo",
+      "count": 20,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:e_commerce",
+      "name": "E-commerce",
+      "type": "urn:tag:industry:qloo",
+      "count": 19,
+      "sets": 11
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food",
+      "name": "Food",
+      "type": "urn:tag:genre:brand",
+      "count": 19,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization",
+      "name": "Sports Organization",
+      "type": "urn:tag:genre:brand",
+      "count": 19,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:gaming",
+      "name": "Gaming",
+      "type": "urn:tag:genre:brand",
+      "count": 19,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_goods",
+      "name": "Home Goods",
+      "type": "urn:tag:product_category:qloo",
+      "count": 18,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:computers_and_laptops",
+      "name": "Computers & Laptops",
+      "type": "urn:tag:genre:brand",
+      "count": 18,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sandals",
+      "name": "Sandals",
+      "type": "urn:tag:genre:brand",
+      "count": 17,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:fragrance",
+      "name": "Fragrance",
+      "type": "urn:tag:industry:qloo",
+      "count": 16,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:shoes",
+      "name": "Shoes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 16,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:publishing",
+      "name": "Publishing",
+      "type": "urn:tag:industry:qloo",
+      "count": 16,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_decor",
+      "name": "Home Decor",
+      "type": "urn:tag:product_category:qloo",
+      "count": 15,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:dining",
+      "name": "Dining",
+      "type": "urn:tag:genre:brand",
+      "count": 14,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:accessories",
+      "name": "Accessories",
+      "type": "urn:tag:industry:qloo",
+      "count": 14,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:headphones",
+      "name": "Headphones",
+      "type": "urn:tag:genre:brand",
+      "count": 14,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:industry:qloo:cosmetics",
+      "name": "Cosmetics",
+      "type": "urn:tag:industry:qloo",
+      "count": 14,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:news_and_politics",
+      "name": "News & Politics",
+      "type": "urn:tag:genre:brand",
+      "count": 14,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:education",
+      "name": "Education",
+      "type": "urn:tag:industry:qloo",
+      "count": 14,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:computer_components",
+      "name": "Computer Components",
+      "type": "urn:tag:genre:brand",
+      "count": 14,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:drinks",
+      "name": "Drinks",
+      "type": "urn:tag:genre:brand",
+      "count": 13,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:product_category:qloo:loungewear",
+      "name": "Loungewear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 13,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:activewear",
+      "name": "Activewear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 13,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:reading",
+      "name": "Reading App",
+      "type": "urn:tag:genre:brand",
+      "count": 13,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:outdoor_recreation",
+      "name": "Outdoor Recreation",
+      "type": "urn:tag:industry:qloo",
+      "count": 13,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:computer_hardware",
+      "name": "Computer Hardware",
+      "type": "urn:tag:industry:qloo",
+      "count": 13,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sneaker:basketball",
+      "name": "Basketball",
+      "type": "urn:tag:genre:brand",
+      "count": 12,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:product_category:qloo:underwear",
+      "name": "Underwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 12,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beauty",
+      "name": "Beauty",
+      "type": "urn:tag:product_category:qloo",
+      "count": 12,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:swimwear",
+      "name": "Swimwear",
+      "type": "urn:tag:genre:brand",
+      "count": 12,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:phones_and_tablets",
+      "name": "Phones & Tablets",
+      "type": "urn:tag:genre:brand",
+      "count": 12,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:industry:qloo:hospitality_travel",
+      "name": "Hospitality & Travel",
+      "type": "urn:tag:industry:qloo",
+      "count": 12,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:nonprofit",
+      "name": "Nonprofit",
+      "type": "urn:tag:industry:qloo",
+      "count": 12,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_media",
+      "name": "Digital Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 12,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:automotive:electric",
+      "name": "Electric",
+      "type": "urn:tag:genre:brand",
+      "count": 12,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:video_games",
+      "name": "Video Games",
+      "type": "urn:tag:industry:qloo",
+      "count": 12,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sneaker:running",
+      "name": "Running",
+      "type": "urn:tag:genre:brand",
+      "count": 11,
+      "sets": 7
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bags",
+      "name": "Bags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 11,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:outdoor_equipment",
+      "name": "Outdoor Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 11,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:automotive:motorcycle",
+      "name": "Motorcycle",
+      "type": "urn:tag:genre:brand",
+      "count": 11,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:outdoor_gear",
+      "name": "Outdoor Gear",
+      "type": "urn:tag:industry:qloo",
+      "count": 11,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:makeup",
+      "name": "Makeup",
+      "type": "urn:tag:product_category:qloo",
+      "count": 11,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:small_leather_goods",
+      "name": "Small Leather Goods",
+      "type": "urn:tag:product_category:qloo",
+      "count": 10,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:news",
+      "name": "News App",
+      "type": "urn:tag:genre:brand",
+      "count": 10,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:transportation",
+      "name": "Transportation",
+      "type": "urn:tag:industry:qloo",
+      "count": 10,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:backpacks",
+      "name": "Backpacks",
+      "type": "urn:tag:product_category:qloo",
+      "count": 10,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:lingerie",
+      "name": "Lingerie",
+      "type": "urn:tag:product_category:qloo",
+      "count": 9,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:business",
+      "name": "Business",
+      "type": "urn:tag:genre:brand",
+      "count": 9,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:travel",
+      "name": "Travel",
+      "type": "urn:tag:genre:brand",
+      "count": 9,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_vehicles",
+      "name": "Luxury Vehicles",
+      "type": "urn:tag:industry:qloo",
+      "count": 9,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:motorsports",
+      "name": "Motorsports",
+      "type": "urn:tag:genre:brand",
+      "count": 9,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:snacks",
+      "name": "Snacks",
+      "type": "urn:tag:product_category:qloo",
+      "count": 8,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sports_equipment",
+      "name": "Sports Equipment",
+      "type": "urn:tag:product_category:qloo",
+      "count": 8,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:leather_goods",
+      "name": "Leather Goods",
+      "type": "urn:tag:product_category:qloo",
+      "count": 8,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:industry:qloo:bakery",
+      "name": "Bakery",
+      "type": "urn:tag:industry:qloo",
+      "count": 8,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:robotics",
+      "name": "Robotics",
+      "type": "urn:tag:industry:qloo",
+      "count": 8,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:travel:booking_platform",
+      "name": "Booking Platform",
+      "type": "urn:tag:genre:brand",
+      "count": 8,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo",
+      "name": "NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 8,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:motorsport",
+      "name": "Motorsport",
+      "type": "urn:tag:industry:qloo",
+      "count": 8,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:fitness",
+      "name": "Fitness App",
+      "type": "urn:tag:genre:brand",
+      "count": 8,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beverages",
+      "name": "Beverages",
+      "type": "urn:tag:product_category:qloo",
+      "count": 7,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bakery",
+      "name": "Bakery",
+      "type": "urn:tag:product_category:qloo",
+      "count": 7,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:fast_fashion",
+      "name": "Fast Fashion",
+      "type": "urn:tag:industry:qloo",
+      "count": 7,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:action_sports",
+      "name": "Action Sports",
+      "type": "urn:tag:industry:qloo",
+      "count": 7,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:social_networking",
+      "name": "Social Networking App",
+      "type": "urn:tag:genre:brand",
+      "count": 7,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:home_decor",
+      "name": "Home Decor",
+      "type": "urn:tag:industry:qloo",
+      "count": 7,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sportswear",
+      "name": "Sportswear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 7,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:professional_sports",
+      "name": "Professional Sports",
+      "type": "urn:tag:industry:qloo",
+      "count": 7,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:home_theater",
+      "name": "Home Theater",
+      "type": "urn:tag:genre:brand",
+      "count": 7,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:semiconductors",
+      "name": "Semiconductors",
+      "type": "urn:tag:industry:qloo",
+      "count": 7,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:league_tournament",
+      "name": "Leagues & Tournaments",
+      "type": "urn:tag:genre:brand",
+      "count": 7,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:gaming_hardware",
+      "name": "Gaming Hardware",
+      "type": "urn:tag:industry:qloo",
+      "count": 7,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:household",
+      "name": "Household",
+      "type": "urn:tag:genre:brand",
+      "count": 7,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:kitchenware",
+      "name": "Kitchenware",
+      "type": "urn:tag:product_category:qloo",
+      "count": 7,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sandals",
+      "name": "Sandals",
+      "type": "urn:tag:product_category:qloo",
+      "count": 7,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:food_and_dining",
+      "name": "Food & Dining App",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:drinks:coffee_and_tea",
+      "name": "Coffee & Tea",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:lingerie_and_sleepwear",
+      "name": "Lingerie & Sleepwear",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 6
+    },
+    {
+      "id": "urn:tag:industry:qloo:general_merchandise",
+      "name": "General Merchandise",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:jewelry",
+      "name": "Jewelry",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:sports_equipment",
+      "name": "Sports Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:industry:qloo:eyewear",
+      "name": "Eyewear",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:product_category:qloo:hair_care",
+      "name": "Hair Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 6,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_publishing",
+      "name": "Digital Publishing",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:education",
+      "name": "Education App",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:artificial_intelligence",
+      "name": "Artificial Intelligence",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:industry:qloo:news",
+      "name": "News",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:camera_and_video",
+      "name": "Camera & Video",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:industry:qloo:professional_services",
+      "name": "Professional Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:mobility_services",
+      "name": "Mobility Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:motorcycles",
+      "name": "Motorcycles",
+      "type": "urn:tag:industry:qloo",
+      "count": 6,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:appliances",
+      "name": "Appliances",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:dairy_and_substitutes",
+      "name": "Dairy & Substitutes",
+      "type": "urn:tag:genre:brand",
+      "count": 6,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:body_care",
+      "name": "Body Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:genre:brand:fashion:footwear:sneaker:skateboarding",
+      "name": "Skateboarding",
+      "type": "urn:tag:genre:brand",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:retail:fashion",
+      "name": "Fashion",
+      "type": "urn:tag:genre:brand",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:luggage",
+      "name": "Luggage",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 5
+    },
+    {
+      "id": "urn:tag:industry:qloo:leather_goods",
+      "name": "Leather Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:socks",
+      "name": "Socks",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:travel",
+      "name": "Travel App",
+      "type": "urn:tag:genre:brand",
+      "count": 5,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:software_as_a_service",
+      "name": "Software As A Service",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:software",
+      "name": "Software",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:telecommunications",
+      "name": "Telecommunications",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:outdoor_gear",
+      "name": "Outdoor Gear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:social_networking",
+      "name": "Social Networking",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:financial_services",
+      "name": "Financial Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:motorsports",
+      "name": "Motorsports",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beauty_tools",
+      "name": "Beauty Tools",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:makeup_tools",
+      "name": "Makeup Tools",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:energy_drinks",
+      "name": "Energy Drinks",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:desserts",
+      "name": "Desserts",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:coffee",
+      "name": "Coffee",
+      "type": "urn:tag:product_category:qloo",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:hospitality",
+      "name": "Hospitality",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:mobile_applications",
+      "name": "Mobile Applications",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:lifestyle",
+      "name": "Lifestyle",
+      "type": "urn:tag:industry:qloo",
+      "count": 5,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:sleepwear",
+      "name": "Sleepwear",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sleepwear",
+      "name": "Sleepwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beauty_products",
+      "name": "Beauty Products",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:dresses",
+      "name": "Dresses",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sunglasses",
+      "name": "Sunglasses",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:fragrances",
+      "name": "Fragrances",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_services",
+      "name": "Digital Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bridal",
+      "name": "Bridal",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:watches",
+      "name": "Watches",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:manufacturing",
+      "name": "Manufacturing",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_accessories",
+      "name": "Home Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:industry:qloo:journalism",
+      "name": "Journalism",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:technology",
+      "name": "Technology",
+      "type": "urn:tag:genre:brand",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:photography",
+      "name": "Photography",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:cloud_computing",
+      "name": "Cloud Computing",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 4
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:video_game_developer",
+      "name": "Video Game Developer",
+      "type": "urn:tag:genre:brand",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_automotive",
+      "name": "Luxury Automotive",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:electric_vehicles",
+      "name": "Electric Vehicles",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:horology",
+      "name": "Horology",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:automotive_engineering",
+      "name": "Automotive Engineering",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sneakers",
+      "name": "Sneakers",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:software_development",
+      "name": "Software Development",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:gaming",
+      "name": "Gaming",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:drinks:energy_drink",
+      "name": "Energy Drink",
+      "type": "urn:tag:genre:brand",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:kitchen_appliances",
+      "name": "Kitchen Appliances",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:kitchenware",
+      "name": "Kitchenware",
+      "type": "urn:tag:industry:qloo",
+      "count": 4,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:ice_cream",
+      "name": "Ice Cream",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:furniture",
+      "name": "Furniture",
+      "type": "urn:tag:product_category:qloo",
+      "count": 4,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:music",
+      "name": "Music",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:engagement_rings",
+      "name": "Engagement Rings",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:skate_equipment",
+      "name": "Skate Equipment",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:e_commerce",
+      "name": "E Commerce App",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:textiles",
+      "name": "Textiles",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:bakery",
+      "name": "Bakery",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:candy_and_confectionery",
+      "name": "Candy & Confectionery",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:wallets",
+      "name": "Wallets",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:social_media",
+      "name": "Social Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:wearable_technology",
+      "name": "Wearable Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:hockey:nhl",
+      "name": "National Hockey League",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:hockey",
+      "name": "Hockey",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:beauty",
+      "name": "Beauty",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:product_category:qloo:travel",
+      "name": "Travel",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:streaming_service",
+      "name": "Streaming Service App",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:energy_utilities",
+      "name": "Energy & Utilities",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:renewable_energy",
+      "name": "Renewable Energy",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:cultural_arts",
+      "name": "Cultural Arts",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:museums",
+      "name": "Museums",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:equipment",
+      "name": "Equipment",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:entertainment",
+      "name": "Entertainment",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:action_cameras",
+      "name": "Action Cameras",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:business",
+      "name": "Business App",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:tv_networks",
+      "name": "TV Networks",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:healthcare",
+      "name": "Healthcare App",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_health",
+      "name": "Digital Health",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:automotive_manufacturing",
+      "name": "Automotive Manufacturing",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:motorcycle_manufacturing",
+      "name": "Motorcycle Manufacturing",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:industrials",
+      "name": "Industrials",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:networking_equipment",
+      "name": "Networking Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:computer_peripherals",
+      "name": "Computer Peripherals",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:packaged",
+      "name": "Packaged",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:dairy",
+      "name": "Dairy",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:frozen_desserts",
+      "name": "Frozen Desserts",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:grocery",
+      "name": "Grocery",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:condiments_and_spices",
+      "name": "Condiments & Spices",
+      "type": "urn:tag:genre:brand",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:furniture",
+      "name": "Furniture",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:surfing_equipment",
+      "name": "Surfing Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:consumer_goods",
+      "name": "Consumer Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 3
+    },
+    {
+      "id": "urn:tag:industry:qloo:design",
+      "name": "Design",
+      "type": "urn:tag:industry:qloo",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:knitwear",
+      "name": "Knitwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 3,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cafe_chain",
+      "name": "Café Chain",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:vinyl_records",
+      "name": "Vinyl Records",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:drinks:non_carbonated",
+      "name": "Non-Carbonated",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:bottled_water",
+      "name": "Bottled Water",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bottled_water",
+      "name": "Bottled Water",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:eyeglasses",
+      "name": "Eyeglasses",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:smart_glasses",
+      "name": "Smart Glasses",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:jeans",
+      "name": "Jeans",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:photo_and_video",
+      "name": "Photo & Video App",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_discovery",
+      "name": "Digital Discovery",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:footwear_manufacturing",
+      "name": "Footwear Manufacturing",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:athletic_equipment",
+      "name": "Athletic Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:financial_services",
+      "name": "Financial Services",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:finance",
+      "name": "Finance",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:fine_jewelry",
+      "name": "Fine Jewelry",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_watches",
+      "name": "Luxury Watches",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:evening_wear",
+      "name": "Evening Wear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:gold_jewelry",
+      "name": "Gold Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:diamond_jewelry",
+      "name": "Diamond Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:costume_jewelry",
+      "name": "Costume Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:youth_culture",
+      "name": "Youth Culture",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:gifts",
+      "name": "Gifts",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:art",
+      "name": "Art",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:food_and_beverage",
+      "name": "Food & Beverage",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_marketplace",
+      "name": "Digital Marketplace",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:financial_publishing",
+      "name": "Financial Publishing",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:web_development",
+      "name": "Web Development",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:internet",
+      "name": "Internet",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:advertising",
+      "name": "Advertising",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:travel",
+      "name": "Travel",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:productivity_software",
+      "name": "Productivity Software",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:online_news_aggregation",
+      "name": "Online News Aggregation",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:consumer_cooperative",
+      "name": "Consumer Cooperative",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:art",
+      "name": "Art",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:e_learning",
+      "name": "E-Learning",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo:humanitarian",
+      "name": "Humanitarian NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:humanitarian_aid",
+      "name": "Humanitarian Aid",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo:environmental",
+      "name": "Environmental NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:environmental_conservation",
+      "name": "Environmental Conservation",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:automotive:commercial",
+      "name": "Commercial",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:production_company",
+      "name": "Production Company",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:vehicle_construction",
+      "name": "Vehicle Construction",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:power_equipment",
+      "name": "Power Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:aviation",
+      "name": "Aviation",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:automotive_finance",
+      "name": "Automotive Finance",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:transportation_services",
+      "name": "Transportation Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:performance_vehicles",
+      "name": "Performance Vehicles",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:commercial_vehicles",
+      "name": "Commercial Vehicles",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:heavy_equipment",
+      "name": "Heavy Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:sports_cars",
+      "name": "Sports Cars",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:mechanical_engineering",
+      "name": "Mechanical Engineering",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:apparel",
+      "name": "Apparel",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:logistics",
+      "name": "Logistics",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:precision_engineering",
+      "name": "Precision Engineering",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:genre:brand:telecom",
+      "name": "Telecommunication",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:information_technology",
+      "name": "Information Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cloud_services",
+      "name": "Cloud Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:automotive_racing",
+      "name": "Automotive Racing",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:cosmetics_industry",
+      "name": "Cosmetics Industry",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:face_makeup",
+      "name": "Face Makeup",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:eye_makeup",
+      "name": "Eye Makeup",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:lip_makeup",
+      "name": "Lip Makeup",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bath_and_body",
+      "name": "Bath And Body",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:makeup_brushes",
+      "name": "Makeup Brushes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:vitamins_and_supplements",
+      "name": "Vitamins and Supplements",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:face",
+      "name": "Face",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:eyes",
+      "name": "Eyes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:lips",
+      "name": "Lips",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_distribution",
+      "name": "Digital Distribution",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:electronics:robotics",
+      "name": "Robotics",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sauces",
+      "name": "Sauces",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cookware",
+      "name": "Cookware",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:coffee",
+      "name": "Coffee",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:food_beverage",
+      "name": "Food & Beverage",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:health_wellness",
+      "name": "Health & Wellness",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beauty_personal_care",
+      "name": "Beauty & Personal Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:household_cleaning",
+      "name": "Household Cleaning",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:agriculture",
+      "name": "Agriculture",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:cheese",
+      "name": "Cheese",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:yogurt",
+      "name": "Yogurt",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:travel",
+      "name": "Travel",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:condiments",
+      "name": "Condiments",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:condiments",
+      "name": "Condiments",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:food_service",
+      "name": "Food Service",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:packaged:snacks",
+      "name": "Snacks",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:baking_ingredients",
+      "name": "Baking Ingredients",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:tents",
+      "name": "Tents",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:base_layers",
+      "name": "Base Layers",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_fitness",
+      "name": "Digital Fitness",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:outdoor_sporting_goods",
+      "name": "Outdoor Sporting Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:travel_accessories",
+      "name": "Travel Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_textiles",
+      "name": "Home Textiles",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:outdoor_apparel",
+      "name": "Outdoor Apparel",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:sustainability",
+      "name": "Sustainability",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:trousers",
+      "name": "Trousers",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:boots",
+      "name": "Boots",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:travel_gear",
+      "name": "Travel Gear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:sporting_goods",
+      "name": "Sporting Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_fragrance",
+      "name": "Home Fragrance",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:personal_care",
+      "name": "Personal Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_scents",
+      "name": "Home Scents",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bedding",
+      "name": "Bedding",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:stationery",
+      "name": "Stationery",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:stationery",
+      "name": "Stationery",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:tea",
+      "name": "Tea",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:lifestyle_goods",
+      "name": "Lifestyle Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:jewelry_watches",
+      "name": "Jewelry & Watches",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:powersports",
+      "name": "Powersports",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:marine",
+      "name": "Marine",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:product_category:qloo:chronographs",
+      "name": "Chronographs",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:wetsuits",
+      "name": "Wetsuits",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:esports",
+      "name": "Esports",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:drinks:carbonated",
+      "name": "Carbonated",
+      "type": "urn:tag:genre:brand",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:skateboarding",
+      "name": "Skateboarding",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 2
+    },
+    {
+      "id": "urn:tag:industry:qloo:fitness_services",
+      "name": "Fitness Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fitness_technology",
+      "name": "Fitness Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:supplements",
+      "name": "Supplements",
+      "type": "urn:tag:product_category:qloo",
+      "count": 2,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:clothing_store_chain",
+      "name": "Clothing Store Chain",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:social_networking_service",
+      "name": "Social Networking Service",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:marketplace_platform",
+      "name": "Marketplace Platform",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:cookies",
+      "name": "Cookies",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:supermarket_chain",
+      "name": "Supermarket Chain",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:financial_services:credit_card",
+      "name": "Credit Card",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:credit_cards",
+      "name": "Credit Cards",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:ethical_consumerism",
+      "name": "Ethical Consumerism",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bath_and_shower",
+      "name": "Bath and Shower",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_hotels",
+      "name": "Luxury Hotels",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beachwear",
+      "name": "Beachwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:music",
+      "name": "Music App",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:music_streaming",
+      "name": "Music Streaming",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:crystal_ornamentation",
+      "name": "Crystal Ornamentation",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bridal_jewelry",
+      "name": "Bridal Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fashion_media",
+      "name": "Fashion Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:lifestyle_media",
+      "name": "Lifestyle Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:hair_accessories",
+      "name": "Hair Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:scarves",
+      "name": "Scarves",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:healthcare",
+      "name": "Healthcare",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cosmetic_surgery",
+      "name": "Cosmetic Surgery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cosmetic_dentistry",
+      "name": "Cosmetic Dentistry",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:personal_styling",
+      "name": "Personal Styling",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:jewellery",
+      "name": "Jewellery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:pearl_jewelry",
+      "name": "Pearl Jewelry",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_fashion",
+      "name": "Luxury Fashion",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:haute_couture",
+      "name": "Haute Couture",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:nonprofit_organization",
+      "name": "Nonprofit Organization",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:public_broadcasting",
+      "name": "Public Broadcasting",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:photography_services",
+      "name": "Photography Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:creative_software",
+      "name": "Creative Software",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cultural_institutions",
+      "name": "Cultural Institutions",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:art_education",
+      "name": "Art Education",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_news",
+      "name": "Digital News",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:news_publishing",
+      "name": "News Publishing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:e_commerce_solutions",
+      "name": "E-commerce Solutions",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:publisher",
+      "name": "Publisher",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:home_and_utilities",
+      "name": "Home & Utilities App",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:location_intelligence",
+      "name": "Location Intelligence",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:enterprise_software",
+      "name": "Enterprise Software",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:data_analytics",
+      "name": "Data Analytics",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:documentary",
+      "name": "Documentary",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:business_intelligence",
+      "name": "Business Intelligence",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:news_agency",
+      "name": "News Agency",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:financial_information",
+      "name": "Financial Information",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:tourism",
+      "name": "Tourism",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:property_management",
+      "name": "Property Management",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:men_s_grooming",
+      "name": "Men's Grooming",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:shaving",
+      "name": "Shaving",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:skin_care",
+      "name": "Skin Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:news_media",
+      "name": "News Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:scientific_research",
+      "name": "Scientific Research",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:zoology",
+      "name": "Zoology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:archives",
+      "name": "Archives",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:internet_services",
+      "name": "Internet Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:lifestyle",
+      "name": "Lifestyle",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:books",
+      "name": "Books",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:international_relations",
+      "name": "International Relations",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:marine_research",
+      "name": "Marine Research",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:clean_technology",
+      "name": "Clean Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mental_healthcare",
+      "name": "Mental Healthcare",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mobile_computing",
+      "name": "Mobile Computing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:bicycles",
+      "name": "Bicycles",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:printing_solutions",
+      "name": "Printing Solutions",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:networking_hardware",
+      "name": "Networking Hardware",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:cricket",
+      "name": "Cricket",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cricket",
+      "name": "Cricket",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:skincare_accessories",
+      "name": "Skincare Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:brow_makeup",
+      "name": "Brow Makeup",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:entertainment",
+      "name": "Entertainment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:personal_care_retail",
+      "name": "Personal Care Retail",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:oral_care",
+      "name": "Oral Care",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:oral_care",
+      "name": "Oral Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:face_primer",
+      "name": "Face Primer",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:hair_care",
+      "name": "Hair Care",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:bath_body",
+      "name": "Bath & Body",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bath_products",
+      "name": "Bath Products",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:salon_services",
+      "name": "Salon Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:wellness_products",
+      "name": "Wellness Products",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:athleisure",
+      "name": "Athleisure",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:professional_cosmetics",
+      "name": "Professional Cosmetics",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:skin_prep",
+      "name": "Skin Prep",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:vitamins_supplements",
+      "name": "Vitamins & Supplements",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:nails",
+      "name": "Nails",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:dermatology",
+      "name": "Dermatology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:haircare",
+      "name": "Haircare",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:professional_beauty_tools",
+      "name": "Professional Beauty Tools",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:makeup_accessories",
+      "name": "Makeup Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:detox_teas",
+      "name": "Detox Teas",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beauty_accessories",
+      "name": "Beauty Accessories",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:brush_care",
+      "name": "Brush Care",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:streaming",
+      "name": "Streaming",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:broadcast_equipment",
+      "name": "Broadcast Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mobile_gaming",
+      "name": "Mobile Gaming",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:augmented_reality",
+      "name": "Augmented Reality",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:virtual_reality",
+      "name": "Virtual Reality",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:game_development",
+      "name": "Game Development",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:visual_effects",
+      "name": "Visual Effects",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:enterprise_data_storage",
+      "name": "Enterprise Data Storage",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:video_game_streaming",
+      "name": "Video Game Streaming",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mobile_accessories",
+      "name": "Mobile Accessories",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:drinks:sport_drinks",
+      "name": "Sport Drinks",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:gaming_esports",
+      "name": "Gaming & Esports",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sports_nutrition",
+      "name": "Sports Nutrition",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:dietary_supplements",
+      "name": "Dietary Supplements",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:hardware",
+      "name": "Hardware",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:computing",
+      "name": "Computing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:gaming_peripherals",
+      "name": "Gaming Peripherals",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:streaming_services",
+      "name": "Streaming Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:anime",
+      "name": "Anime",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo:professional",
+      "name": "Professional NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:video_game_regulation",
+      "name": "Video Game Regulation",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:child_protection",
+      "name": "Child Protection",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_privacy",
+      "name": "Digital Privacy",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:streaming_media",
+      "name": "Streaming Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:enterprise_computing",
+      "name": "Enterprise Computing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:prepared",
+      "name": "Prepared",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:frozen",
+      "name": "Frozen",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:convenience_food",
+      "name": "Convenience Food",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:frozen_food",
+      "name": "Frozen Food",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:prepared_meals",
+      "name": "Prepared Meals",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:confectionery",
+      "name": "Confectionery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:candy",
+      "name": "Candy",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:gummies",
+      "name": "Gummies",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:digital_content",
+      "name": "Digital Content",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:home_entertainment",
+      "name": "Home Entertainment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:computer_accessories",
+      "name": "Computer Accessories",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:headphones",
+      "name": "Headphones",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:peripherals",
+      "name": "Peripherals",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:food_tech",
+      "name": "Food Tech",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:baked_goods",
+      "name": "Baked Goods",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:packaged:grain",
+      "name": "Grain",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:pasta",
+      "name": "Pasta",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:ready_meals",
+      "name": "Ready Meals",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:culinary_publishing",
+      "name": "Culinary Publishing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bread",
+      "name": "Bread",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:biscuits",
+      "name": "Biscuits",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:dairy_industry",
+      "name": "Dairy Industry",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:butter",
+      "name": "Butter",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:culinary_education",
+      "name": "Culinary Education",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:breakfast",
+      "name": "Breakfast",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:baking_supplies",
+      "name": "Baking Supplies",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:grains",
+      "name": "Grains",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:breakfast_foods",
+      "name": "Breakfast Foods",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:flours",
+      "name": "Flours",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:cereals",
+      "name": "Cereals",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo:cultural",
+      "name": "Cultural NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:chef_apparel",
+      "name": "Chef Apparel",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:kitchen_textiles",
+      "name": "Kitchen Textiles",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:office_supplies",
+      "name": "Office Supplies",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:cleaning_products",
+      "name": "Cleaning Products",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:storage",
+      "name": "Storage",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:home_organization",
+      "name": "Home Organization",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:baking_tools",
+      "name": "Baking Tools",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:food_and_beverage",
+      "name": "Food And Beverage",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:specialty_foods",
+      "name": "Specialty Foods",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:dressings",
+      "name": "Dressings",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:academic",
+      "name": "Academic",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:higher_education",
+      "name": "Higher Education",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:gastronomy",
+      "name": "Gastronomy",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:food_and_beverage:food:produce",
+      "name": "Produce",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:fresh_fruit",
+      "name": "Fresh Fruit",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fast_casual_dining",
+      "name": "Fast Casual Dining",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:food_delivery_service",
+      "name": "Food Delivery Service",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:meal_kits",
+      "name": "Meal Kits",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:meal_kit_delivery",
+      "name": "Meal Kit Delivery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:online_food_ordering",
+      "name": "Online Food Ordering",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:food_relief",
+      "name": "Food Relief",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:snack_food",
+      "name": "Snack Food",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:nuts",
+      "name": "Nuts",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:dried_fruits",
+      "name": "Dried Fruits",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:chocolates",
+      "name": "Chocolates",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:dairy",
+      "name": "Dairy",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:specialty_grocery",
+      "name": "Specialty Grocery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:honey",
+      "name": "Honey",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:specialty_foods",
+      "name": "Specialty Foods",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:wholesale_bakery",
+      "name": "Wholesale Bakery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:bakery_mixes",
+      "name": "Bakery Mixes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:frostings_and_glazes",
+      "name": "Frostings and Glazes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:frozen_bakery_items",
+      "name": "Frozen Bakery Items",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:online_databases",
+      "name": "Online Databases",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:coffee_roasting",
+      "name": "Coffee Roasting",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:restaurants",
+      "name": "Restaurants",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fast_casual",
+      "name": "Fast Casual",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:technical_apparel",
+      "name": "Technical Apparel",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:climbing_equipment",
+      "name": "Climbing Equipment",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:slip_ons",
+      "name": "Slip-Ons",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sleeping_bags",
+      "name": "Sleeping Bags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mapping_services",
+      "name": "Mapping Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:travel_gear",
+      "name": "Travel Gear",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:duffel_bags",
+      "name": "Duffel Bags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo:sports",
+      "name": "Sports NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mountaineering",
+      "name": "Mountaineering",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:textile_manufacturing",
+      "name": "Textile Manufacturing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:blankets",
+      "name": "Blankets",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:hiking_boots",
+      "name": "Hiking Boots",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:trail_running_shoes",
+      "name": "Trail Running Shoes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:outdoor_apparel",
+      "name": "Outdoor Apparel",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:material_science",
+      "name": "Material Science",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:energy_bars",
+      "name": "Energy Bars",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:protein_bars",
+      "name": "Protein Bars",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:camping_gear",
+      "name": "Camping Gear",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:flip_flops",
+      "name": "Flip Flops",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:travel_goods",
+      "name": "Travel Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:travel_bags",
+      "name": "Travel Bags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:baggage",
+      "name": "Baggage",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:shirts",
+      "name": "Shirts",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:drinkware",
+      "name": "Drinkware",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:food_containers",
+      "name": "Food Containers",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:luggage_travel_accessories",
+      "name": "Luggage & Travel Accessories",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:messenger_bags",
+      "name": "Messenger Bags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:travel_luggage",
+      "name": "Travel Luggage",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sling_bags",
+      "name": "Sling Bags",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:sustainable_skincare",
+      "name": "Sustainable Skincare",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sun_protection",
+      "name": "Sun Protection",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:streetwear",
+      "name": "Streetwear",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:headwear",
+      "name": "Headwear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:luxury_fragrance",
+      "name": "Luxury Fragrance",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:perfume",
+      "name": "Perfume",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:textile_design",
+      "name": "Textile Design",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:basics",
+      "name": "Basics",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:undergarments",
+      "name": "Undergarments",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:sustainable_design",
+      "name": "Sustainable Design",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:arts_and_crafts",
+      "name": "Arts And Crafts",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:briefcases",
+      "name": "Briefcases",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:hobbies",
+      "name": "Hobbies",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:culture",
+      "name": "Culture",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:homeware",
+      "name": "Homeware",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:lifestyle",
+      "name": "Lifestyle",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:media",
+      "name": "Media",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:interior_design",
+      "name": "Interior Design",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:lighting",
+      "name": "Lighting",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:textiles",
+      "name": "Textiles",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:serums",
+      "name": "Serums",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:moisturizers",
+      "name": "Moisturizers",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:cleansers",
+      "name": "Cleansers",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:masks",
+      "name": "Masks",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:sunscreen",
+      "name": "Sunscreen",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:casual_wear",
+      "name": "Casual Wear",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:personal_accessories",
+      "name": "Personal Accessories",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:totes",
+      "name": "Totes",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:architecture",
+      "name": "Architecture",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:architecture",
+      "name": "Architecture",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:home_fragrance",
+      "name": "Home Fragrance",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:cafe",
+      "name": "Cafe",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:reading_glasses",
+      "name": "Reading Glasses",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:art_gallery",
+      "name": "Art Gallery",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:bags",
+      "name": "Bags",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:luggage",
+      "name": "Luggage",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:laptop_sleeves",
+      "name": "Laptop Sleeves",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:department_store",
+      "name": "Department Store",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:paper_products",
+      "name": "Paper Products",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:personal_goods",
+      "name": "Personal Goods",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:automotive_technology",
+      "name": "Automotive Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:suits",
+      "name": "Suits",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:boardsports",
+      "name": "Boardsports",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:surf_culture",
+      "name": "Surf Culture",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:boardshorts",
+      "name": "Boardshorts",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:hats",
+      "name": "Hats",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:event_management",
+      "name": "Event Management",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:entertainment:media:sports",
+      "name": "Sports",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:sports",
+      "name": "Sports",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:skateboarding_equipment",
+      "name": "Skateboarding Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:snowboard_gear",
+      "name": "Snowboard Gear",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:games",
+      "name": "Games",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:mobile_app:games",
+      "name": "Games App",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:audio_equipment",
+      "name": "Audio Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:humanitarian_relief",
+      "name": "Humanitarian Relief",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:international_development",
+      "name": "International Development",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:soft_drinks",
+      "name": "Soft Drinks",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:soccer:national",
+      "name": "International Soccer",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:sports_organization:soccer",
+      "name": "Soccer",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:sports_organizations",
+      "name": "Sports Organizations",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:sports_recreation",
+      "name": "Sports & Recreation",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:juice",
+      "name": "Juice",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:energy_drinks",
+      "name": "Energy Drinks",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:aerospace",
+      "name": "Aerospace",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:urban_sports",
+      "name": "Urban Sports",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:electric_mobility",
+      "name": "Electric Mobility",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:personal_transportation",
+      "name": "Personal Transportation",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fintech",
+      "name": "Fintech",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:goggles",
+      "name": "Goggles",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:sportswear",
+      "name": "Sportswear",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:clothing_retailer",
+      "name": "Clothing Retailer",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:skateboarding_equipment",
+      "name": "Skateboarding Equipment",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:denim",
+      "name": "Denim",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:edtech",
+      "name": "EdTech",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:mobile_apps",
+      "name": "Mobile Apps",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:neurotechnology",
+      "name": "Neurotechnology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fitness_equipment",
+      "name": "Fitness Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:professional_services",
+      "name": "Professional Services",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:real_estate",
+      "name": "Real Estate",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:coworking",
+      "name": "Coworking",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:genre:brand:ngo:education",
+      "name": "Education NGO",
+      "type": "urn:tag:genre:brand",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:software_engineering",
+      "name": "Software Engineering",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fitness_centers",
+      "name": "Fitness Centers",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:franchising",
+      "name": "Franchising",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:yoga_equipment",
+      "name": "Yoga Equipment",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:yoga_equipment",
+      "name": "Yoga Equipment",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:e_commerce_software",
+      "name": "E-commerce Software",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:career_development",
+      "name": "Career Development",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:professional_networking",
+      "name": "Professional Networking",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:travel_technology",
+      "name": "Travel Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:community_platforms",
+      "name": "Community Platforms",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:scientific_publishing",
+      "name": "Scientific Publishing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:eye_care",
+      "name": "Eye Care",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:contact_lenses",
+      "name": "Contact Lenses",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:delivery_services",
+      "name": "Delivery Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:dietary_supplements",
+      "name": "Dietary Supplements",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:multi_level_marketing",
+      "name": "Multi-Level Marketing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:meal_replacements",
+      "name": "Meal Replacements",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:protein_powders",
+      "name": "Protein Powders",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:subscription_services",
+      "name": "Subscription Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:biotechnology",
+      "name": "Biotechnology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:genomics",
+      "name": "Genomics",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fitness_education",
+      "name": "Fitness Education",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:fitness_equipment_manufacturing",
+      "name": "Fitness Equipment Manufacturing",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:organization",
+      "name": "Organization",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:home_improvement",
+      "name": "Home Improvement",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:business_journalism",
+      "name": "Business Journalism",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:customer_relationship_management",
+      "name": "Customer Relationship Management",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:marketing_technology",
+      "name": "Marketing Technology",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:housewares",
+      "name": "Housewares",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:beverage_ware",
+      "name": "Beverage Ware",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:product_category:qloo:food_storage",
+      "name": "Food Storage",
+      "type": "urn:tag:product_category:qloo",
+      "count": 1,
+      "sets": 1
+    },
+    {
+      "id": "urn:tag:industry:qloo:personal_services",
+      "name": "Personal Services",
+      "type": "urn:tag:industry:qloo",
+      "count": 1,
+      "sets": 1
+    }
+  ]
+}

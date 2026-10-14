@@ -1,0 +1,9 @@
+### Sanity check: every pick must match a concrete interest
+
+| Persona | Seeds | Top interests (Qloo) | Picks (score) and matched interests | Check |
+|---|---|---|---|---|
+| Hiking + podcasts (held out) | Radiolab, Patagonia, Hiking | Travel & outdoors 1.00<br>Sport & fitness 0.95<br>Fashion & style 0.88<br>Japanese culture 0.35 | Waxed Canvas Weekender (0.85): Travel & outdoors, Fashion & style PASS<br>Minimal Leather Cardholder (0.71): Fashion & style PASS<br>Cashmere Blend Scarf (0.65): Fashion & style PASS<br>Gold Vermeil Medallion Pendant (0.58): Fashion & style PASS<br>Embroidered Organic Crewneck (0.48): Fashion & style PASS | all pass |
+| Bollywood + cooking (held out) | Kabhi Khushi Kabhie Gham..., A.R. Rahman, Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking | Music 1.00<br>Film & TV 0.99<br>Books & reading 0.93<br>Cooking & food 0.86 | Dusk Street Art Print (0.75): Illustration, Film & TV (broad) PASS<br>Risograph Zine and Sticker Pack (0.67): Illustration, Art & illustration (broad) PASS<br>Enamel Cast Iron Pot (0.65): Cooking & food, Home & hosting PASS<br>Vintage Botanical Print Set (0.67): Illustration, Art & illustration (broad) PASS<br>Watercolor Travel Set (0.64): Illustration PASS | all pass |
+| Minimalism + architecture (held out) | Tadao Ando, Dieter Rams, Kinfolk | Art & illustration 0.93<br>Fashion & style 0.85<br>Cooking & food 0.85<br>Home & hosting 0.72 | Washed Linen Throw (0.70): Home & hosting, Wellness & self-care PASS<br>Cashmere Blend Scarf (0.67): Fashion & style PASS<br>Round Hardwood Serving Board (0.59): Home & hosting, Cooking & food PASS<br>Waxed Canvas Weekender (0.58): Travel & outdoors, Fashion & style PASS<br>Dried Flower Bundle with Bud Vase (0.58): Home & hosting PASS | all pass |
+
+FAILs: 0. Broad-only picks (parent match, capped at 0.4): 0. Mean interest match 0.76, seed coverage 0.67, category diversity 0.67 (not forced), cross-persona overlap 0.08, 13 distinct products of 70.
