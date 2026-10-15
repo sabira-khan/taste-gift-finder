@@ -14,19 +14,36 @@ interface TagsFile {
 }
 
 const domain = process.env.SHOPIFY_STORE_DOMAIN
-const token = process.env.SHOPIFY_ADMIN_TOKEN
+const clientId = process.env.SHOPIFY_CLIENT_ID
+const clientSecret = process.env.SHOPIFY_CLIENT_SECRET
 const version = process.env.SHOPIFY_API_VERSION || '2025-07'
 const dryRun = process.argv.includes('--dry-run')
-if (!dryRun && (!domain || !token)) {
-  console.error('Set SHOPIFY_STORE_DOMAIN and SHOPIFY_ADMIN_TOKEN in .env, or run with --dry-run')
+if (!dryRun && (!domain || !(process.env.SHOPIFY_ADMIN_TOKEN || (clientId && clientSecret)))) {
+  console.error('Set SHOPIFY_STORE_DOMAIN and either SHOPIFY_ADMIN_TOKEN or SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET in .env, or run with --dry-run')
   process.exit(1)
 }
+
+async function adminToken(): Promise<string> {
+  if (process.env.SHOPIFY_ADMIN_TOKEN) return process.env.SHOPIFY_ADMIN_TOKEN
+  const res = await fetch(`https://${domain}/admin/oauth/access_token`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/json' },
+    body: new URLSearchParams({ grant_type: 'client_credentials', client_id: clientId!, client_secret: clientSecret! })
+  })
+  const text = await res.text()
+  if (!res.ok) throw new Error(`Token exchange failed ${res.status}: ${text.match(/<title>([^<]*)/)?.[1] ?? text.slice(0, 200)}`)
+  const body = JSON.parse(text) as { access_token: string; scope?: string }
+  console.log(`admin token ok, scopes: ${body.scope ?? 'unknown'}`)
+  return body.access_token
+}
+
+const token = dryRun ? '' : await adminToken()
 
 async function admin<T>(query: string, variables: Record<string, unknown> = {}): Promise<T> {
   for (let attempt = 0; attempt < 4; attempt++) {
     const res = await fetch(`https://${domain}/admin/api/${version}/graphql.json`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Shopify-Access-Token': token! },
+      headers: { 'Content-Type': 'application/json', 'X-Shopify-Access-Token': token },
       body: JSON.stringify({ query, variables })
     })
     if (res.status === 429 || res.status >= 500) {
@@ -87,9 +104,9 @@ for (const item of catalog) {
     variants: [{ optionValues: [{ optionName: 'Title', name: 'Default Title' }], price: item.price.toFixed(2), inventoryPolicy: 'CONTINUE' }],
     files: [{ originalSource: item.photo.url, contentType: 'IMAGE', alt: item.photo.alt || item.title }],
     metafields: [
-      { namespace: 'gf', key: 'similar_style', type: 'list.single_line_text_field', value: JSON.stringify(t.similarStyle.map(s => s.name)) },
-      { namespace: 'gf', key: 'interests', type: 'json', value: JSON.stringify(t.interests) },
-      { namespace: 'gf', key: 'photo_credit', type: 'single_line_text_field', value: `${item.photo.photographer} | ${item.photo.sourceUrl}` }
+      { namespace: 'giftfinder', key: 'similar_style', type: 'list.single_line_text_field', value: JSON.stringify(t.similarStyle.map(s => s.name)) },
+      { namespace: 'giftfinder', key: 'interests', type: 'json', value: JSON.stringify(t.interests) },
+      { namespace: 'giftfinder', key: 'photo_credit', type: 'single_line_text_field', value: `${item.photo.photographer} | ${item.photo.sourceUrl}` }
     ]
   }
   if (dryRun) {

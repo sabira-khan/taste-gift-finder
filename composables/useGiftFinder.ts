@@ -27,7 +27,7 @@ export interface AgentResponse {
 export interface Health {
   ok: boolean
   catalog: { source: string; products: number; error?: string }
-  shopify: { configured: boolean }
+  shopify: { configured: boolean; storePassword?: string }
   llm: { provider: string; model: string } | null
   agent: boolean
 }

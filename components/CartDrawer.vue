@@ -26,6 +26,9 @@ const live = computed(() => !!gf.health.value?.shopify.configured && !!gf.checko
         <div class="border-t border-ink/5 px-5 py-4">
           <div class="flex justify-between text-sm"><span>Subtotal</span><strong>${{ subtotal.toFixed(2) }}</strong></div>
           <a v-if="live" :href="gf.checkoutUrl.value!" class="btn-clay mt-3 w-full" target="_blank" rel="noopener">Checkout on Shopify</a>
+          <p v-if="live && gf.health.value?.shopify.storePassword" class="mt-3 rounded-lg bg-cream-deep px-3 py-2 text-xs text-ink-soft">
+            This is a Shopify development store. If asked, the store password is <strong class="font-semibold text-ink">{{ gf.health.value.shopify.storePassword }}</strong>. Pay with the test card <strong class="font-semibold text-ink">1</strong> (Bogus Gateway); nothing is charged.
+          </p>
           <p v-else class="mt-3 rounded-lg bg-cream-deep px-3 py-2 text-xs text-ink-soft">Demo cart. Checkout turns on once the Shopify store is connected.</p>
         </div>
       </aside>

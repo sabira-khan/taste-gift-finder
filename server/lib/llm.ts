@@ -16,6 +16,7 @@ export interface ToolCall {
   id: string
   name: string
   args: Record<string, any>
+  signature?: string
 }
 
 export type ChatMessage =
@@ -41,7 +42,7 @@ export interface ChatResponse {
 export const DEFAULT_MODELS: Record<Provider, string> = {
   anthropic: 'claude-sonnet-5-5',
   openai: 'gpt-4o-mini',
-  gemini: 'gemini-2.5-flash'
+  gemini: 'gemini-3.8-flash'
 }
 
 const ORDER: Provider[] = ['anthropic', 'openai', 'gemini']
@@ -136,7 +137,7 @@ async function gemini(key: string, model: string, req: ChatRequest): Promise<Cha
     else if (m.role === 'assistant') {
       const parts: any[] = []
       if (m.content) parts.push({ text: m.content })
-      for (const c of m.toolCalls ?? []) parts.push({ functionCall: { name: c.name, args: c.args } })
+      for (const c of m.toolCalls ?? []) parts.push({ functionCall: { name: c.name, args: c.args }, ...(c.signature ? { thoughtSignature: c.signature } : {}) })
       contents.push({ role: 'model', parts })
     } else {
       const part = { functionResponse: { name: m.name, response: { result: m.content } } }
@@ -145,15 +146,26 @@ async function gemini(key: string, model: string, req: ChatRequest): Promise<Cha
       else contents.push({ role: 'user', parts: [part] })
     }
   }
-  const data = await post(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, { 'x-goog-api-key': key }, {
+  const body = {
     systemInstruction: { parts: [{ text: req.system }] },
     contents,
-    generationConfig: { maxOutputTokens: req.maxTokens ?? 1200, temperature: req.temperature ?? 0.3 },
+    generationConfig: { maxOutputTokens: (req.maxTokens ?? 1200) + 2048, temperature: req.temperature ?? 0.3, thinkingConfig: { thinkingLevel: 'low' } },
     tools: req.tools?.length ? [{ functionDeclarations: req.tools.map(t => ({ name: t.name, description: t.description, parameters: t.parameters })) }] : undefined
-  }, 'Gemini')
+  }
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`
+  let data: any
+  for (let attempt = 0; ; attempt++) {
+    try {
+      data = await post(url, { 'x-goog-api-key': key }, body, 'Gemini')
+      break
+    } catch (err) {
+      if (attempt >= 2 || !/Gemini (404|429|5\d\d)/.test((err as Error).message)) throw err
+      await new Promise(r => setTimeout(r, 800 * (attempt + 1)))
+    }
+  }
   const parts = data.candidates?.[0]?.content?.parts ?? []
-  const text = parts.filter((p: any) => p.text).map((p: any) => p.text).join('')
-  const toolCalls = parts.filter((p: any) => p.functionCall).map((p: any, i: number) => ({ id: `call_${Date.now()}_${i}`, name: p.functionCall.name, args: p.functionCall.args ?? {} }))
+  const text = parts.filter((p: any) => p.text && !p.thought).map((p: any) => p.text).join('')
+  const toolCalls = parts.filter((p: any) => p.functionCall).map((p: any, i: number) => ({ id: `call_${Date.now()}_${i}`, name: p.functionCall.name, args: p.functionCall.args ?? {}, ...(p.thoughtSignature ? { signature: p.thoughtSignature } : {}) }))
   return { text, toolCalls, provider: 'gemini', model }
 }
 

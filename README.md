@@ -5,6 +5,7 @@ Tell us 3 to 5 things someone loves, such as a film, an artist, a show, a brand 
 Built for the **Qloo Agentic Hackathon**.
 
 - **Live demo:** _link added after deploy_
+- **Demo checkout:** the cart checks out on a Shopify development store. Store password `tastegifts`; pay with test card `1` (Bogus Gateway). Nothing is charged.
 - **License:** [MIT](LICENSE)
 
 ## The problem: cold-start gifting
@@ -137,7 +138,8 @@ Only `QLOO_API_KEY` is required. Without Shopify keys the app uses the local cat
 |---|---|
 | `QLOO_API_KEY`, `QLOO_BASE_URL` | Qloo Taste AI API (`https://hackathon.api.qloo.com`) |
 | `SHOPIFY_STORE_DOMAIN`, `SHOPIFY_STOREFRONT_TOKEN`, `SHOPIFY_API_VERSION` | Storefront API for products and cart |
-| `SHOPIFY_ADMIN_TOKEN` | Only for `npm run seed:shopify` |
+| `SHOPIFY_STORE_PASSWORD` | Optional. Shown in the cart so visitors can pass a development store's password page at checkout |
+| `SHOPIFY_ADMIN_TOKEN`, or `SHOPIFY_CLIENT_ID` + `SHOPIFY_CLIENT_SECRET` (Dev Dashboard app, exchanged for a token) | Only for `npm run seed:shopify` |
 | `LLM_PROVIDER` (`anthropic`, `openai` or `gemini`), `LLM_MODEL`, `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY` | Agent mode and explanations |
 | `UNSPLASH_ACCESS_KEY` | Optional, for `npm run photos` |
 

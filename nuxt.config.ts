@@ -33,6 +33,7 @@ export default defineNuxtConfig({
     qlooBaseUrl: process.env.QLOO_BASE_URL ?? 'https://hackathon.api.qloo.com',
     shopifyStoreDomain: process.env.SHOPIFY_STORE_DOMAIN ?? '',
     shopifyStorefrontToken: process.env.SHOPIFY_STOREFRONT_TOKEN ?? '',
+    shopifyStorePassword: process.env.SHOPIFY_STORE_PASSWORD ?? '',
     shopifyApiVersion: process.env.SHOPIFY_API_VERSION ?? '2025-07',
     llmProvider: process.env.LLM_PROVIDER ?? '',
     llmModel: process.env.LLM_MODEL ?? '',
