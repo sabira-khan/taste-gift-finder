@@ -4,7 +4,7 @@ Tell us 3 to 5 things someone loves, such as a film, an artist, a show, a brand 
 
 Built for the **Qloo Agentic Hackathon**.
 
-- **Live demo:** _link added after deploy_
+- **Live demo:** https://taste-gifts.netlify.app
 - **Demo checkout:** the cart checks out on a Shopify development store. Store password `tastegifts`; pay with test card `1`, any future expiry and any 3-digit code (Shopify test gateway). Nothing is charged.
 - **License:** [MIT](LICENSE)
 
