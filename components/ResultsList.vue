@@ -20,11 +20,11 @@ const cap = computed(() => props.result.refine.priceCap)
           <template v-if="count < 5 && count > 0">Only products with a specific interest match are shown, so we skipped weaker fillers.</template>
           <template v-else-if="count === 0">Nothing in the catalog matches a specific interest at this budget. Try another seed or a higher budget.</template>
           <template v-else>Ranked by interest match first, then vibe, style and price.</template>
-          <span v-if="cap"> Price cap ${{ cap }}.</span>
-          <span v-if="result.excludedByBudget"> {{ result.excludedByBudget }} products were over budget.</span>
+          <span v-if="cap" class="ml-1">Price cap ${{ cap }}.</span>
+          <span v-if="result.excludedByBudget" class="ml-1">{{ result.excludedByBudget }} products were over budget.</span>
         </p>
       </div>
-      <span v-if="result.explanationSource === 'template'" class="chip bg-cream-deep text-ink-faint" title="No LLM key configured, so explanations use the built-in template">Template explanations</span>
+      <span v-if="result.explanationSource === 'template'" class="chip bg-cream-deep text-ink-faint" title="The language model was unavailable, so each reason comes from a template filled with the Qloo evidence">Template explanations</span>
     </div>
 
     <div v-if="!result.quality.ok && result.quality.issues.length" class="mt-3 rounded-xl bg-gold-light px-4 py-3 text-sm text-ink-soft">

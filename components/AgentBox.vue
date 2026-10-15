@@ -36,7 +36,7 @@ async function submit() {
           v-for="ex in examples"
           :key="ex"
           type="button"
-          class="chip max-w-full truncate bg-cream-deep text-ink-soft hover:text-ink"
+          class="chip h-auto max-w-full whitespace-normal py-1.5 text-left leading-snug bg-cream-deep text-ink-soft hover:text-ink"
           @click="text = ex"
         >
           {{ ex }}

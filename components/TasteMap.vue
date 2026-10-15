@@ -4,7 +4,7 @@ import type { InterestSignal, TasteProfile } from '~/shared/types'
 const props = defineProps<{ profile: TasteProfile; influence: Record<string, number> }>()
 
 const PALETTE = ['#c2562b', '#5f7a63', '#b98b2e', '#5b6c9a', '#8a5a83']
-const W = 300
+const W = 320
 const ROW = 34
 
 const interests = computed<InterestSignal[]>(() => {
@@ -26,7 +26,7 @@ const links = computed(() =>
       const y1 = seedY(si)
       const y2 = interestY(ii)
       const x1 = 104
-      const x2 = 178
+      const x2 = 166
       return { d: `M${x1},${y1} C${x1 + 40},${y1} ${x2 - 40},${y2} ${x2},${y2}`, width: 1 + w * 9, color: PALETTE[si % PALETTE.length]!, key: `${seed.id}-${interest.id}` }
     }).filter(Boolean) as { d: string; width: number; color: string; key: string }[]
   )
@@ -71,8 +71,8 @@ function short(text: string, n = 16) {
           <text :x="96" :y="seedY(i) + 4" text-anchor="end" class="fill-ink text-[11px] font-medium">{{ short(s.name) }}</text>
         </g>
         <g v-for="(it, i) in interests" :key="it.id">
-          <rect :x="178" :y="interestY(i) - 9" :width="Math.max(6, it.weight * 116)" height="18" rx="9" class="fill-cream-deep" />
-          <text :x="186" :y="interestY(i) + 4" class="fill-ink text-[11px] font-medium">{{ short(it.label, 18) }}</text>
+          <rect :x="166" :y="interestY(i) - 9" :width="Math.max(6, it.weight * 150)" height="18" rx="9" class="fill-cream-deep" />
+          <text :x="173" :y="interestY(i) + 4" class="fill-ink text-[11px] font-medium">{{ short(it.label, 24) }}</text>
         </g>
       </svg>
     </div>

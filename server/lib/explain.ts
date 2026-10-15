@@ -35,7 +35,8 @@ function shortName(name: string) {
 
 function evidenceClause(evidence: InterestEvidence[], seeds: Seed[]) {
   const qloo = evidence.find(e => e.source === 'qloo' && !e.label.startsWith('via '))
-  if (qloo) return ` (Qloo links that taste to ${qloo.label.split(', ').slice(0, 2).map(l => `“${l}”`).join(' and ')})`
+  const labels = qloo?.label.split(', ').filter(l => !/^(other|general|misc)\b/i.test(l)).slice(0, 2) ?? []
+  if (labels.length) return ` (Qloo links that taste to ${labels.map(l => `“${l}”`).join(' and ')})`
   const seedEvidence = evidence.find(e => e.source === 'seed')
   const seed = seeds.find(x => x.id === seedEvidence?.seedId)
   if (seedEvidence && seed && seedEvidence.label.startsWith(`${seed.name}: `)) {

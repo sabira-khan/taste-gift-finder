@@ -1,3 +1,4 @@
+import { AsyncLocalStorage } from 'node:async_hooks'
 import { cleanParams, hashRequest, type CacheStore, type Params } from './cache'
 
 export interface QlooTag {
@@ -48,7 +49,10 @@ export interface QlooCallLog {
   cached: boolean
   ms: number
   status: number
+  scope?: object
 }
+
+export const callScope = new AsyncLocalStorage<object>()
 
 export interface QlooClient {
   search(query: string, opts?: { types?: string; take?: number }): Promise<QlooEntity[]>
@@ -82,7 +86,7 @@ export function createQloo(config: { apiKey?: string; baseUrl?: string; cache: C
     const started = Date.now()
     const hit = await config.cache.get<T>(key)
     if (hit) {
-      calls.push({ path, params: clean, cached: true, ms: Date.now() - started, status: 200 })
+      calls.push({ path, params: clean, cached: true, ms: Date.now() - started, status: 200, scope: callScope.getStore() })
       return hit
     }
     if (config.offline || !config.apiKey) throw new QlooError(503, `Qloo response not cached and no live key: ${path}`)
@@ -96,7 +100,7 @@ export function createQloo(config: { apiKey?: string; baseUrl?: string; cache: C
         continue
       }
       const body = await res.text()
-      calls.push({ path, params: clean, cached: false, ms: Date.now() - started, status: res.status })
+      calls.push({ path, params: clean, cached: false, ms: Date.now() - started, status: res.status, scope: callScope.getStore() })
       if (!res.ok) throw new QlooError(res.status, `Qloo ${res.status} on ${path} ${JSON.stringify(clean)}: ${body.replace(/\s+/g, ' ').slice(0, 160)}`)
       const data = JSON.parse(body) as T
       await config.cache.set(key, data)

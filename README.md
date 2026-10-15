@@ -5,7 +5,7 @@ Tell us 3 to 5 things someone loves, such as a film, an artist, a show, a brand 
 Built for the **Qloo Agentic Hackathon**.
 
 - **Live demo:** _link added after deploy_
-- **Demo checkout:** the cart checks out on a Shopify development store. Store password `tastegifts`; pay with test card `1` (Bogus Gateway). Nothing is charged.
+- **Demo checkout:** the cart checks out on a Shopify development store. Store password `tastegifts`; pay with test card `1`, any future expiry and any 3-digit code (Shopify test gateway). Nothing is charged.
 - **License:** [MIT](LICENSE)
 
 ## The problem: cold-start gifting
@@ -61,6 +61,10 @@ Every Qloo response is cached by a SHA-256 hash of path plus sorted parameters: 
 ## Agent mode
 
 The agent (Anthropic, OpenAI or Gemini, chosen in `.env`) gets five tools that wrap the same pipeline: `search_entities`, `search_tags`, `build_profile`, `recommend` and `refine`. After each `recommend` it receives a quality report covering too few strong matches, one seed dominating the picks, a seed that barely shaped the results, or no strong concrete interest. It is instructed to fix the cause and retry, for example by swapping a seed or trying another domain, within a hard cap of **6 tool calls**. The agent never chooses products itself; the deterministic Qloo-backed matcher does.
+
+To keep it fast, the agent searches for every favourite in parallel in its first turn, and `build_profile` already returns the first picks with their quality report, so a separate `recommend` turn is only needed to change the budget. A typical run takes three LLM turns.
+
+If the LLM is unavailable (no key, rate limits or an outage), agent mode still works on Qloo alone. The description is split into phrases ("Umm Kulthum", "Arabic coffee", "the Godfather films"), each phrase is looked up in Qloo's entity and tag search, the closest name match becomes a seed, and the normal pipeline runs with template explanations. The trace and the reply say that this happened.
 
 ## Evaluation
 
@@ -132,7 +136,7 @@ cp .env.example .env    # add your keys, see below
 npm run dev             # http://localhost:3000
 ```
 
-Only `QLOO_API_KEY` is required. Without Shopify keys the app uses the local catalog with a demo cart. Without an LLM key, agent mode is turned off and explanations use the template.
+Only `QLOO_API_KEY` is required. Without Shopify keys the app uses the local catalog with a demo cart. Without an LLM key, agent mode is turned off and explanations use the template. If a configured LLM fails at runtime, agent mode falls back to direct Qloo matching.
 
 | Variable | Purpose |
 |---|---|

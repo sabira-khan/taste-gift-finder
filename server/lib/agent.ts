@@ -40,10 +40,10 @@ const TOOLS: ToolSpec[] = [
   },
   {
     name: 'build_profile',
-    description: 'Set the 2 to 5 seeds (ids from earlier searches) and build the cross-domain Qloo taste profile. Returns concrete interests, vibe facets and warnings.',
+    description: 'Set the 2 to 5 seeds (ids from earlier searches), build the cross-domain Qloo taste profile and run a first match. Returns interests, vibe facets, warnings, the first picks and a quality report.',
     parameters: {
       type: 'object',
-      properties: { seed_ids: { type: 'array', items: { type: 'string' } }, reason },
+      properties: { seed_ids: { type: 'array', items: { type: 'string' } }, budget: { type: 'number', description: 'Maximum price in USD, if the shopper gave one.' }, reason },
       required: ['seed_ids', 'reason']
     }
   },
@@ -66,11 +66,10 @@ const TOOLS: ToolSpec[] = [
 const SYSTEM = `You are the gift-finding agent of a store powered by Qloo's cultural taste graph.
 The shopper describes a recipient in free text. Your job: turn it into 2 to 5 Qloo seeds, build a taste profile, and get recommendations from the store's matcher. You never pick products yourself.
 Workflow:
-1. search_entities or search_tags for each thing the recipient loves. Pick the candidate that is clearly the intended one. For drinks, foods, genres and vibes use search_tags.
-2. build_profile with the chosen ids.
-3. recommend, passing the budget if one was given.
-4. Read the quality report. If it is not ok and you still have calls left, fix the cause: replace a seed that barely shaped the results, try a different domain for the same love, or add a missing seed. Then build_profile and recommend again.
-You have at most ${MAX_TOOL_CALLS} tool calls in total, so search several things before building. Every call needs a short reason.
+1. In your first turn, call search_entities or search_tags for every thing the recipient loves, all at once as parallel calls. For drinks, foods, genres and vibes use search_tags.
+2. Pick the candidate that is clearly the intended one for each, then call build_profile with those ids and the budget if one was given. It returns the first picks and a quality report.
+3. If the quality report is ok, stop and reply. If not and you still have calls left, fix the cause: replace a seed that barely shaped the results, try a different domain for the same love, or add a missing seed, then build_profile again. Use recommend only to change the budget.
+You have at most ${MAX_TOOL_CALLS} tool calls in total. Every call needs a short reason.
 When done, reply with one or two sentences to the shopper describing what you understood about the recipient. Do not list products.`
 
 interface AgentState {
@@ -112,6 +111,62 @@ function summarizeRecommend(out: RecommendOutput) {
   }
 }
 
+const FILLER = /^(?:and|also|plus|but|my|our|his|her|their|the|a|an|he|she|they|is|are|really|totally|big|huge|fan|fans|of|into|loves?|likes?|enjoys?|adores?|obsessed|with|about|watching|listening|to|reading|playing|drinking|eating|anything|everything|all|things|stuff|sister|brother|mum|mom|dad|father|mother|wife|husband|partner|friend|boss|colleague|son|daughter|grandma|grandpa|aunt|uncle|cousin|nephew|niece|kid|kids|teen|teenager|girlfriend|boyfriend|fianc[eé]e?|bestie|roommate|neighbou?r|who|that|watches|listens|reads|plays|drinks|eats|collects|follows|supports|goes|crazy|mad|passionate|keen|on|for|she|he|they|always|since|forever|lot|lots)\s+/i
+
+export function parseBudget(text: string): number | undefined {
+  const m = text.match(/(?:budget|under|around|about|max(?:imum)?|up to|less than|below)[^0-9$]{0,12}\$?\s?(\d{2,4})|\$\s?(\d{2,4})|(\d{2,4})\s?(?:dollars|usd|\$)/i)
+  const n = Number(m?.[1] ?? m?.[2] ?? m?.[3])
+  return n > 0 ? n : undefined
+}
+
+export function splitLoves(text: string): string[] {
+  return text
+    .replace(/(?:budget|under|around|max(?:imum)?|up to|less than|below)?[^.,;]{0,12}\$?\s?\d{2,4}\s?(?:dollars|usd|\$)?/gi, ' ')
+    .split(/[.,;:!?\n]|\band\b|&|\bplus\b|\balso\b/i)
+    .map(part => {
+      let s = part.trim()
+      for (let i = 0; i < 8 && FILLER.test(s); i++) s = s.replace(FILLER, '').trim()
+      const core = s.replace(/\s+(?:films?|movies?|series|shows?|books?|novels?|music|songs?|albums?)$/i, '').trim()
+      return core.split(/\s+/).length > 1 || /^[A-Z0-9]/.test(core) ? core : s
+    })
+    .filter(s => s.length >= 3 && !/^(?:budget|gift|present|birthday|something)\b/i.test(s))
+    .slice(0, 5)
+}
+
+function words(text: string) {
+  return text.toLowerCase().replace(/[^a-z0-9\u0600-\u06ff\s-]/g, ' ').split(/[\s-]+/).map(w => w.replace(/s$/, '')).filter(w => w.length > 1 && !['the', 'of', 'and', 'a'].includes(w))
+}
+
+function nameFit(phrase: string, name: string) {
+  const p = words(phrase)
+  const n = words(name.split(/[:(]/)[0]!)
+  if (!p.length || !n.length) return 0
+  const hits = p.filter(w => n.includes(w)).length
+  return (hits / p.length) * Math.min(1, p.length / n.length)
+}
+
+async function bestSeed(ctx: PipelineContext, safety: Safety, phrase: string): Promise<Seed | undefined> {
+  const [entities, tags] = await Promise.all([searchEntities(ctx, safety, phrase, undefined, 5), searchTags(ctx, phrase, 5)])
+  const ranked = [...entities.map((s, i) => ({ s, fit: nameFit(phrase, s.name) - i * 0.02 })), ...tags.map((s, i) => ({ s, fit: nameFit(phrase, s.name) - i * 0.02 - 0.01 }))].sort((a, b) => b.fit - a.fit)
+  const top = ranked[0]
+  if (top && top.fit >= 0.3) return top.s
+  return entities[0] && nameFit(phrase, entities[0].name) > 0 ? entities[0] : tags[0]
+}
+
+async function directSeeds(ctx: PipelineContext, safety: Safety, text: string, trace: ReturnType<typeof tracer>, state: AgentState) {
+  const why = 'The language model is unavailable, so this phrase is matched in Qloo directly'
+  const phrases = splitLoves(text)
+  const found = await Promise.all(phrases.map(async phrase => {
+    const hit = await trace.run(`Search “${phrase}”`, why, () => bestSeed(ctx, safety, phrase), s => s?.name ?? 'no match')
+    return hit
+  }))
+  const seeds = [...new Map(found.filter((s): s is Seed => !!s).map(s => [s.id, s])).values()].slice(0, 5)
+  if (!seeds.length) return
+  state.seeds = seeds
+  state.budget ??= parseBudget(text)
+  state.last = await trace.run(`Build profile from ${seeds.map(s => s.name).join(', ')}`, why, () => recommend(ctx, { seeds, budget: state.budget, explain: false }, silentTracer()), r => `${r.strongMatches} strong matches`)
+}
+
 export interface AgentResult {
   message: string
   seeds: Seed[]
@@ -149,14 +204,15 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
       if (!seeds.length) return { error: 'none of these ids came from a search; search first' }
       state.seeds = seeds
       state.refine = emptyRefine()
-      const out = await recommend(ctx, { seeds, explain: false, budget: state.budget }, silentTracer())
+      if (typeof args.budget === 'number' && args.budget > 0) state.budget = args.budget
+      const out = await trace.run(`Build profile from ${seeds.map(s => s.name).join(', ')}`, why, () => recommend(ctx, { seeds, explain: false, budget: state.budget }, silentTracer()), r => `${r.profile.interests.slice(0, 4).map(i => `${i.label} ${Math.round(i.weight * 100)}%`).join(', ')} · ${r.strongMatches} strong matches · quality ${r.quality.ok ? 'ok' : r.quality.issues.join('; ')}`)
       state.last = out
-      trace.steps.push({ step: `Build profile from ${seeds.map(s => s.name).join(', ')}`, reason: why, detail: out.profile.interests.slice(0, 4).map(i => `${i.label} ${Math.round(i.weight * 100)}%`).join(', '), qlooCalls: 0, cacheHits: 0, ms: 0 })
       return {
         seeds: seeds.map(s => s.name),
         interests: out.profile.interests.slice(0, 8).map(i => ({ label: i.label, weight: i.weight })),
         vibe: out.profile.facets.slice(0, 8).map(f => f.label),
-        warnings: out.profile.warnings
+        warnings: out.profile.warnings,
+        ...summarizeRecommend(out)
       }
     }
     if (name === 'recommend') {
@@ -176,8 +232,15 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
     return { error: `unknown tool ${name}` }
   }
 
+  let llmDown = false
   while (calls < MAX_TOOL_CALLS) {
-    const res = await chat(ctx.llm, { system: SYSTEM, messages, tools: TOOLS, maxTokens: 800, temperature: 0.2 })
+    let res: Awaited<ReturnType<typeof chat>>
+    try {
+      res = await chat(ctx.llm, { system: SYSTEM, messages, tools: TOOLS, maxTokens: 800, temperature: 0.2 })
+    } catch {
+      llmDown = true
+      break
+    }
     provider = `${res.provider}:${res.model}`
     if (!res.toolCalls.length) {
       finalText = res.text.trim()
@@ -185,19 +248,24 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
     }
     const allowed = res.toolCalls.slice(0, MAX_TOOL_CALLS - calls)
     messages.push({ role: 'assistant', content: res.text || undefined, toolCalls: allowed })
-    for (const call of allowed) {
-      calls++
-      let output: unknown
+    calls += allowed.length
+    const searches = allowed.every(c => c.name === 'search_entities' || c.name === 'search_tags')
+    const run = async (call: (typeof allowed)[number]) => {
       try {
-        output = await exec(call.name, call.args ?? {})
+        return await exec(call.name, call.args ?? {})
       } catch (err) {
-        output = { error: (err as Error).message.slice(0, 200) }
+        return { error: (err as Error).message.slice(0, 200) }
       }
-      messages.push({ role: 'tool', toolCallId: call.id, name: call.name, content: JSON.stringify({ ...(output as object), callsLeft: MAX_TOOL_CALLS - calls }) })
     }
+    const outputs: unknown[] = []
+    if (searches) outputs.push(...(await Promise.all(allowed.map(run))))
+    else for (const call of allowed) outputs.push(await run(call))
+    allowed.forEach((call, i) => messages.push({ role: 'tool', toolCallId: call.id, name: call.name, content: JSON.stringify({ ...(outputs[i] as object), callsLeft: MAX_TOOL_CALLS - calls }) }))
   }
 
-  if (calls >= MAX_TOOL_CALLS && !finalText) {
+  if (llmDown && !state.last) await directSeeds(ctx, safety, userMessage, trace, state)
+  if (llmDown && state.last) finalText = `The language model is busy right now, so I matched your words to Qloo directly: ${state.seeds.map(s => s.name).join(', ')}. Adjust the seeds if one is off.`
+  if (!llmDown && calls >= MAX_TOOL_CALLS && !finalText) {
     if (state.seeds.length && !state.last) state.last = await recommend(ctx, { seeds: state.seeds, budget: state.budget, explain: false })
     try {
       const wrap = await chat(ctx.llm, { system: SYSTEM, messages: [...messages, { role: 'user', content: 'Tool budget used. Reply to the shopper in one or two sentences now.' }], maxTokens: 200 })
@@ -209,7 +277,7 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
 
   let result = state.last ?? null
   if (result) {
-    const explained = await trace.run('Explain picks', 'Write one grounded line per pick from the matched interests and Qloo evidence', () => explainPicks(result!.picks, result!.profile.seeds, ctx.llm), e => (e.source === 'llm' ? 'written by the LLM from Qloo facts' : 'template'))
+    const explained = await trace.run('Explain picks', 'Write one grounded line per pick from the matched interests and Qloo evidence', () => explainPicks(result!.picks, result!.profile.seeds, llmDown ? { provider: '', keys: {} } : ctx.llm), e => (e.source === 'llm' ? 'written by the LLM from Qloo facts' : 'template'))
     result = { ...result, picks: explained.picks, explanationSource: explained.source, trace: trace.steps, refine: state.refine }
   }
   return {

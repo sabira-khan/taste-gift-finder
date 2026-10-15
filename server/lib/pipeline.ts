@@ -1,5 +1,5 @@
 import type { Pick, Product, RefineAction, RefineState, Seed, TasteProfile, TraceStep } from '../../shared/types'
-import type { QlooClient } from './qloo'
+import { callScope, type QlooClient } from './qloo'
 import type { VocabIndex } from './vocab'
 import type { InterestIndex } from './interests'
 import type { LlmConfig } from './llm'
@@ -51,10 +51,11 @@ export function tracer(qloo: QlooClient) {
     steps,
     async run<T>(step: string, reason: string, fn: () => Promise<T>, detail?: (r: T) => string): Promise<T> {
       const start = Date.now()
-      const before = qloo.calls.length
-      const result = await fn()
-      const calls = qloo.calls.slice(before)
-      steps.push({ step, reason, detail: detail?.(result), qlooCalls: calls.length, cacheHits: calls.filter(c => c.cached).length, ms: Date.now() - start })
+      const scope = {}
+      const index = steps.push({ step, reason, qlooCalls: 0, cacheHits: 0, ms: 0 }) - 1
+      const result = await callScope.run(scope, fn)
+      const calls = qloo.calls.filter(c => c.scope === scope)
+      steps[index] = { step, reason, detail: detail?.(result), qlooCalls: calls.length, cacheHits: calls.filter(c => c.cached).length, ms: Date.now() - start }
       return result
     }
   }

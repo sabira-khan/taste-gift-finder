@@ -52,7 +52,7 @@ const PRODUCTS_QUERY = `query Products($cursor: String) {
       handle
       title
       tags
-      featuredImage { url altText }
+      featuredImage { url(transform: { maxWidth: 800 }) altText }
       variants(first: 1) { nodes { id availableForSale price { amount currencyCode } } }
     }
   }
@@ -96,7 +96,7 @@ const CART_FIELDS = `
         ... on ProductVariant {
           id
           price { amount }
-          image { url }
+          image { url(transform: { maxWidth: 160 }) }
           product { handle title }
         }
       }
