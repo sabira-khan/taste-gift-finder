@@ -10,7 +10,7 @@ const agentOk = computed(() => !!gf.health.value?.agent)
         role="tab"
         :aria-selected="gf.mode.value === 'describe'"
         class="chip px-3.5 py-1.5 text-sm"
-        :class="gf.mode.value === 'describe' ? 'bg-ink text-cream' : 'bg-cream-deep text-ink-soft hover:text-ink'"
+        :class="gf.mode.value === 'describe' ? 'bg-ink text-paper' : 'bg-paper-deep text-ink-soft hover:text-ink'"
         @click="gf.mode.value = 'describe'"
       >
         Describe them
@@ -19,7 +19,7 @@ const agentOk = computed(() => !!gf.health.value?.agent)
         role="tab"
         :aria-selected="gf.mode.value === 'seeds'"
         class="chip px-3.5 py-1.5 text-sm"
-        :class="gf.mode.value === 'seeds' ? 'bg-ink text-cream' : 'bg-cream-deep text-ink-soft hover:text-ink'"
+        :class="gf.mode.value === 'seeds' ? 'bg-ink text-paper' : 'bg-paper-deep text-ink-soft hover:text-ink'"
         @click="gf.mode.value = 'seeds'"
       >
         Pick their favourites

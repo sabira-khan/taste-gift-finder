@@ -11,10 +11,13 @@ const added = computed(() => gf.cart.value.some(l => l.handle === p.value.produc
 </script>
 
 <template>
-  <article class="panel flex flex-col overflow-hidden">
-    <div class="relative aspect-[4/3] overflow-hidden bg-cream-deep">
+  <article class="panel flex flex-col overflow-hidden transition duration-150 hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-lift">
+    <div class="relative aspect-[4/3] overflow-hidden border-b border-ink bg-paper-deep">
       <img :src="p.product.image" :alt="p.product.imageAlt" loading="lazy" class="h-full w-full object-cover" />
-      <span class="absolute left-3 top-3 chip bg-white/90 text-ink shadow-sm">#{{ rank }} · {{ fit }}% fit</span>
+      <span class="absolute left-3 top-3 flex overflow-hidden rounded-md border border-ink font-mono text-xs font-semibold shadow-hard">
+        <span class="bg-ink px-1.5 py-0.5 text-paper">#{{ rank }}</span>
+        <span class="bg-pop px-1.5 py-0.5">{{ fit }}% fit</span>
+      </span>
       <a
         v-if="p.product.photoCredit"
         :href="p.product.photoCredit.sourceUrl"
@@ -27,30 +30,30 @@ const added = computed(() => gf.cart.value.some(l => l.handle === p.value.produc
     </div>
     <div class="flex flex-1 flex-col p-4">
       <div class="flex items-start justify-between gap-3">
-        <h3 class="font-display text-lg leading-snug">{{ p.product.title }}</h3>
-        <span class="shrink-0 text-base font-semibold">${{ p.product.price }}</span>
+        <h3 class="font-display text-xl font-bold leading-tight tracking-tight">{{ p.product.title }}</h3>
+        <span class="shrink-0 font-mono text-base font-semibold">${{ p.product.price }}</span>
       </div>
       <div class="mt-2 flex flex-wrap gap-1.5">
         <span
           v-for="i in p.interests.slice(0, 3)"
           :key="i.id"
           class="chip"
-          :class="i.level === 'specific' ? 'bg-sage-light text-sage' : 'bg-cream-deep text-ink-faint'"
+          :class="i.level === 'specific' ? 'bg-mint-light text-ink' : 'border-dashed bg-white text-ink-faint'"
           :title="i.level === 'specific' ? 'Specific interest match' : 'Broader interest match'"
         >
           {{ i.label }}
         </span>
-        <span v-if="contrast" class="chip bg-gold-light text-gold">{{ contrast }}</span>
+        <span v-if="contrast" class="chip bg-lilac-light text-ink">{{ contrast }}</span>
       </div>
       <p class="mt-3 flex-1 text-sm leading-relaxed text-ink-soft">{{ p.explanation }}</p>
       <div class="mt-4 flex flex-wrap gap-2">
         <button class="btn-primary flex-1 sm:flex-none" @click="gf.addToCart(p)">{{ added ? 'Add another' : 'Add to cart' }}</button>
         <button class="btn-ghost" @click="gf.whyHandle.value = p.product.handle">Why this pick</button>
       </div>
-      <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 border-t border-ink/5 pt-3 text-xs">
-        <button class="font-medium text-ink-soft hover:text-clay disabled:opacity-50" :disabled="busy" @click="gf.refine({ type: 'more_like', handle: p.product.handle })">More like this</button>
-        <button class="font-medium text-ink-soft hover:text-clay disabled:opacity-50" :disabled="busy" @click="gf.refine({ type: 'not_style', handle: p.product.handle })">Not their style</button>
-        <button class="font-medium text-ink-soft hover:text-clay disabled:opacity-50" :disabled="busy" @click="gf.refine({ type: 'too_expensive', handle: p.product.handle })">Too expensive</button>
+      <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 border-t border-dashed border-ink/30 pt-3 text-xs">
+        <button class="font-medium text-ink-soft hover:text-cobalt disabled:opacity-50" :disabled="busy" @click="gf.refine({ type: 'more_like', handle: p.product.handle })">More like this</button>
+        <button class="font-medium text-ink-soft hover:text-cobalt disabled:opacity-50" :disabled="busy" @click="gf.refine({ type: 'not_style', handle: p.product.handle })">Not their style</button>
+        <button class="font-medium text-ink-soft hover:text-cobalt disabled:opacity-50" :disabled="busy" @click="gf.refine({ type: 'too_expensive', handle: p.product.handle })">Too expensive</button>
       </div>
     </div>
   </article>

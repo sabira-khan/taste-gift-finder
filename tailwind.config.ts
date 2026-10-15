@@ -5,18 +5,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: { DEFAULT: '#f7f1e8', deep: '#efe5d6' },
-        ink: { DEFAULT: '#1f1b16', soft: '#5b5247', faint: '#8c8174' },
-        clay: { DEFAULT: '#c2562b', dark: '#9e4320', light: '#f3d9cb' },
-        sage: { DEFAULT: '#5f7a63', light: '#dfe8dc' },
-        gold: { DEFAULT: '#b98b2e', light: '#f2e5c4' }
+        paper: { DEFAULT: '#fafaf7', deep: '#efefe9' },
+        ink: { DEFAULT: '#0e0e0e', soft: '#45453f', faint: '#77776f' },
+        pop: { DEFAULT: '#ffd23f', dark: '#f5b800', light: '#fff1b8' },
+        cobalt: { DEFAULT: '#2f45ff', dark: '#1d2fd6', light: '#dfe3ff' },
+        mint: { DEFAULT: '#14845a', light: '#c9f2dc' },
+        lilac: { DEFAULT: '#6b4eff', light: '#e6deff' },
+        coral: { DEFAULT: '#e5484d', light: '#ffe0e0' }
       },
       fontFamily: {
-        display: ['Fraunces', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif']
+        display: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+        sans: ['"Instrument Sans"', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace']
       },
       boxShadow: {
-        card: '0 1px 2px rgba(31,27,22,0.06), 0 8px 24px -12px rgba(31,27,22,0.18)'
+        card: '4px 4px 0 0 #0e0e0e',
+        hard: '3px 3px 0 0 #0e0e0e',
+        lift: '6px 6px 0 0 #0e0e0e'
       }
     }
   }

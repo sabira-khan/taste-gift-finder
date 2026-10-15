@@ -11,7 +11,7 @@ const cap = computed(() => props.result.refine.priceCap)
   <section aria-label="Gift picks">
     <div class="flex flex-wrap items-end justify-between gap-2">
       <div>
-        <h2 class="font-display text-2xl tracking-tight">
+        <h2 class="font-display font-bold text-2xl tracking-tight">
           <template v-if="count === 0">No strong matches yet</template>
           <template v-else-if="count < 5">We found {{ count }} strong {{ count === 1 ? 'match' : 'matches' }}</template>
           <template v-else>Five picks that fit their taste</template>
@@ -24,10 +24,10 @@ const cap = computed(() => props.result.refine.priceCap)
           <span v-if="result.excludedByBudget" class="ml-1">{{ result.excludedByBudget }} products were over budget.</span>
         </p>
       </div>
-      <span v-if="result.explanationSource === 'template'" class="chip bg-cream-deep text-ink-faint" title="The language model was unavailable, so each reason comes from a template filled with the Qloo evidence">Template explanations</span>
+      <span v-if="result.explanationSource === 'template'" class="chip border-dashed bg-white text-ink-faint" title="The language model was unavailable, so each reason comes from a template filled with the Qloo evidence">Template explanations</span>
     </div>
 
-    <div v-if="!result.quality.ok && result.quality.issues.length" class="mt-3 rounded-xl bg-gold-light px-4 py-3 text-sm text-ink-soft">
+    <div v-if="!result.quality.ok && result.quality.issues.length" class="mt-3 rounded-lg border border-ink bg-pop-light px-4 py-3 text-sm text-ink">
       <strong class="font-semibold text-ink">Heads up:</strong> {{ result.quality.issues[0] }}.
       <span v-if="result.quality.suggestions[0]">Tip: {{ result.quality.suggestions[0] }}.</span>
     </div>

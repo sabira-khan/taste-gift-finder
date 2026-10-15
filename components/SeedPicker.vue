@@ -109,12 +109,12 @@ const BUDGETS = [null, 30, 50, 100, 150]
   <div>
     <div class="relative">
       <label for="seed-input" class="eyebrow">Things they love · {{ gf.seeds.value.length }}/5</label>
-      <div class="mt-2 flex flex-wrap items-center gap-2 rounded-xl border border-ink/10 bg-white p-2 focus-within:border-clay">
-        <span v-for="s in gf.seeds.value" :key="s.id" class="chip bg-ink py-1.5 pl-1.5 pr-2 text-cream">
+      <div class="mt-2 flex flex-wrap items-center gap-2 rounded-lg border border-ink bg-white p-2 transition-shadow focus-within:shadow-hard">
+        <span v-for="s in gf.seeds.value" :key="s.id" class="chip bg-ink py-1.5 pl-1.5 pr-2 text-paper">
           <img v-if="s.image" :src="s.image" alt="" class="h-5 w-5 rounded-full object-cover" />
           <span class="max-w-[12rem] truncate">{{ s.name }}</span>
-          <span class="text-cream/60">{{ typeLabel(s) }}</span>
-          <button class="ml-0.5 rounded-full px-1 text-cream/70 hover:text-cream" :aria-label="`Remove ${s.name}`" @click="remove(s.id)">×</button>
+          <span class="text-paper/60">{{ typeLabel(s) }}</span>
+          <button class="ml-0.5 rounded-full px-1 text-paper/70 hover:text-paper" :aria-label="`Remove ${s.name}`" @click="remove(s.id)">×</button>
         </span>
         <input
           id="seed-input"
@@ -131,7 +131,7 @@ const BUDGETS = [null, 30, 50, 100, 150]
           @focus="open = true"
           @blur="onBlur"
         />
-        <span v-if="searching" class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-ink/20 border-t-clay" aria-hidden="true" />
+        <span v-if="searching" class="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-ink/20 border-t-cobalt" aria-hidden="true" />
       </div>
       <ul
         v-if="open && options.length"
@@ -145,11 +145,11 @@ const BUDGETS = [null, 30, 50, 100, 150]
           role="option"
           :aria-selected="i === active"
           class="flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2"
-          :class="i === active ? 'bg-cream' : 'hover:bg-cream'"
+          :class="i === active ? 'bg-paper' : 'hover:bg-paper'"
           @mousedown.prevent="choose(o)"
         >
           <img v-if="o.image" :src="o.image" alt="" class="h-9 w-9 shrink-0 rounded-md object-cover" />
-          <span v-else class="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-cream-deep text-xs text-ink-faint">{{ o.kind === 'tag' ? '#' : '•' }}</span>
+          <span v-else class="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-paper-deep text-xs text-ink-faint">{{ o.kind === 'tag' ? '#' : '•' }}</span>
           <span class="min-w-0 flex-1">
             <span class="block truncate text-sm font-medium">{{ o.name }}</span>
             <span class="block truncate text-xs text-ink-faint">{{ typeLabel(o) }}<template v-if="o.description"> · {{ o.description }}</template></span>
@@ -164,12 +164,12 @@ const BUDGETS = [null, 30, 50, 100, 150]
         v-for="b in BUDGETS"
         :key="String(b)"
         class="chip px-3 py-1.5"
-        :class="gf.budget.value === b ? 'bg-ink text-cream' : 'bg-cream-deep text-ink-soft hover:text-ink'"
+        :class="gf.budget.value === b ? 'bg-ink text-paper' : 'bg-paper-deep text-ink-soft hover:text-ink'"
         @click="gf.budget.value = b"
       >
         {{ b ? `Under $${b}` : 'Any' }}
       </button>
-      <button class="btn-clay ml-auto" :disabled="!gf.seeds.value.length || !!gf.loading.value" @click="gf.findGifts()">Find gifts</button>
+      <button class="btn-pop ml-auto" :disabled="!gf.seeds.value.length || !!gf.loading.value" @click="gf.findGifts()">Find gifts</button>
     </div>
 
     <div v-if="!gf.seeds.value.length" class="mt-5 border-t border-ink/5 pt-4">
