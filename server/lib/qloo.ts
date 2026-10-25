@@ -67,6 +67,9 @@ export class QlooError extends Error {
   }
 }
 
+const ATTEMPT_TIMEOUT_MS = 6000
+const FAILURE_TTL_MS = 60 * 60 * 1000
+
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
 function normalizeTags(entities: QlooEntity[] | undefined): QlooEntity[] {
@@ -84,24 +87,42 @@ export function createQloo(config: { apiKey?: string; baseUrl?: string; cache: C
     const clean = cleanParams(params)
     const key = hashRequest(path, clean)
     const started = Date.now()
-    const hit = await config.cache.get<T>(key)
-    if (hit) {
+    const hit = await config.cache.get<T | { failedAt: number; status: number; message: string }>(key)
+    if (hit && typeof (hit as any).failedAt === 'number') {
+      const failed = hit as { failedAt: number; status: number; message: string }
+      if (Date.now() - failed.failedAt < FAILURE_TTL_MS) {
+        calls.push({ path, params: clean, cached: true, ms: Date.now() - started, status: failed.status, scope: callScope.getStore() })
+        throw new QlooError(failed.status, failed.message)
+      }
+    } else if (hit) {
       calls.push({ path, params: clean, cached: true, ms: Date.now() - started, status: 200, scope: callScope.getStore() })
-      return hit
+      return hit as T
     }
     if (config.offline || !config.apiKey) throw new QlooError(503, `Qloo response not cached and no live key: ${path}`)
     const url = `${baseUrl}${path}?${new URLSearchParams(clean).toString()}`
     let attempt = 0
     while (true) {
-      const res = await fetch(url, { headers: { 'X-Api-Key': config.apiKey, accept: 'application/json' } })
-      if ((res.status === 429 || res.status >= 500) && attempt < 3) {
+      let res: Response
+      try {
+        res = await fetch(url, { headers: { 'X-Api-Key': config.apiKey, accept: 'application/json' }, signal: AbortSignal.timeout(ATTEMPT_TIMEOUT_MS) })
+      } catch {
+        calls.push({ path, params: clean, cached: false, ms: Date.now() - started, status: 504, scope: callScope.getStore() })
+        const message = `Qloo timed out on ${path}`
+        await config.cache.set(key, { failedAt: Date.now(), status: 504, message })
+        throw new QlooError(504, message)
+      }
+      if ((res.status === 429 || res.status >= 500) && attempt < 2) {
         attempt++
-        await sleep(500 * 2 ** attempt)
+        await sleep(400 * attempt)
         continue
       }
       const body = await res.text()
       calls.push({ path, params: clean, cached: false, ms: Date.now() - started, status: res.status, scope: callScope.getStore() })
-      if (!res.ok) throw new QlooError(res.status, `Qloo ${res.status} on ${path} ${JSON.stringify(clean)}: ${body.replace(/\s+/g, ' ').slice(0, 160)}`)
+      if (!res.ok) {
+        const message = `Qloo ${res.status} on ${path} ${JSON.stringify(clean)}: ${body.replace(/\s+/g, ' ').slice(0, 160)}`
+        if (res.status !== 429) await config.cache.set(key, { failedAt: Date.now(), status: res.status, message })
+        throw new QlooError(res.status, message)
+      }
       const data = JSON.parse(body) as T
       await config.cache.set(key, data)
       return data

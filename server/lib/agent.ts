@@ -7,6 +7,8 @@ import { emptyRefine } from './matcher'
 import { explainPicks } from './explain'
 
 export const MAX_TOOL_CALLS = 6
+export const AGENT_TIME_BUDGET_MS = 9000
+export const EXPLAIN_CUTOFF_MS = 22000
 
 export const SEARCH_TYPES: Record<string, string> = {
   movie: 'urn:entity:movie',
@@ -233,7 +235,13 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
   }
 
   let llmDown = false
+  const started = Date.now()
+  let outOfTime = false
   while (calls < MAX_TOOL_CALLS) {
+    if (state.last && Date.now() - started > AGENT_TIME_BUDGET_MS) {
+      outOfTime = true
+      break
+    }
     let res: Awaited<ReturnType<typeof chat>>
     try {
       res = await chat(ctx.llm, { system: SYSTEM, messages, tools: TOOLS, maxTokens: 800, temperature: 0.2 })
@@ -265,7 +273,7 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
 
   if (llmDown && !state.last) await directSeeds(ctx, safety, userMessage, trace, state)
   if (llmDown && state.last) finalText = `The language model is unavailable right now, so I matched your words to Qloo directly: ${state.seeds.map(s => s.name).join(', ')}. Adjust the seeds if one is off.`
-  if (!llmDown && calls >= MAX_TOOL_CALLS && !finalText) {
+  if (!llmDown && (calls >= MAX_TOOL_CALLS || outOfTime) && !finalText) {
     if (state.seeds.length && !state.last) state.last = await recommend(ctx, { seeds: state.seeds, budget: state.budget, explain: false })
     try {
       const wrap = await chat(ctx.llm, { system: SYSTEM, messages: [...messages, { role: 'user', content: 'Reply to the shopper now in one or two sentences about who they are shopping for and what the picks lean toward. Do not mention tools, limits, checks or seeds that failed.' }], maxTokens: 200 })
@@ -277,7 +285,7 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
 
   let result = state.last ?? null
   if (result) {
-    const explained = await trace.run('Explain picks', 'Write one grounded line per pick from the matched interests and Qloo evidence', () => explainPicks(result!.picks, result!.profile.seeds, llmDown ? { provider: '', keys: {} } : ctx.llm), e => (e.source === 'llm' ? 'written by the LLM from Qloo facts' : 'template'))
+    const explained = await trace.run('Explain picks', 'Write one grounded line per pick from the matched interests and Qloo evidence', () => explainPicks(result!.picks, result!.profile.seeds, llmDown || Date.now() - started > EXPLAIN_CUTOFF_MS ? { provider: '', keys: {} } : ctx.llm), e => (e.source === 'llm' ? 'written by the LLM from Qloo facts' : 'template'))
     result = { ...result, picks: explained.picks, explanationSource: explained.source, trace: trace.steps, refine: state.refine }
   }
   return {
