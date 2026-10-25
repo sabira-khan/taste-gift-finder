@@ -15,7 +15,8 @@ import { applyShopify, loadLocalCatalog, styleBrandIds, type CatalogEntry, type 
 import { fetchShopifyProducts, shopifyConfigured, type ShopifyConfig } from '../lib/shopify'
 import type { ProfileContext } from '../lib/profile'
 import type { Lane, Product, Vocabulary } from '../../shared/types'
-import type { LlmConfig } from '../lib/llm'
+import { resolveLlm, type LlmConfig } from '../lib/llm'
+import { createSpendMeter, type SpendMeter } from '../lib/spend'
 
 interface Static {
   vocab: VocabIndex
@@ -50,13 +51,33 @@ export function shopifyConfig(): Partial<ShopifyConfig> {
   return { storeDomain: config.shopifyStoreDomain, storefrontToken: config.shopifyStorefrontToken, apiVersion: config.shopifyApiVersion }
 }
 
-export function llmConfig(): LlmConfig {
+let meter: SpendMeter | null = null
+
+export function spendMeter(): SpendMeter {
+  if (meter) return meter
+  const config = useRuntimeConfig()
+  const model = resolveLlm(llmKeys())?.model ?? ''
+  const cheap = /haiku|flash|mini/.test(model)
+  meter = createSpendMeter(useStorage('app'), {
+    capUsd: Number(config.llmSpendCapUsd),
+    dailyCapUsd: Number(config.llmDailyCapUsd),
+    inputPerMillion: Number(config.llmPriceInput) || (cheap ? 0.5 : 10),
+    outputPerMillion: Number(config.llmPriceOutput) || (cheap ? 2.5 : 50)
+  })
+  return meter
+}
+
+function llmKeys(): LlmConfig {
   const config = useRuntimeConfig()
   return {
     provider: (config.llmProvider || '') as LlmConfig['provider'],
     model: config.llmModel || undefined,
     keys: { anthropic: config.anthropicApiKey, openai: config.openaiApiKey, gemini: config.geminiApiKey }
   }
+}
+
+export function llmConfig(): LlmConfig {
+  return { ...llmKeys(), meter: spendMeter() }
 }
 
 export async function catalogProducts(): Promise<{ products: Product[]; source: 'shopify' | 'local'; error?: string }> {

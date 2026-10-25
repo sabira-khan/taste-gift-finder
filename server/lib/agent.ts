@@ -264,11 +264,11 @@ export async function runAgent(ctx: PipelineContext, safety: Safety, userMessage
   }
 
   if (llmDown && !state.last) await directSeeds(ctx, safety, userMessage, trace, state)
-  if (llmDown && state.last) finalText = `The language model is busy right now, so I matched your words to Qloo directly: ${state.seeds.map(s => s.name).join(', ')}. Adjust the seeds if one is off.`
+  if (llmDown && state.last) finalText = `The language model is unavailable right now, so I matched your words to Qloo directly: ${state.seeds.map(s => s.name).join(', ')}. Adjust the seeds if one is off.`
   if (!llmDown && calls >= MAX_TOOL_CALLS && !finalText) {
     if (state.seeds.length && !state.last) state.last = await recommend(ctx, { seeds: state.seeds, budget: state.budget, explain: false })
     try {
-      const wrap = await chat(ctx.llm, { system: SYSTEM, messages: [...messages, { role: 'user', content: 'Tool budget used. Reply to the shopper in one or two sentences now.' }], maxTokens: 200 })
+      const wrap = await chat(ctx.llm, { system: SYSTEM, messages: [...messages, { role: 'user', content: 'Reply to the shopper now in one or two sentences about who they are shopping for and what the picks lean toward. Do not mention tools, limits, checks or seeds that failed.' }], maxTokens: 200 })
       finalText = wrap.text.trim()
     } catch {
       finalText = ''

@@ -1,9 +1,12 @@
+import type { SpendMeter, Usage } from './spend'
+
 export type Provider = 'anthropic' | 'openai' | 'gemini'
 
 export interface LlmConfig {
   provider: Provider | ''
   model?: string
   keys: Partial<Record<Provider, string>>
+  meter?: SpendMeter
 }
 
 export interface ToolSpec {
@@ -37,10 +40,11 @@ export interface ChatResponse {
   toolCalls: ToolCall[]
   provider: Provider
   model: string
+  usage: Usage
 }
 
 export const DEFAULT_MODELS: Record<Provider, string> = {
-  anthropic: 'claude-sonnet-5-5',
+  anthropic: 'claude-haiku-5-5',
   openai: 'gpt-4o-mini',
   gemini: 'gemini-3.8-flash'
 }
@@ -89,13 +93,13 @@ async function anthropic(key: string, model: string, req: ChatRequest): Promise<
     model,
     system: req.system,
     max_tokens: req.maxTokens ?? 1200,
-    temperature: req.temperature ?? 0.3,
+    thinking: { type: 'disabled' },
     messages,
     tools: req.tools?.map(t => ({ name: t.name, description: t.description, input_schema: t.parameters }))
   }, 'Anthropic')
   const text = (data.content ?? []).filter((b: any) => b.type === 'text').map((b: any) => b.text).join('')
   const toolCalls = (data.content ?? []).filter((b: any) => b.type === 'tool_use').map((b: any) => ({ id: b.id, name: b.name, args: b.input ?? {} }))
-  return { text, toolCalls, provider: 'anthropic', model }
+  return { text, toolCalls, provider: 'anthropic', model, usage: { inputTokens: data.usage?.input_tokens ?? 0, outputTokens: data.usage?.output_tokens ?? 0 } }
 }
 
 async function openai(key: string, model: string, req: ChatRequest): Promise<ChatResponse> {
@@ -127,7 +131,7 @@ async function openai(key: string, model: string, req: ChatRequest): Promise<Cha
     }
     return { id: c.id, name: c.function.name, args }
   })
-  return { text: msg.content ?? '', toolCalls, provider: 'openai', model }
+  return { text: msg.content ?? '', toolCalls, provider: 'openai', model, usage: { inputTokens: data.usage?.prompt_tokens ?? 0, outputTokens: data.usage?.completion_tokens ?? 0 } }
 }
 
 async function gemini(key: string, model: string, req: ChatRequest): Promise<ChatResponse> {
@@ -166,15 +170,18 @@ async function gemini(key: string, model: string, req: ChatRequest): Promise<Cha
   const parts = data.candidates?.[0]?.content?.parts ?? []
   const text = parts.filter((p: any) => p.text && !p.thought).map((p: any) => p.text).join('')
   const toolCalls = parts.filter((p: any) => p.functionCall).map((p: any, i: number) => ({ id: `call_${Date.now()}_${i}`, name: p.functionCall.name, args: p.functionCall.args ?? {}, ...(p.thoughtSignature ? { signature: p.thoughtSignature } : {}) }))
-  return { text, toolCalls, provider: 'gemini', model }
+  const meta = data.usageMetadata ?? {}
+  return { text, toolCalls, provider: 'gemini', model, usage: { inputTokens: meta.promptTokenCount ?? 0, outputTokens: (meta.candidatesTokenCount ?? 0) + (meta.thoughtsTokenCount ?? 0) } }
 }
 
 export async function chat(config: LlmConfig, req: ChatRequest): Promise<ChatResponse> {
   const llm = resolveLlm(config)
   if (!llm) throw new Error('No LLM key configured')
-  if (llm.provider === 'anthropic') return anthropic(llm.key, llm.model, req)
-  if (llm.provider === 'openai') return openai(llm.key, llm.model, req)
-  return gemini(llm.key, llm.model, req)
+  await config.meter?.check()
+  const call = llm.provider === 'anthropic' ? anthropic : llm.provider === 'openai' ? openai : gemini
+  const res = await call(llm.key, llm.model, req)
+  await config.meter?.record(res.usage)
+  return res
 }
 
 export function parseJsonBlock<T>(text: string): T | null {

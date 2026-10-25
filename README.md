@@ -60,7 +60,7 @@ Every Qloo response is cached by a SHA-256 hash of path plus sorted parameters: 
 
 ## Agent mode
 
-The agent (Anthropic, OpenAI or Gemini, chosen in `.env`) gets five tools that wrap the same pipeline: `search_entities`, `search_tags`, `build_profile`, `recommend` and `refine`. After each `recommend` it receives a quality report covering too few strong matches, one seed dominating the picks, a seed that barely shaped the results, or no strong concrete interest. It is instructed to fix the cause and retry, for example by swapping a seed or trying another domain, within a hard cap of **6 tool calls**. The agent never chooses products itself; the deterministic Qloo-backed matcher does.
+The agent (Anthropic, OpenAI or Gemini, chosen in `.env`; the live demo runs Claude Haiku 5.5) gets five tools that wrap the same pipeline: `search_entities`, `search_tags`, `build_profile`, `recommend` and `refine`. After each `recommend` it receives a quality report covering too few strong matches, one seed dominating the picks, a seed that barely shaped the results, or no strong concrete interest. It is instructed to fix the cause and retry, for example by swapping a seed or trying another domain, within a hard cap of **6 tool calls**. The agent never chooses products itself; the deterministic Qloo-backed matcher does.
 
 To keep it fast, the agent searches for every favourite in parallel in its first turn, and `build_profile` already returns the first picks with their quality report, so a separate `recommend` turn is only needed to change the budget. A typical run takes three LLM turns.
 
@@ -120,6 +120,7 @@ server/lib/
   agent.ts                    Tool-calling agent, 6-call cap, quality-driven retries
   pipeline.ts                 Orchestration, trace, quality report, refinement
   llm.ts                      Anthropic / OpenAI / Gemini adapter
+  spend.ts                    LLM spend ledger and hard caps
   shopify.ts                  Storefront API products and cart
   safety.ts                   Denylist screening
 data/                         Vocabulary, interest taxonomy, catalog, product tags, baselines, eval results
@@ -145,6 +146,7 @@ Only `QLOO_API_KEY` is required. Without Shopify keys the app uses the local cat
 | `SHOPIFY_STORE_PASSWORD` | Optional. Shown in the cart so visitors can pass a development store's password page at checkout |
 | `SHOPIFY_ADMIN_TOKEN`, or `SHOPIFY_CLIENT_ID` + `SHOPIFY_CLIENT_SECRET` (Dev Dashboard app, exchanged for a token) | Only for `npm run seed:shopify` |
 | `LLM_PROVIDER` (`anthropic`, `openai` or `gemini`), `LLM_MODEL`, `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY` | Agent mode and explanations |
+| `LLM_SPEND_CAP_USD` (default 4 on Netlify, 1 locally), `LLM_DAILY_CAP_USD` (default 1), `LLM_PRICE_INPUT_PER_M`, `LLM_PRICE_OUTPUT_PER_M` | Spend guard. Every LLM call is metered from its token usage into a ledger in storage; once the total or daily cap is reached the app stops calling the LLM and falls back to Qloo-only matching and template explanations |
 | `UNSPLASH_ACCESS_KEY` | Optional, for `npm run photos` |
 
 ### Scripts

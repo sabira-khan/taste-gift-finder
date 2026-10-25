@@ -37,6 +37,10 @@ export default defineNuxtConfig({
     shopifyApiVersion: process.env.SHOPIFY_API_VERSION ?? '2025-07',
     llmProvider: process.env.LLM_PROVIDER ?? '',
     llmModel: process.env.LLM_MODEL ?? '',
+    llmSpendCapUsd: process.env.LLM_SPEND_CAP_USD || (isNetlify ? '4' : '1'),
+    llmDailyCapUsd: process.env.LLM_DAILY_CAP_USD || '1',
+    llmPriceInput: process.env.LLM_PRICE_INPUT_PER_M || '',
+    llmPriceOutput: process.env.LLM_PRICE_OUTPUT_PER_M || '',
     anthropicApiKey: process.env.ANTHROPIC_API_KEY ?? '',
     openaiApiKey: process.env.OPENAI_API_KEY ?? '',
     geminiApiKey: process.env.GEMINI_API_KEY ?? ''
